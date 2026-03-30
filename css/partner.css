@@ -1,0 +1,143 @@
+/* ═══════════════════ PARTNER.CSS ═══════════════════ */
+
+/* ── HERO ── */
+.partner-hero {
+  position:relative; min-height:68vh;
+  display:flex; align-items:center; justify-content:center;
+  text-align:center; overflow:hidden;
+}
+.partner-hero-inner {
+  position:relative; z-index:2;
+  padding:120px var(--cpx) 56px;
+  max-width:720px; margin:0 auto; width:100%;
+}
+.partner-hero-title { font-size:clamp(30px,4.2vw,58px); font-weight:900; color:#fff; letter-spacing:-.035em; line-height:1.12; margin-bottom:18px; }
+.partner-hero-sub   { font-size:16px; color:rgba(255,255,255,.56); line-height:1.7; max-width:540px; margin:0 auto 32px; }
+.partner-hero-btns  { display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-bottom:48px; }
+.partner-stats { display:grid; grid-template-columns:repeat(4,1fr); gap:24px; max-width:780px; margin:0 auto; }
+.pstat-item { }
+.pstat-num  { font-size:32px; font-weight:900; color:#fff; letter-spacing:-.03em; margin-bottom:4px; }
+.pstat-label{ font-size:13px; color:rgba(255,255,255,.5); line-height:1.45; }
+
+/* ── BENEFITS ── */
+.sec-benefits { padding:var(--section-py) var(--cpx); background:#fff; }
+.benefits-grid {
+  display:grid; grid-template-columns:repeat(3,1fr);
+  gap:20px; max-width:960px; margin:0 auto;
+}
+.benefit-card {
+  background:var(--c-bg); border:1px solid var(--c-border);
+  border-radius:var(--r-lg); padding:28px;
+  transition:box-shadow var(--t), border-color var(--t);
+}
+.benefit-card:hover { box-shadow:var(--sh-md); border-color:#C7D2FE; }
+.bc-icon-wrap { font-size:30px; margin-bottom:14px; display:block; }
+.bc-title   { font-size:15.5px; font-weight:700; color:var(--c-text); margin-bottom:8px; letter-spacing:-.01em; }
+.bc-body    { font-size:13.5px; color:var(--c-muted); line-height:1.62; }
+
+/* ── TIERS (warm bg) ── */
+.sec-tiers { position:relative; padding:var(--section-py) var(--cpx); overflow:hidden; }
+.tiers-grid {
+  display:grid; grid-template-columns:repeat(3,1fr);
+  gap:18px; max-width:860px; margin:0 auto;
+}
+.tier-card {
+  background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.12);
+  border-radius:var(--r-xl); padding:32px;
+  transition:background var(--t), box-shadow var(--t);
+}
+.tier-card:hover { background:rgba(255,255,255,.1); }
+.tier-card.popular {
+  background:rgba(255,255,255,.12);
+  border-color:rgba(255,255,255,.25);
+  box-shadow:0 0 0 2px rgba(255,255,255,.1);
+}
+.tier-badge-wrap { margin-bottom:12px; }
+.tier-icon { font-size:32px; margin-bottom:10px; display:block; }
+.tier-name  { font-size:18px; font-weight:800; color:#fff; margin-bottom:6px; }
+.tier-req   { font-size:12.5px; color:rgba(255,255,255,.5); margin-bottom:4px; }
+.tier-rev   { font-size:12px; font-weight:700; color:rgba(255,255,255,.7); margin-bottom:16px; }
+.tier-divider { border:none; border-top:1px solid rgba(255,255,255,.1); margin:16px 0; }
+.tier-list  { display:flex; flex-direction:column; gap:9px; }
+.tier-list li { display:flex; align-items:flex-start; gap:8px; font-size:13px; color:rgba(255,255,255,.7); line-height:1.5; }
+
+/* ── AGENCIES ── */
+.sec-agencies { padding:var(--section-py) var(--cpx); background:#fff; }
+.agencies-grid {
+  display:grid; grid-template-columns:repeat(4,1fr);
+  gap:16px; max-width:880px; margin:0 auto;
+}
+.agency-card {
+  background:var(--c-bg); border:1px solid var(--c-border);
+  border-radius:var(--r-lg); padding:24px;
+  text-align:center; transition:box-shadow var(--t);
+}
+.agency-card:hover { box-shadow:var(--sh-md); }
+.agency-logo { font-size:26px; margin-bottom:10px; display:block; }
+.agency-name { font-size:14px; font-weight:700; color:var(--c-text); margin-bottom:6px; }
+.agency-desc { font-size:12.5px; color:var(--c-muted); line-height:1.55; }
+
+/* ── CERTIFICATION ── */
+.sec-cert { padding:var(--section-py) var(--cpx); background:var(--c-bg); }
+.cert-grid {
+  display:grid; grid-template-columns:repeat(3,1fr);
+  gap:12px; max-width:860px; margin:0 auto;
+}
+.cert-step {
+  background:#fff; border:1px solid var(--c-border);
+  border-radius:var(--r-lg); padding:22px;
+  display:flex; align-items:flex-start; gap:14px;
+  cursor:pointer; transition:box-shadow var(--t), border-color var(--t);
+}
+.cert-step:hover { box-shadow:var(--sh-md); border-color:var(--c-indigo); }
+.cert-step-num {
+  width:32px;height:32px;border-radius:50%;
+  font-size:13px;font-weight:800;color:#fff;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+}
+.cert-step-num.s1{background:#4F46E5;} .cert-step-num.s2{background:#7C3AED;}
+.cert-step-num.s3{background:#EF4444;} .cert-step-num.s4{background:#F59E0B;}
+.cert-step-num.s5{background:#10B981;} .cert-step-num.s6{background:#0EA5E9;}
+.cert-step-content {}
+.cert-step-title { font-size:14px; font-weight:700; color:var(--c-text); margin-bottom:5px; }
+.cert-step-body  { font-size:13px; color:var(--c-muted); line-height:1.55; }
+
+/* ── FORM ── */
+.sec-apply { padding:var(--section-py) var(--cpx); background:#fff; }
+.apply-form-wrap { max-width:680px; margin:0 auto; }
+.form-row { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px; }
+.form-group { display:flex; flex-direction:column; gap:6px; margin-bottom:16px; }
+.form-group label { font-size:12.5px; font-weight:600; color:var(--c-text-mid); }
+.form-control {
+  padding:11px 14px;
+  border:1.5px solid var(--c-border); border-radius:var(--r-sm);
+  font-size:14px; color:var(--c-text); background:#fff;
+  transition:border-color var(--t), box-shadow var(--t);
+  width:100%;
+}
+.form-control:focus { outline:none; border-color:var(--c-indigo); box-shadow:0 0 0 3px rgba(79,70,229,.1); }
+.form-control::placeholder { color:var(--c-light); }
+select.form-control { cursor:pointer; }
+textarea.form-control { resize:vertical; min-height:100px; }
+.form-submit {
+  width:100%; padding:14px; background:var(--c-indigo);
+  color:#fff; font-size:15px; font-weight:700;
+  border-radius:var(--r-sm); border:none; cursor:pointer;
+  transition:opacity var(--t);
+}
+.form-submit:hover { opacity:.88; }
+.form-note { font-size:12px; color:var(--c-light); text-align:center; margin-top:12px; line-height:1.6; }
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .partner-stats   { grid-template-columns:repeat(2,1fr); }
+  .benefits-grid   { grid-template-columns:repeat(2,1fr); }
+  .tiers-grid      { grid-template-columns:1fr; max-width:440px; }
+  .agencies-grid   { grid-template-columns:repeat(2,1fr); }
+  .cert-grid       { grid-template-columns:repeat(2,1fr); }
+  .form-row        { grid-template-columns:1fr; }
+}
+@media(max-width:480px){
+  .partner-stats { grid-template-columns:repeat(2,1fr); }
+  .cert-grid     { grid-template-columns:1fr; }
+}

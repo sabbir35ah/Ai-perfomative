@@ -1,0 +1,65 @@
+/* ═══════════════════ CASE-STUDIES.CSS ═══════════════════ */
+
+/* ── HERO ── */
+.cs-hero {
+  position:relative; min-height:40vh;
+  display:flex; align-items:center; justify-content:center;
+  text-align:center; overflow:hidden;
+}
+.cs-hero-inner {
+  position:relative; z-index:2;
+  padding:110px var(--cpx) 56px;
+  max-width:620px; margin:0 auto; width:100%;
+}
+.cs-hero-title { font-size:clamp(28px,4vw,54px); font-weight:900; color:#fff; letter-spacing:-.032em; line-height:1.13; margin-bottom:14px; }
+.cs-hero-sub   { font-size:15.5px; color:rgba(255,255,255,.55); line-height:1.68; max-width:520px; margin:0 auto; }
+
+/* ── GRID SECTION ── */
+.sec-cs-grid { padding:var(--section-py) var(--cpx); background:#fff; }
+.cs-filter-tabs {
+  display:flex; gap:4px; flex-wrap:wrap; justify-content:center; margin-bottom:40px;
+}
+.cs-tab {
+  padding:9px 22px; border-radius:var(--r-pill);
+  font-size:13.5px; font-weight:600; color:var(--c-muted);
+  cursor:pointer; transition:all var(--t);
+  border:1.5px solid var(--c-border); background:#fff;
+}
+.cs-tab.active { background:var(--c-indigo); color:#fff; border-color:var(--c-indigo); }
+.cs-tab:hover:not(.active){ border-color:var(--c-indigo); color:var(--c-indigo); }
+
+.cs-grid {
+  display:grid; grid-template-columns:repeat(3,1fr);
+  gap:20px; max-width:960px; margin:0 auto;
+}
+.cs-card {
+  border-radius:var(--r-xl); overflow:hidden;
+  background:#fff; border:1px solid var(--c-border);
+  display:flex; flex-direction:column;
+  cursor:pointer; text-decoration:none; color:inherit;
+  transition:box-shadow var(--t), transform var(--t);
+}
+.cs-card:hover { box-shadow:var(--sh-lg); transform:translateY(-3px); }
+.cs-card-img {
+  width:100%; height:200px; overflow:hidden; position:relative;
+}
+.cs-card-img svg { width:100%; height:100%; display:block; }
+.cs-card-img img { width:100%; height:100%; object-fit:cover; display:block; }
+.cs-card-body { padding:24px; flex:1; display:flex; flex-direction:column; }
+.cs-card-tags { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:12px; }
+.cs-tag {
+  font-size:10.5px; font-weight:700; text-transform:uppercase;
+  letter-spacing:.07em; padding:3px 9px; border-radius:20px;
+  background:var(--c-bg); color:var(--c-muted); border:1px solid var(--c-border);
+}
+.cs-card-title { font-size:16px; font-weight:800; color:var(--c-text); margin-bottom:6px; letter-spacing:-.01em; }
+.cs-card-sub   { font-size:13px; color:var(--c-muted); line-height:1.55; flex:1; }
+.cs-card-link  { display:inline-flex; align-items:center; gap:5px; font-size:13px; font-weight:600; color:var(--c-indigo); margin-top:16px; transition:gap var(--t); }
+.cs-card-link:hover { gap:9px; }
+
+/* ── TESTIMONIALS ── */
+.sec-cs-testi { padding:var(--section-py) var(--cpx); background:var(--c-bg); }
+
+/* RESPONSIVE */
+@media(max-width:768px){ .cs-grid{grid-template-columns:repeat(2,1fr);} }
+@media(max-width:480px){ .cs-grid{grid-template-columns:1fr;} }

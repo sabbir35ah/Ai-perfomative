@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Shopify Integration — Performative AI</title>
+  <link rel="stylesheet" href="css/global.css"/>
+  <link rel="stylesheet" href="css/integration-detail.css"/>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a href="index.html" class="nav-logo"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="36" viewBox="0 0 32 36" fill="none"><path d="M8.92127 21.1957L24.057 12.389C24.2413 12.2817 24.4497 12.225 24.662 12.2243C24.8743 12.2235 25.0831 12.2789 25.2681 12.3849L29.984 15.0866C30.8086 15.559 30.8116 16.7668 29.9895 17.2435L16.6298 24.9902C16.447 25.0962 16.2402 25.1518 16.0299 25.1515C15.8196 25.1513 15.613 25.0953 15.4304 24.9889L8.92127 21.1957Z" fill="#EE466E"/><path d="M8.92127 21.1957L24.057 12.389C24.2413 12.2817 24.4497 12.225 24.662 12.2243C24.8743 12.2235 25.0831 12.2789 25.2681 12.3849L29.984 15.0866C30.8086 15.559 30.8116 16.7668 29.9895 17.2435L16.6298 24.9902C16.447 25.0962 16.2402 25.1518 16.0299 25.1515C15.8196 25.1513 15.613 25.0953 15.4304 24.9889L8.92127 21.1957Z" stroke="#EE466E" stroke-width="0.9" stroke-miterlimit="10"/><path d="M16.0907 17.1008L0.958829 8.28756C0.774553 8.18025 0.620749 8.02611 0.512435 7.84019C0.404122 7.65427 0.344999 7.44292 0.340839 7.22679L0.233904 1.71756C0.215184 0.754313 1.23569 0.138713 2.05622 0.618249L15.3901 8.41102C15.5725 8.51765 15.7244 8.67085 15.8309 8.85552C15.9375 9.04019 15.9949 9.24995 15.9975 9.4641L16.0907 17.1008Z" fill="#EE466E"/><path d="M16.0907 17.1008L0.958829 8.28756C0.774553 8.18025 0.620749 8.02611 0.512435 7.84019C0.404122 7.65427 0.344999 7.44292 0.340839 7.22679L0.233904 1.71756C0.215184 0.754313 1.23569 0.138713 2.05622 0.618249L15.3901 8.41102C15.5725 8.51765 15.7244 8.67085 15.8309 8.85552C15.9375 9.04019 15.9949 9.24995 15.9975 9.4641L16.0907 17.1008Z" stroke="#EE466E" stroke-width="0.9" stroke-miterlimit="10"/><path d="M8.94154 12.9266L8.86289 30.6786C8.86196 30.8948 8.80601 31.1071 8.70048 31.2946C8.59496 31.4822 8.44347 31.6387 8.26081 31.7489L3.60532 34.5572C2.79137 35.0482 1.76268 34.447 1.76838 33.4836L1.86045 17.8278C1.86174 17.6136 1.91783 17.4035 2.02319 17.2181C2.12854 17.0327 2.27953 16.8785 2.46125 16.7707L8.94154 12.9266Z" fill="#EE466E"/><path d="M8.94154 12.9266L8.86289 30.6786C8.86196 30.8948 8.80601 31.1071 8.70048 31.2946C8.59496 31.4822 8.44347 31.6387 8.26081 31.7489L3.60532 34.5572C2.79137 35.0482 1.76268 34.447 1.76838 33.4836L1.86045 17.8278C1.86174 17.6136 1.91783 17.4035 2.02319 17.2181C2.12854 17.0327 2.27953 16.8785 2.46125 16.7707L8.94154 12.9266Z" stroke="#EE466E" stroke-width="0.9"/></svg>Performative</a>
+    <div class="nav-links"><a href="index.html">Home</a><a href="enterprise.html">Enterprise</a><a href="smb.html">SMB</a><a href="integrations.html">Integrations</a><a href="pricing.html">Pricing</a><a href="case-studies.html">Case Studies</a><a href="partner.html">Partners</a></div>
+    <a href="pricing.html" class="nav-cta">Book a Demo</a>
+    <div class="nav-burger" id="nav-burger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+<div class="nav-mobile" id="nav-mobile">
+  <a href="index.html">Home</a><a href="enterprise.html">Enterprise</a><a href="smb.html">SMB</a><a href="integrations.html">Integrations</a><a href="pricing.html">Pricing</a><a href="case-studies.html">Case Studies</a><a href="partner.html">Partners</a>
+  <a href="pricing.html" class="nav-cta">Book a Demo</a>
+</div>
+
+<!-- ══ HERO (purple gradient) ══ -->
+<section class="id-hero">
+  <svg class="svg-bg" viewBox="0 0 1440 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="idHeroGrad" cx="25%" cy="40%" r="65%">
+        <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".55"/>
+        <stop offset="45%" stop-color="#6D28D9" stop-opacity=".3"/>
+        <stop offset="100%" stop-color="#07051A" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <rect width="1440" height="700" fill="#07051A"/>
+    <rect width="1440" height="700" fill="url(#idHeroGrad)"/>
+  </svg>
+
+  <div class="id-hero-inner">
+    <div>
+      <div class="id-badge">
+        <span class="badge badge-purple">Shopify Integration</span>
+      </div>
+      <h1 class="id-hero-title">AI-powered product content<br/>for every Shopify store</h1>
+      <p class="id-hero-sub">Connect your Shopify catalogue in minutes. Performative AI reads your products, generates SEO-optimised titles, descriptions, and meta data — then pushes them live automatically.</p>
+      <div class="id-hero-btns">
+        <a href="#" class="btn btn-primary">Connect Shopify</a>
+        <a href="#" class="btn btn-ghost">View live demo →</a>
+      </div>
+    </div>
+
+    <!-- Mockup card -->
+    <div class="id-mockup">
+      <div class="id-mockup-bar">
+        <span class="id-mockup-bar-left">🛍️ &nbsp;Bosch Professional Drill — GSB 18V-55</span>
+        <span class="id-mockup-bar-right">✦ AI Generated</span>
+      </div>
+      <p class="id-mockup-desc-label">SEO Title</p>
+      <p class="id-mockup-desc-text" style="margin-bottom:14px;font-weight:600;color:#fff;">Bosch Professional 18V Cordless Combi Drill GSB 18V-55 — Compact, Powerful &amp; Ready for Any Job</p>
+      <p class="id-mockup-desc-label">Meta Description</p>
+      <p class="id-mockup-desc-text" style="margin-bottom:14px;">The Bosch GSB 18V-55 delivers 55 Nm of torque in a compact 195 mm body — perfect for drilling, driving and screw-fastening in wood, metal and masonry. Ships same day.</p>
+      <p class="id-mockup-desc-label">Bullet Points</p>
+      <ul style="padding-left:0;list-style:none;display:flex;flex-direction:column;gap:7px;">
+        <li style="font-size:12.5px;color:rgba(255,255,255,.65);display:flex;gap:7px;align-items:flex-start;"><span style="color:#86EFAC;flex-shrink:0;">✓</span> 55 Nm maximum torque with 2-speed gearbox</li>
+        <li style="font-size:12.5px;color:rgba(255,255,255,.65);display:flex;gap:7px;align-items:flex-start;"><span style="color:#86EFAC;flex-shrink:0;">✓</span> Compatible with all Bosch 18V ProCORE batteries</li>
+        <li style="font-size:12.5px;color:rgba(255,255,255,.65);display:flex;gap:7px;align-items:flex-start;"><span style="color:#86EFAC;flex-shrink:0;">✓</span> LED work light for low-light environments</li>
+        <li style="font-size:12.5px;color:rgba(255,255,255,.65);display:flex;gap:7px;align-items:flex-start;"><span style="color:#86EFAC;flex-shrink:0;">✓</span> 13-stage clutch for precise torque control</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══ MARQUEE ══ -->
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <span>Shopify</span><span>SEO Titles</span><span>Auto-descriptions</span><span>Meta Tags</span>
+    <span>Bulk Processing</span><span>Image Alt Text</span><span>Schema Markup</span><span>Multilingual</span>
+    <span>Shopify</span><span>SEO Titles</span><span>Auto-descriptions</span><span>Meta Tags</span>
+    <span>Bulk Processing</span><span>Image Alt Text</span><span>Schema Markup</span><span>Multilingual</span>
+  </div>
+</div>
+
+<!-- ══ CONNECT STEPS ══ -->
+<section class="sec-connect">
+  <div class="section-head" style="max-width:960px;margin:0 auto 36px;">
+    <p class="section-eyebrow">Setup Guide</p>
+    <h2 class="section-title">Connect in 5 steps</h2>
+    <p class="section-sub">No developer needed. Go from install to live content in under 15 minutes.</p>
+  </div>
+
+  <div class="connect-layout">
+    <div class="steps-list">
+      <div class="step-item">
+        <div class="step-num-badge">1</div>
+        <div>
+          <p class="step-title">Install the Performative AI app</p>
+          <p class="step-body">Find us in the Shopify App Store and click "Add app". No credit card required to start your 14-day free trial.</p>
+          <p class="step-note">Takes about 30 seconds.</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num-badge">2</div>
+        <div>
+          <p class="step-title">Grant catalogue access</p>
+          <p class="step-body">Approve read/write permissions for products and metafields. We only request what we need — your orders and customer data stay private.</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num-badge">3</div>
+        <div>
+          <p class="step-title">Choose your AI profile</p>
+          <p class="step-body">Select your brand tone (professional, casual, technical) and target language. Pick which fields to generate: titles, descriptions, meta, bullet points, alt text.</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num-badge">4</div>
+        <div>
+          <p class="step-title">Run a bulk generation</p>
+          <p class="step-body">Select all products or a filtered subset. Click "Generate" and watch Performative AI write content for every SKU — typically 1,000 products in under 4 minutes.</p>
+          <p class="step-note">Preview before publishing — nothing goes live without your approval.</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num-badge">5</div>
+        <div>
+          <p class="step-title">Enable auto-sync for new products</p>
+          <p class="step-body">Turn on the auto-sync rule so every new product added to Shopify gets AI content generated and published within seconds — completely hands-free.</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="what-happens-card">
+        <p class="wh-title">⚡ What happens behind the scenes</p>
+        <ul class="wh-list">
+          <li><span style="color:var(--c-indigo);font-weight:700;flex-shrink:0;">①</span> We read your product title, vendor, tags, and existing description.</li>
+          <li><span style="color:var(--c-indigo);font-weight:700;flex-shrink:0;">②</span> Our model identifies category, key features, and target audience.</li>
+          <li><span style="color:var(--c-indigo);font-weight:700;flex-shrink:0;">③</span> We generate all requested fields with your brand voice applied.</li>
+          <li><span style="color:var(--c-indigo);font-weight:700;flex-shrink:0;">④</span> Content is checked against your keyword list and SEO rules.</li>
+          <li><span style="color:var(--c-indigo);font-weight:700;flex-shrink:0;">⑤</span> Approved content is pushed directly to Shopify via API — live instantly.</li>
+        </ul>
+      </div>
+      <div class="need-help-card">
+        <p class="nh-title">Need help getting set up?</p>
+        <p style="font-size:13px;color:var(--c-muted);">Our onboarding team offers free 30-minute setup calls for all plans. We'll help configure your brand profile and run your first bulk generation together.</p>
+        <div class="nh-btns">
+          <a href="#" class="btn btn-indigo" style="font-size:13px;padding:9px 18px;">Book setup call</a>
+          <a href="#" class="btn btn-outline" style="font-size:13px;padding:9px 18px;">Read docs</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ WORKFLOW FEATURES ══ -->
+<section class="sec-shopify-wf">
+  <div class="section-head">
+    <p class="section-eyebrow">Shopify-specific features</p>
+    <h2 class="section-title">Everything your store needs</h2>
+    <p class="section-sub">Performative AI goes beyond basic descriptions — every Shopify field, metafield, and SEO attribute covered.</p>
+  </div>
+
+  <div class="shopify-features-grid">
+    <div class="sf-card">
+      <span class="sf-icon">🏷️</span>
+      <p class="sf-title">Product Titles &amp; SEO Titles</p>
+      <ul class="sf-list">
+        <li><span style="color:var(--c-indigo);">✓</span> Keyword-rich storefront titles</li>
+        <li><span style="color:var(--c-indigo);">✓</span> Separate SEO title tag (up to 70 chars)</li>
+        <li><span style="color:var(--c-indigo);">✓</span> Brand &amp; model number insertion</li>
+        <li><span style="color:var(--c-indigo);">✓</span> A/B title variant generation</li>
+      </ul>
+    </div>
+    <div class="sf-card">
+      <span class="sf-icon">📝</span>
+      <p class="sf-title">Descriptions &amp; Bullet Points</p>
+      <ul class="sf-list">
+        <li><span style="color:var(--c-indigo);">✓</span> Long-form HTML descriptions</li>
+        <li><span style="color:var(--c-indigo);">✓</span> Structured bullet point lists</li>
+        <li><span style="color:var(--c-indigo);">✓</span> Feature → benefit translation</li>
+        <li><span style="color:var(--c-indigo);">✓</span> Tone &amp; brand voice matching</li>
+      </ul>
+    </div>
+    <div class="sf-card">
+      <span class="sf-icon">🔍</span>
+      <p class="sf-title">Meta &amp; Schema</p>
+      <ul class="sf-list">
+        <li><span style="color:var(--c-indigo);">✓</span> Meta descriptions (155 chars)</li>
+        <li><span style="color:var(--c-indigo);">✓</span> Open Graph title &amp; description</li>
+        <li><span style="color:var(--c-indigo);">✓</span> JSON-LD product schema output</li>
+        <li><span style="color:var(--c-indigo);">✓</span> Canonical URL suggestions</li>
+      </ul>
+    </div>
+    <div class="sf-card">
+      <span class="sf-icon">🌐</span>
+      <p class="sf-title">Multilingual &amp; Metafields</p>
+      <ul class="sf-list">
+        <li><span style="color:var(--c-indigo);">✓</span> 40+ language translations</li>
+        <li><span style="color:var(--c-indigo);">✓</span> Custom metafield population</li>
+        <li><span style="color:var(--c-indigo);">✓</span> Image alt text generation</li>
+        <li><span style="color:var(--c-indigo);">✓</span> Variant-level descriptions</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FLOW STEPS (dark cool blue) ══ -->
+<section class="sec-flow-dark">
+  <svg class="svg-bg" viewBox="0 0 1440 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="flowDarkGrad" cx="50%" cy="50%" r="65%">
+        <stop offset="0%" stop-color="#3B82F6" stop-opacity=".38"/>
+        <stop offset="45%" stop-color="#4F46E5" stop-opacity=".22"/>
+        <stop offset="100%" stop-color="#07051A" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <rect width="1440" height="560" fill="#07051A"/>
+    <rect width="1440" height="560" fill="url(#flowDarkGrad)"/>
+  </svg>
+
+  <div style="position:relative;z-index:2;max-width:var(--cmax);margin:0 auto;width:100%;">
+    <div class="section-head" style="--section-head-color:#fff;">
+      <p class="section-eyebrow" style="color:rgba(255,255,255,.55);">AI Workflow</p>
+      <h2 class="section-title" style="color:#fff;">From catalogue to live content</h2>
+      <p class="section-sub" style="color:rgba(255,255,255,.5);">Our four-stage pipeline ensures every product gets relevant, accurate, high-converting content — at any scale.</p>
+    </div>
+
+    <div class="flow-steps-grid">
+      <div class="flow-step-card">
+        <span class="flow-step-icon">📥</span>
+        <p class="flow-step-title">Ingest</p>
+        <p class="flow-step-body">We pull all product data from Shopify — titles, tags, vendor, images, existing descriptions, and all metafields.</p>
+      </div>
+      <div class="flow-step-card">
+        <span class="flow-step-icon">🧠</span>
+        <p class="flow-step-title">Analyse</p>
+        <p class="flow-step-body">Our AI classifies each product by category, audience, and intent. It identifies missing information and cross-references your brand guide.</p>
+      </div>
+      <div class="flow-step-card">
+        <span class="flow-step-icon">✍️</span>
+        <p class="flow-step-title">Generate</p>
+        <p class="flow-step-body">All requested fields are written simultaneously — titles, descriptions, meta, bullets, alt text — with your tone and keywords applied throughout.</p>
+      </div>
+      <div class="flow-step-card">
+        <span class="flow-step-icon">🚀</span>
+        <p class="flow-step-title">Publish</p>
+        <p class="flow-step-body">Reviewed content is pushed directly to Shopify via the Admin API. Changes go live in seconds, no export/import required.</p>
+      </div>
+    </div>
+
+    <div class="flow-steps-cta">
+      <a href="#" class="btn btn-primary">Start free trial</a>
+      <a href="#" class="btn btn-ghost">Read documentation</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SECURITY ══ -->
+<section class="sec-data-security">
+  <div class="section-head">
+    <p class="section-eyebrow">Data &amp; Security</p>
+    <h2 class="section-title">Your data stays yours</h2>
+    <p class="section-sub">We take a privacy-first approach. Your product data is used to generate content and nothing else.</p>
+  </div>
+
+  <div class="security-grid-3">
+    <div class="sec3-card">
+      <span class="sec3-icon">🔒</span>
+      <p class="sec3-title">Minimal permissions</p>
+      <p class="sec3-body">We only request read access to products and write access to product content fields. Orders, customers, and financial data are never accessed.</p>
+    </div>
+    <div class="sec3-card">
+      <span class="sec3-icon">🛡️</span>
+      <p class="sec3-title">No training on your data</p>
+      <p class="sec3-body">Your product catalogue is never used to train our models. All processing happens in isolated, ephemeral environments that are wiped after each job.</p>
+    </div>
+    <div class="sec3-card">
+      <span class="sec3-icon">🌍</span>
+      <p class="sec3-title">GDPR &amp; SOC 2 ready</p>
+      <p class="sec3-body">All data is processed in EU or US regions based on your preference. We are SOC 2 Type II certified and fully GDPR compliant for enterprise customers.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA BAND ══ -->
+<section class="cta-band">
+  <svg class="svg-bg" viewBox="0 0 1440 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1440" height="220" fill="#07051A"/>
+    <radialGradient id="ctaG2" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#07051A" stop-opacity="0"/>
+    </radialGradient>
+    <rect width="1440" height="220" fill="url(#ctaG2)"/>
+  </svg>
+  <div class="cta-band-inner">
+    <h2 class="cta-band-title">Ready to automate your Shopify content?</h2>
+    <p class="cta-band-sub">Join 3,400+ stores already using Performative AI. Start your free 14-day trial — no credit card required.</p>
+    <div class="cta-band-btns">
+      <a href="#" class="btn btn-primary">Connect Shopify free</a>
+      <a href="#" class="btn btn-ghost">Book a demo</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand"><a href="index.html" class="nav-logo"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="36" viewBox="0 0 32 36" fill="none"><path d="M8.92127 21.1957L24.057 12.389C24.2413 12.2817 24.4497 12.225 24.662 12.2243C24.8743 12.2235 25.0831 12.2789 25.2681 12.3849L29.984 15.0866C30.8086 15.559 30.8116 16.7668 29.9895 17.2435L16.6298 24.9902C16.447 25.0962 16.2402 25.1518 16.0299 25.1515C15.8196 25.1513 15.613 25.0953 15.4304 24.9889L8.92127 21.1957Z" fill="#EE466E"/><path d="M8.92127 21.1957L24.057 12.389C24.2413 12.2817 24.4497 12.225 24.662 12.2243C24.8743 12.2235 25.0831 12.2789 25.2681 12.3849L29.984 15.0866C30.8086 15.559 30.8116 16.7668 29.9895 17.2435L16.6298 24.9902C16.447 25.0962 16.2402 25.1518 16.0299 25.1515C15.8196 25.1513 15.613 25.0953 15.4304 24.9889L8.92127 21.1957Z" stroke="#EE466E" stroke-width="0.9" stroke-miterlimit="10"/><path d="M16.0907 17.1008L0.958829 8.28756C0.774553 8.18025 0.620749 8.02611 0.512435 7.84019C0.404122 7.65427 0.344999 7.44292 0.340839 7.22679L0.233904 1.71756C0.215184 0.754313 1.23569 0.138713 2.05622 0.618249L15.3901 8.41102C15.5725 8.51765 15.7244 8.67085 15.8309 8.85552C15.9375 9.04019 15.9949 9.24995 15.9975 9.4641L16.0907 17.1008Z" fill="#EE466E"/><path d="M16.0907 17.1008L0.958829 8.28756C0.774553 8.18025 0.620749 8.02611 0.512435 7.84019C0.404122 7.65427 0.344999 7.44292 0.340839 7.22679L0.233904 1.71756C0.215184 0.754313 1.23569 0.138713 2.05622 0.618249L15.3901 8.41102C15.5725 8.51765 15.7244 8.67085 15.8309 8.85552C15.9375 9.04019 15.9949 9.24995 15.9975 9.4641L16.0907 17.1008Z" stroke="#EE466E" stroke-width="0.9" stroke-miterlimit="10"/><path d="M8.94154 12.9266L8.86289 30.6786C8.86196 30.8948 8.80601 31.1071 8.70048 31.2946C8.59496 31.4822 8.44347 31.6387 8.26081 31.7489L3.60532 34.5572C2.79137 35.0482 1.76268 34.447 1.76838 33.4836L1.86045 17.8278C1.86174 17.6136 1.91783 17.4035 2.02319 17.2181C2.12854 17.0327 2.27953 16.8785 2.46125 16.7707L8.94154 12.9266Z" fill="#EE466E"/><path d="M8.94154 12.9266L8.86289 30.6786C8.86196 30.8948 8.80601 31.1071 8.70048 31.2946C8.59496 31.4822 8.44347 31.6387 8.26081 31.7489L3.60532 34.5572C2.79137 35.0482 1.76268 34.447 1.76838 33.4836L1.86045 17.8278C1.86174 17.6136 1.91783 17.4035 2.02319 17.2181C2.12854 17.0327 2.27953 16.8785 2.46125 16.7707L8.94154 12.9266Z" stroke="#EE466E" stroke-width="0.9"/></svg>Performative</a><p class="footer-tagline">AI-powered content generation for e-commerce teams at any scale.</p><div class="footer-socials"><a href="#" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M3.5 2a1.5 1.5 0 110 3 1.5 1.5 0 010-3zM2 6h3v8H2V6zm5 0h2.8v1.1C10.2 6.4 11 6 12 6c2.2 0 3 1.5 3 3.5V14h-3v-4c0-1-.4-1.5-1.2-1.5S9.5 9 9.5 10v4H7V6z"/></svg></a><a href="#" aria-label="Twitter"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M14 3s-1 .5-2 .6A2.8 2.8 0 008.6 2C7 2 5.8 3.2 5.8 4.8v.7C3.5 5.3 1.7 4 .7 2.2c0 0-1.3 3.2 1.8 4.8L1 7c.1 1.5 1.4 2.7 3 2.7l-1.5.5c.5 1.3 1.7 2.2 3.1 2.3C4.5 13.4 2.7 14 1 13.7 2.3 14.6 3.8 15 5.5 15c6 0 9.3-5 9.3-9.3v-.4c.6-.5 1.2-1 1.2-1.3z"/></svg></a></div></div>
+    <div><div class="footer-col-title">Product</div><div class="footer-links"><a href="enterprise.html">Enterprise</a><a href="smb.html">SMB</a><a href="integrations.html">Integrations</a><a href="pricing.html">Pricing</a><a href="case-studies.html">Case Studies</a></div></div>
+    <div><div class="footer-col-title">Company</div><div class="footer-links"><a href="#">About</a><a href="partner.html">Partners</a><a href="#">Blog</a><a href="#">Careers</a></div></div>
+    <div><div class="footer-col-title">Resources</div><div class="footer-links"><a href="case-studies.html">Case Studies</a><a href="integration-shopify.html">Shopify Integration</a><a href="#">Docs</a><a href="#">Newsletter</a></div></div>
+    <div><div class="footer-col-title">Legal</div><div class="footer-links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Cookie Policy</a></div></div>
+  </div>
+  <div class="footer-bottom"><span>© 2026 Performative B.V. — All rights reserved.</span><div class="footer-bottom-links"><a href="#">Privacy Policy</a><a href="#">Terms</a><a href="#">Cookies</a></div></div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
