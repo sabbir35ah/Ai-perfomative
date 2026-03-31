@@ -120,7 +120,7 @@ input,select,textarea { font-family:var(--ff); }
 }
 .btn:hover { opacity: .88; transform: translateY(-1px); }
 
-.btn-primary  { background: var(--c-red);    color: #fff; }
+.btn-primary  { background: #fff;  color: #000; border-radius: 30px; }
 .btn-indigo   { background: var(--c-indigo); color: #fff; }
 .btn-dark     { background: var(--c-text);   color: #fff; }
 .btn-orange   { background: var(--c-red);    color: #fff; }
@@ -129,6 +129,7 @@ input,select,textarea { font-family:var(--ff); }
   background: transparent;
   color: rgba(255,255,255,.84);
   border: 1.5px solid rgba(255,255,255,.18);
+  border-radius: 25px;
 }
 .btn-ghost:hover { background: rgba(255,255,255,.07); border-color:rgba(255,255,255,.3); opacity:1; }
 
@@ -269,7 +270,7 @@ input,select,textarea { font-family:var(--ff); }
   font-size: 13.5px;
   font-weight: 600;
   padding: 9px 22px;
-  border-radius: var(--r-sm);
+  border-radius: 30px;
   border: none;
   cursor: pointer;
   transition: opacity var(--t);
@@ -332,15 +333,27 @@ input,select,textarea { font-family:var(--ff); }
    FOOTER
    ═══════════════════════════════════════════════ */
 .footer {
-  background: var(--c-dark);
+  background:
+              radial-gradient(ellipse at left bottom, #6a5cff, transparent 55%),
+              radial-gradient(ellipse at right bottom, #4f46e5, transparent 40%),
+              radial-gradient(ellipse at right bottom, #a1cdff7c, transparent 35%),
+            
+              #0f1226;
   padding: 64px var(--cpx) 32px;
+}
+section.content-contact {
+    margin-bottom: 100px;
+    /* border-bottom: solid .5px #fff; */
+    padding-block: 21px;
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.5fr repeat(4, 1fr);
-  gap: 40px;
-  max-width: var(--cmax);
-  margin: 0 auto 48px;
+    grid-template-columns: 1.5fr repeat(4, 1fr);
+    gap: 40px;
+    padding-block: 40px;
+    max-width: var(--cmax);
+    margin: 0px auto 25px;
+    border-top: solid 1px #fff;
 }
 .footer-brand {}
 .footer-tagline {
@@ -401,7 +414,7 @@ input,select,textarea { font-family:var(--ff); }
    SHARED: MARQUEE STRIP
    ═══════════════════════════════════════════════ */
 .logo-strip {
-  background: #fff;
+  background: #1A1A2E;
   border-top: 1px solid #F0F0F0;
   border-bottom: 1px solid #F0F0F0;
   padding: 18px 0;
@@ -410,7 +423,7 @@ input,select,textarea { font-family:var(--ff); }
 .marquee-wrap {
   display: flex;
   width: max-content;
-  animation: marquee 28s linear infinite;
+  animation: marquee 20s linear infinite;
 }
 .marquee-wrap:hover { animation-play-state: paused; }
 @keyframes marquee {
@@ -420,7 +433,7 @@ input,select,textarea { font-family:var(--ff); }
 .marquee-inner {
   display: flex;
   align-items: center;
-  gap: 52px;
+  gap: 100px;
   padding: 0 26px;
 }
 .m-logo {
