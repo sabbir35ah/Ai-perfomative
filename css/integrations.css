@@ -5,6 +5,12 @@
   position:relative; min-height:52vh;
   display:flex; align-items:center; justify-content:center;
   text-align:center; overflow:hidden;
+  background:
+              radial-gradient(ellipse at left bottom, #6a5cff, transparent 55%),
+              radial-gradient(ellipse at right bottom, #4f46e5, transparent 40%),
+              radial-gradient(ellipse at right bottom, #a1cdff7c, transparent 35%),
+              
+              #0f1226;
 }
 .int-hero-inner {
   position:relative; z-index:2;
