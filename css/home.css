@@ -111,6 +111,22 @@
   justify-content: center;
   flex-shrink: 0;
 }
+.hc-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: auto;
+  padding-top: 18px;
+}
+.hc-tag {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .05em;
+  color: #70FFD0;
+  border: 1px solid rgba(112,255,208,.45);
+  border-radius: 20px;
+  padding: 4px 12px;
+}
 
 /* ── SPEED SECTION ── */
 .sec-speed { padding: var(--section-py) var(--cpx); background:#fff; }
