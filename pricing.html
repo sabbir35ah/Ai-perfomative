@@ -1,239 +1,1120 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-  <title>Pricing — Performative</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="css/global.css"/>
-  <link rel="stylesheet" href="css/pricing.css"/>
-</head>
-<body>
-<!-- NAVBAR -->
-<nav class="navbar" id="navbar">
-  <div class="container">
-    <a href="index.html" class="nav-logo"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="36" viewBox="0 0 32 36" fill="none"><path d="M8.92127 21.1957L24.057 12.389C24.2413 12.2817 24.4497 12.225 24.662 12.2243C24.8743 12.2235 25.0831 12.2789 25.2681 12.3849L29.984 15.0866C30.8086 15.559 30.8116 16.7668 29.9895 17.2435L16.6298 24.9902C16.447 25.0962 16.2402 25.1518 16.0299 25.1515C15.8196 25.1513 15.613 25.0953 15.4304 24.9889L8.92127 21.1957Z" fill="#EE466E"/><path d="M8.92127 21.1957L24.057 12.389C24.2413 12.2817 24.4497 12.225 24.662 12.2243C24.8743 12.2235 25.0831 12.2789 25.2681 12.3849L29.984 15.0866C30.8086 15.559 30.8116 16.7668 29.9895 17.2435L16.6298 24.9902C16.447 25.0962 16.2402 25.1518 16.0299 25.1515C15.8196 25.1513 15.613 25.0953 15.4304 24.9889L8.92127 21.1957Z" stroke="#EE466E" stroke-width="0.9" stroke-miterlimit="10"/><path d="M16.0907 17.1008L0.958829 8.28756C0.774553 8.18025 0.620749 8.02611 0.512435 7.84019C0.404122 7.65427 0.344999 7.44292 0.340839 7.22679L0.233904 1.71756C0.215184 0.754313 1.23569 0.138713 2.05622 0.618249L15.3901 8.41102C15.5725 8.51765 15.7244 8.67085 15.8309 8.85552C15.9375 9.04019 15.9949 9.24995 15.9975 9.4641L16.0907 17.1008Z" fill="#EE466E"/><path d="M16.0907 17.1008L0.958829 8.28756C0.774553 8.18025 0.620749 8.02611 0.512435 7.84019C0.404122 7.65427 0.344999 7.44292 0.340839 7.22679L0.233904 1.71756C0.215184 0.754313 1.23569 0.138713 2.05622 0.618249L15.3901 8.41102C15.5725 8.51765 15.7244 8.67085 15.8309 8.85552C15.9375 9.04019 15.9949 9.24995 15.9975 9.4641L16.0907 17.1008Z" stroke="#EE466E" stroke-width="0.9" stroke-miterlimit="10"/><path d="M8.94154 12.9266L8.86289 30.6786C8.86196 30.8948 8.80601 31.1071 8.70048 31.2946C8.59496 31.4822 8.44347 31.6387 8.26081 31.7489L3.60532 34.5572C2.79137 35.0482 1.76268 34.447 1.76838 33.4836L1.86045 17.8278C1.86174 17.6136 1.91783 17.4035 2.02319 17.2181C2.12854 17.0327 2.27953 16.8785 2.46125 16.7707L8.94154 12.9266Z" fill="#EE466E"/><path d="M8.94154 12.9266L8.86289 30.6786C8.86196 30.8948 8.80601 31.1071 8.70048 31.2946C8.59496 31.4822 8.44347 31.6387 8.26081 31.7489L3.60532 34.5572C2.79137 35.0482 1.76268 34.447 1.76838 33.4836L1.86045 17.8278C1.86174 17.6136 1.91783 17.4035 2.02319 17.2181C2.12854 17.0327 2.27953 16.8785 2.46125 16.7707L8.94154 12.9266Z" stroke="#EE466E" stroke-width="0.9"/></svg>Performative</a>
-    <div class="nav-links"><a href="index.html">Home</a><a href="enterprise.html">Enterprise</a><a href="smb.html">SMB</a><a href="integrations.html">Integrations</a><a href="pricing.html">Pricing</a><a href="case-studies.html">Case Studies</a><a href="partner.html">Partners</a></div>
-    <a href="pricing.html" class="nav-cta">Book a Demo</a>
-    <div class="nav-burger" id="nav-burger"><span></span><span></span><span></span></div>
-  </div>
-</nav>
-<div class="nav-mobile" id="nav-mobile">
-  <a href="index.html">Home</a><a href="enterprise.html">Enterprise</a><a href="smb.html">SMB</a><a href="integrations.html">Integrations</a><a href="pricing.html">Pricing</a><a href="case-studies.html">Case Studies</a><a href="partner.html">Partners</a>
-  <a href="pricing.html" class="nav-cta">Book a Demo</a>
-</div>
-
-<!-- HERO -->
-<section class="price-hero">
-  <svg class="svg-bg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1440 520">
-    <defs>
-      <radialGradient id="phg" cx="50%" cy="60%" r="55%" gradientUnits="userSpaceOnUse" gradientTransform="scale(1440,520)"><stop offset="0%" stop-color="#7C3AED" stop-opacity=".65"/><stop offset="45%" stop-color="#4338CA" stop-opacity=".3"/><stop offset="100%" stop-color="#07051A" stop-opacity="0"/></radialGradient>
-      <linearGradient id="pfade" x1="0" y1="0" x2="0" y2="1"><stop offset="60%" stop-color="#07051A" stop-opacity="0"/><stop offset="100%" stop-color="#ffffff"/></linearGradient>
-      <pattern id="pdots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="14" cy="14" r=".9" fill="white" fill-opacity=".05"/></pattern>
-    </defs>
-    <rect width="1440" height="520" fill="#07051A"/>
-    <ellipse cx="720" cy="312" rx="792" ry="286" fill="url(#phg)"/>
-    <rect width="1440" height="520" fill="url(#pdots)"/>
-    <rect width="1440" height="520" fill="url(#pfade)"/>
-  </svg>
-  <div class="price-hero-inner">
-    <h1 class="price-hero-title">Simple pricing. Built to scale<br/>with your catalog.</h1>
-    <p class="price-hero-sub">Choose how you want to grow — self-serve for fast-moving webshops, or enterprise-grade infrastructure for large catalogs and teams.</p>
-  </div>
-</section>
-
-<!-- PRICING SECTION -->
-<section class="sec-pricing">
-  <div class="container">
-    <!-- Toggle row -->
-    <div class="pricing-toggle-row">
-      <div class="pricing-type-tabs">
-        <button class="pt-tab active" data-pricing-tab="smb">For SMB</button>
-        <button class="pt-tab" data-pricing-tab="enterprise">For Enterprise</button>
-      </div>
-      <div class="pt-sep"></div>
-      <div class="billing-tabs">
-        <button class="bt-tab active" data-billing="monthly">Monthly</button>
-        <button class="bt-tab" data-billing="yearly">Yearly <span class="bt-badge price-yearly-badge">Save 20%</span></button>
-      </div>
-    </div>
-
-    <!-- SMB Plans -->
-    <div data-pricing-set="smb">
-      <div class="pricing-cards">
-        <!-- Starter -->
-        <div class="pricing-card">
-          <div class="plan-name">Starter</div>
-          <div class="plan-starts">Starts at</div>
-          <div class="plan-price"><span>€</span><span data-price-monthly="0" data-price-yearly="0">0</span><sub>/mo</sub></div>
-          <p class="plan-desc">For individuals who are just starting out and want to learn the essentials.</p>
-          <div class="plan-cta"><a href="#" class="btn btn-outline" style="width:100%;justify-content:center;display:flex">Try for Free</a></div>
-          <hr class="plan-divider"/>
-          <div class="plan-includes">Free, Forever</div>
-          <ul class="plan-features">
-            <li>✅ Generate content for up to 10 products</li>
-            <li>✅ Short &amp; long product descriptions</li>
-            <li>✅ SEO titles &amp; meta descriptions</li>
-            <li>✅ Default AI tone &amp; structure</li>
-            <li>✅ Manual generation</li>
-            <li>✅ Content preview &amp; export</li>
-            <li>✅ Email support</li>
-          </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Pricing — Performative</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/pricing.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <a href="index.html" class="nav-logo"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="36"
+            viewBox="0 0 32 36"
+            fill="none"
+          >
+            <path
+              d="M8.92127 21.1957L24.057 12.389C24.2413 12.2817 24.4497 12.225 24.662 12.2243C24.8743 12.2235 25.0831 12.2789 25.2681 12.3849L29.984 15.0866C30.8086 15.559 30.8116 16.7668 29.9895 17.2435L16.6298 24.9902C16.447 25.0962 16.2402 25.1518 16.0299 25.1515C15.8196 25.1513 15.613 25.0953 15.4304 24.9889L8.92127 21.1957Z"
+              fill="#EE466E"
+            />
+            <path
+              d="M8.92127 21.1957L24.057 12.389C24.2413 12.2817 24.4497 12.225 24.662 12.2243C24.8743 12.2235 25.0831 12.2789 25.2681 12.3849L29.984 15.0866C30.8086 15.559 30.8116 16.7668 29.9895 17.2435L16.6298 24.9902C16.447 25.0962 16.2402 25.1518 16.0299 25.1515C15.8196 25.1513 15.613 25.0953 15.4304 24.9889L8.92127 21.1957Z"
+              stroke="#EE466E"
+              stroke-width="0.9"
+              stroke-miterlimit="10"
+            />
+            <path
+              d="M16.0907 17.1008L0.958829 8.28756C0.774553 8.18025 0.620749 8.02611 0.512435 7.84019C0.404122 7.65427 0.344999 7.44292 0.340839 7.22679L0.233904 1.71756C0.215184 0.754313 1.23569 0.138713 2.05622 0.618249L15.3901 8.41102C15.5725 8.51765 15.7244 8.67085 15.8309 8.85552C15.9375 9.04019 15.9949 9.24995 15.9975 9.4641L16.0907 17.1008Z"
+              fill="#EE466E"
+            />
+            <path
+              d="M16.0907 17.1008L0.958829 8.28756C0.774553 8.18025 0.620749 8.02611 0.512435 7.84019C0.404122 7.65427 0.344999 7.44292 0.340839 7.22679L0.233904 1.71756C0.215184 0.754313 1.23569 0.138713 2.05622 0.618249L15.3901 8.41102C15.5725 8.51765 15.7244 8.67085 15.8309 8.85552C15.9375 9.04019 15.9949 9.24995 15.9975 9.4641L16.0907 17.1008Z"
+              stroke="#EE466E"
+              stroke-width="0.9"
+              stroke-miterlimit="10"
+            />
+            <path
+              d="M8.94154 12.9266L8.86289 30.6786C8.86196 30.8948 8.80601 31.1071 8.70048 31.2946C8.59496 31.4822 8.44347 31.6387 8.26081 31.7489L3.60532 34.5572C2.79137 35.0482 1.76268 34.447 1.76838 33.4836L1.86045 17.8278C1.86174 17.6136 1.91783 17.4035 2.02319 17.2181C2.12854 17.0327 2.27953 16.8785 2.46125 16.7707L8.94154 12.9266Z"
+              fill="#EE466E"
+            />
+            <path
+              d="M8.94154 12.9266L8.86289 30.6786C8.86196 30.8948 8.80601 31.1071 8.70048 31.2946C8.59496 31.4822 8.44347 31.6387 8.26081 31.7489L3.60532 34.5572C2.79137 35.0482 1.76268 34.447 1.76838 33.4836L1.86045 17.8278C1.86174 17.6136 1.91783 17.4035 2.02319 17.2181C2.12854 17.0327 2.27953 16.8785 2.46125 16.7707L8.94154 12.9266Z"
+              stroke="#EE466E"
+              stroke-width="0.9"
+            /></svg
+          >Performative</a
+        >
+        <div class="nav-links">
+          <a href="index.html">Home</a><a href="enterprise.html">Enterprise</a
+          ><a href="smb.html">SMB</a><a href="integrations.html">Integrations</a
+          ><a href="pricing.html">Pricing</a
+          ><a href="case-studies.html">Case Studies</a
+          ><a href="partner.html">Partners</a>
         </div>
-        <!-- Growth -->
-        <div class="pricing-card popular">
-          <div class="pricing-card-badge">Most Popular</div>
-          <div class="plan-name">Growth</div>
-          <div class="plan-starts">Starts at</div>
-          <div class="plan-price"><span>€</span><span data-price-monthly="50" data-price-yearly="40">50</span><sub>/mo</sub></div>
-          <p class="plan-desc">For growing e-commerce teams & agencies.</p>
-          <div class="plan-cta"><a href="#" class="btn btn-indigo" style="width:100%;justify-content:center;display:flex">Get Started</a></div>
-          <hr class="plan-divider"/>
-          <div class="plan-includes">All in Free, plus:</div>
-          <ul class="plan-features">
-            <li>✅ Generate content for up to 1,000 products</li>
-            <li>✅ Bulk content generation</li>
-            <li>✅ Brand voice customization</li>
-            <li>✅ SEO-optimised structure</li>
-            <li>✅ Category / collection page content</li>
-            <li>✅ Content regeneration &amp; versioning</li>
-            <li>✅ Email support</li>
-            <li>✅ Basic multi-language support</li>
-            <li>✅ Priority email support</li>
-          </ul>
-        </div>
-        <!-- Scale -->
-        <div class="pricing-card">
-          <div class="plan-name">Scale</div>
-          <div class="plan-starts">Starts with</div>
-          <div class="plan-price" style="font-size:28px;letter-spacing:-.02em">Custom Pricing</div>
-          <p class="plan-desc">For large catalogs, multiple locales, and full control.</p>
-          <div class="plan-cta"><a href="#" class="btn btn-dark" style="width:100%;justify-content:center;display:flex">Talk to Sales</a></div>
-          <hr class="plan-divider"/>
-          <div class="plan-includes">All in Pro, plus:</div>
-          <ul class="plan-features">
-            <li>✅ Unlimited product &amp; category generation</li>
-            <li>✅ Advanced brand &amp; compliance rules</li>
-            <li>✅ Multi-market &amp; localisation workflows</li>
-            <li>✅ Approval &amp; publishing workflows</li>
-            <li>✅ API &amp; platform integrations</li>
-            <li>✅ Custom data sources &amp; models</li>
-            <li>✅ Dedicated onboarding &amp; support</li>
-            <li>✅ Custom billing &amp; limits</li>
-          </ul>
+        <a href="pricing.html" class="nav-cta">Book a Demo</a>
+        <div class="nav-burger" id="nav-burger">
+          <span></span><span></span><span></span>
         </div>
       </div>
+    </nav>
+    <div class="nav-mobile" id="nav-mobile">
+      <a href="index.html">Home</a><a href="enterprise.html">Enterprise</a
+      ><a href="smb.html">SMB</a><a href="integrations.html">Integrations</a
+      ><a href="pricing.html">Pricing</a
+      ><a href="case-studies.html">Case Studies</a
+      ><a href="partner.html">Partners</a>
+      <a href="pricing.html" class="nav-cta">Book a Demo</a>
     </div>
 
-    <!-- Enterprise Plans -->
-    <div data-pricing-set="enterprise" style="display:none">
-      <div class="pricing-cards" style="max-width:640px;margin:0 auto;grid-template-columns:1fr 1fr">
-        <div class="pricing-card">
-          <div class="plan-name">Professional</div>
-          <div class="plan-starts">From</div>
-          <div class="plan-price"><span>€</span><span data-price-monthly="499" data-price-yearly="399">499</span><sub>/mo</sub></div>
-          <p class="plan-desc">For mid-market retailers with complex catalog needs.</p>
-          <div class="plan-cta"><a href="#" class="btn btn-dark" style="width:100%;justify-content:center;display:flex">Talk to Sales</a></div>
-          <hr class="plan-divider"/>
-          <ul class="plan-features">
-            <li>✅ Up to 50,000 SKUs</li><li>✅ Multi-market &amp; localisation</li><li>✅ Dedicated onboarding</li><li>✅ SLA 99.9% uptime</li>
-          </ul>
+    <!-- HERO -->
+    <section class="price-hero">
+      <div class="price-hero-inner">
+        <h1 class="price-hero-title">
+          Simple pricing. Built to scale<br />with your catalog.
+        </h1>
+        <p class="price-hero-sub">
+          Choose how you want to grow — self-serve for fast-moving webshops, or
+          enterprise-grade infrastructure for large catalogs and teams.
+        </p>
+      </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section class="sec-pricing">
+      <div class="container">
+        <!-- Toggle row -->
+        <div class="pricing-toggle-row">
+          <div class="pricing-type-tabs">
+            <button class="pt-tab active" data-pricing-tab="smb">
+              For SMB
+            </button>
+            <button class="pt-tab" data-pricing-tab="enterprise">
+              For Enterprise
+            </button>
+          </div>
+          <div class="pt-sep"></div>
+          <div class="billing-tabs">
+            <button class="bt-tab active" data-billing="monthly">
+              Monthly
+            </button>
+            <button class="bt-tab" data-billing="yearly">
+              Yearly <span class="bt-badge price-yearly-badge">Save 20%</span>
+            </button>
+          </div>
         </div>
-        <div class="pricing-card popular">
-          <div class="pricing-card-badge">Enterprise</div>
-          <div class="plan-name">Hyperscale</div>
-          <div class="plan-starts">Starts with</div>
-          <div class="plan-price" style="font-size:24px">Custom Pricing</div>
-          <p class="plan-desc">For brands with 100k+ SKUs and multiple markets.</p>
-          <div class="plan-cta"><a href="#" class="btn btn-indigo" style="width:100%;justify-content:center;display:flex">Contact Us</a></div>
-          <hr class="plan-divider"/>
-          <ul class="plan-features">
-            <li>✅ Unlimited SKUs</li><li>✅ On-prem deployment option</li><li>✅ Custom SLA &amp; contract</li><li>✅ Dedicated partner manager</li><li>✅ Custom LLM for your clients</li>
-          </ul>
+
+        <!-- SMB Plans -->
+        <div data-pricing-set="smb">
+          <div class="pricing-cards">
+            <!-- Starter -->
+            <div class="pricing-card">
+              <div class="plan-name">Starter</div>
+              <div class="plan-starts">Starts at</div>
+              <div class="plan-price">
+                <span>€</span
+                ><span data-price-monthly="0" data-price-yearly="0">0</span
+                ><sub>/mo</sub>
+              </div>
+              <p class="plan-desc">
+                For individuals who are just starting out and want to learn the
+                essentials.
+              </p>
+              <div class="plan-cta">
+                <a
+                  href="#"
+                  class="btn btn-outline"
+                  style="width: 100%; justify-content: center; display: flex"
+                  >Try for Free</a
+                >
+              </div>
+              <hr class="plan-divider" />
+              <div class="plan-includes">Free, Forever</div>
+              <ul class="plan-features">
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Generate content for up to 10 products
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Short &amp; long product descriptions
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  SEO titles &amp; meta descriptions
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Default AI tone &amp; structure
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Manual generation
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Content preview &amp; export
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Email support
+                </li>
+              </ul>
+            </div>
+            <!-- Growth -->
+            <div class="pricing-card popular">
+              <div class="pricing-card-badge">Most Popular</div>
+              <div class="plan-name">Growth</div>
+              <div class="plan-starts">Starts at</div>
+              <div class="plan-price">
+                <span>€</span
+                ><span data-price-monthly="50" data-price-yearly="40">50</span
+                ><sub>/mo</sub>
+              </div>
+              <p class="plan-desc">For growing e-commerce teams & agencies.</p>
+              <div class="plan-cta">
+                <a
+                  href="#"
+                  class="btn btn-indigo"
+                  style="width: 100%; justify-content: center; display: flex"
+                  >Get Started</a
+                >
+              </div>
+              <hr class="plan-divider" />
+              <div class="plan-includes">All in Free, plus:</div>
+              <ul class="plan-features">
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Generate content for up to 1,000 products
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Bulk content generation
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Brand voice customization
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  SEO-optimised structure
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Category / collection page content
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Content regeneration &amp; versioning
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Email support
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Basic multi-language support
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Priority email support
+                </li>
+              </ul>
+            </div>
+            <!-- Scale -->
+            <div class="pricing-card">
+              <div class="plan-name">Scale</div>
+              <div class="plan-starts">Starts with</div>
+              <div
+                class="plan-price"
+                style="font-size: 28px; letter-spacing: -0.02em"
+              >
+                Custom Pricing
+              </div>
+              <p class="plan-desc">
+                For large catalogs, multiple locales, and full control.
+              </p>
+              <div class="plan-cta">
+                <a
+                  href="#"
+                  class="btn btn-dark"
+                  style="width: 100%; justify-content: center; display: flex"
+                  >Talk to Sales</a
+                >
+              </div>
+              <hr class="plan-divider" />
+              <div class="plan-includes">All in Pro, plus:</div>
+              <ul class="plan-features">
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Unlimited product &amp; category generation
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Advanced brand &amp; compliance rules
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Multi-market &amp; localisation workflows
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Approval &amp; publishing workflows
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  API &amp; platform integrations
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Custom data sources &amp; models
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Dedicated onboarding &amp; support
+                </li>
+                <li>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="11"
+                      viewBox="0 0 14 11"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.2788 8.50114C5.50409 6.77561 10.0107 2.3342 13.748 0.0268497C13.9067 -0.0711435 14.086 0.121213 13.9544 0.248529C10.4039 3.6833 6.60879 7.56844 4.42921 10.9279C4.36849 11.0215 4.22192 11.0248 4.15848 10.9328C3.06169 9.3413 2.12102 7.05367 0.104765 6.35266C-0.0450196 6.30058 -0.0306242 6.10659 0.125129 6.07221C2.05732 5.64575 2.96271 7.15952 4.2788 8.50093V8.50114Z"
+                        fill="black"
+                      /></svg
+                  ></span>
+                  Custom billing &amp; limits
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Enterprise Plans -->
+        <div data-pricing-set="enterprise" style="display: none">
+          <div
+            class="pricing-cards"
+            style="
+              max-width: 640px;
+              margin: 0 auto;
+              grid-template-columns: 1fr 1fr;
+            "
+          >
+            <div class="pricing-card">
+              <div class="plan-name">Professional</div>
+              <div class="plan-starts">From</div>
+              <div class="plan-price">
+                <span>€</span
+                ><span data-price-monthly="499" data-price-yearly="399"
+                  >499</span
+                ><sub>/mo</sub>
+              </div>
+              <p class="plan-desc">
+                For mid-market retailers with complex catalog needs.
+              </p>
+              <div class="plan-cta">
+                <a
+                  href="#"
+                  class="btn btn-dark"
+                  style="width: 100%; justify-content: center; display: flex"
+                  >Talk to Sales</a
+                >
+              </div>
+              <hr class="plan-divider" />
+              <ul class="plan-features">
+                <li>✅ Up to 50,000 SKUs</li>
+                <li>✅ Multi-market &amp; localisation</li>
+                <li>✅ Dedicated onboarding</li>
+                <li>✅ SLA 99.9% uptime</li>
+              </ul>
+            </div>
+            <div class="pricing-card popular">
+              <div class="pricing-card-badge">Enterprise</div>
+              <div class="plan-name">Hyperscale</div>
+              <div class="plan-starts">Starts with</div>
+              <div class="plan-price" style="font-size: 24px">
+                Custom Pricing
+              </div>
+              <p class="plan-desc">
+                For brands with 100k+ SKUs and multiple markets.
+              </p>
+              <div class="plan-cta">
+                <a
+                  href="#"
+                  class="btn btn-indigo"
+                  style="width: 100%; justify-content: center; display: flex"
+                  >Contact Us</a
+                >
+              </div>
+              <hr class="plan-divider" />
+              <ul class="plan-features">
+                <li>✅ Unlimited SKUs</li>
+                <li>✅ On-prem deployment option</li>
+                <li>✅ Custom SLA &amp; contract</li>
+                <li>✅ Dedicated partner manager</li>
+                <li>✅ Custom LLM for your clients</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- COMPARISON TABLE -->
-<section class="sec-compare">
-  <div class="container">
-    <div class="sec-header"><div class="badge">✦ Performative</div><h2 class="sec-heading">Every feature, side by side</h2></div>
-    <div class="compare-table-wrap">
-      <table class="compare-table">
-        <thead>
-          <tr>
-            <th>Feature</th>
-            <th><div class="plan-th">Starter</div><div class="price-th">Free</div></th>
-            <th class="col-popular"><div class="plan-th">Growth</div><div class="price-th">€50/mo</div></th>
-            <th><div class="plan-th">Scale</div><div class="price-th">Custom</div></th>
-            <th><div class="plan-th">Professional</div><div class="price-th">€499/mo</div></th>
-            <th><div class="plan-th">Hyperscale</div><div class="price-th">Custom</div></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>SKU limit</td><td>500</td><td class="col-popular">1000</td><td>25,000</td><td>50,000</td><td>Unlimited</td></tr>
-          <tr><td>PDF generations/month</td><td>50</td><td class="col-popular">Unlimited</td><td>Unlimited</td><td>Unlimited</td><td>Unlimited</td></tr>
-          <tr><td>Brand voice profiles</td><td>1</td><td class="col-popular">3</td><td>Unlimited</td><td>Unlimited</td><td>Unlimited</td></tr>
-          <tr><td>SEO optimization</td><td>Basic</td><td class="col-popular">Advance</td><td>Full Suite</td><td>Full Suite</td><td>Full Suite</td></tr>
-          <tr><td>Category page automation</td><td><span class="check-no">—</span></td><td class="col-popular"><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td></tr>
-          <tr><td>Personalisation engine</td><td><span class="check-no">—</span></td><td class="col-popular"><span class="check-no">—</span></td><td><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td></tr>
-          <tr><td>Multi-language content</td><td><span class="check-no">—</span></td><td class="col-popular"><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</section>
+    <!-- COMPARISON TABLE -->
+    <section class="sec-compare">
+      <div class="container">
+        <div class="sec-header">
+          <div class="badge">✦ Performative</div>
+          <h2 class="sec-heading">Every feature, side by side</h2>
+        </div>
+        <div class="compare-table-wrap">
+          <table class="compare-table">
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>
+                  <div class="plan-th">Starter</div>
+                  <div class="price-th">Free</div>
+                </th>
+                <th class="col-popular">
+                  <div class="plan-th">Growth</div>
+                  <div class="price-th">€50/mo</div>
+                </th>
+                <th>
+                  <div class="plan-th">Scale</div>
+                  <div class="price-th">Custom</div>
+                </th>
+                <th>
+                  <div class="plan-th">Professional</div>
+                  <div class="price-th">€499/mo</div>
+                </th>
+                <th>
+                  <div class="plan-th">Hyperscale</div>
+                  <div class="price-th">Custom</div>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>SKU limit</td>
+                <td>500</td>
+                <td class="col-popular">1000</td>
+                <td>25,000</td>
+                <td>50,000</td>
+                <td>Unlimited</td>
+              </tr>
+              <tr>
+                <td>PDF generations/month</td>
+                <td>50</td>
+                <td class="col-popular">Unlimited</td>
+                <td>Unlimited</td>
+                <td>Unlimited</td>
+                <td>Unlimited</td>
+              </tr>
+              <tr>
+                <td>Brand voice profiles</td>
+                <td>1</td>
+                <td class="col-popular">3</td>
+                <td>Unlimited</td>
+                <td>Unlimited</td>
+                <td>Unlimited</td>
+              </tr>
+              <tr>
+                <td>SEO optimization</td>
+                <td>Basic</td>
+                <td class="col-popular">Advance</td>
+                <td>Full Suite</td>
+                <td>Full Suite</td>
+                <td>Full Suite</td>
+              </tr>
+              <tr>
+                <td>Category page automation</td>
+                <td><span class="check-no">—</span></td>
+                <td class="col-popular"><span class="check-yes">✓</span></td>
+                <td><span class="check-yes">✓</span></td>
+                <td><span class="check-yes">✓</span></td>
+                <td><span class="check-yes">✓</span></td>
+              </tr>
+              <tr>
+                <td>Personalisation engine</td>
+                <td><span class="check-no">—</span></td>
+                <td class="col-popular"><span class="check-no">—</span></td>
+                <td><span class="check-yes">✓</span></td>
+                <td><span class="check-yes">✓</span></td>
+                <td><span class="check-yes">✓</span></td>
+              </tr>
+              <tr>
+                <td>Multi-language content</td>
+                <td><span class="check-no">—</span></td>
+                <td class="col-popular"><span class="check-yes">✓</span></td>
+                <td><span class="check-yes">✓</span></td>
+                <td><span class="check-yes">✓</span></td>
+                <td><span class="check-yes">✓</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
 
-<!-- FAQ -->
-<section class="sec-pricing-faq">
-  <div class="container">
-    <div class="sec-header"><div class="badge">✦ Performative</div><h2 class="sec-heading">Real questions, real answers</h2></div>
-    <div class="faq-list">
-      <div class="faq-item"><button class="faq-question">Is my product data ever sent to external AI servers?<svg class="faq-arrow" viewBox="0 0 20 20" fill="none"><path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><div class="faq-answer">No. Performative is deployed on your own infrastructure. Your product data never leaves your servers and is never used to train any external models.</div></div>
-      <div class="faq-item"><button class="faq-question">Is Performative GDPR compliant?<svg class="faq-arrow" viewBox="0 0 20 20" fill="none"><path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><div class="faq-answer">Yes. Performative is built with GDPR compliance by design. Data residency, role-based access, and audit logging are included on all plans.</div></div>
-      <div class="faq-item"><button class="faq-question">Who owns the content Performative generates?<svg class="faq-arrow" viewBox="0 0 20 20" fill="none"><path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><div class="faq-answer">You do. All generated content belongs to you. Performative has no rights to your content and does not store or reuse it.</div></div>
-      <div class="faq-item"><button class="faq-question">How long does onboarding actually take?<svg class="faq-arrow" viewBox="0 0 20 20" fill="none"><path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><div class="faq-answer">SMB plans can be live within an hour. Enterprise onboarding typically takes 1–3 days depending on infrastructure complexity and CMS setup.</div></div>
-      <div class="faq-item"><button class="faq-question">How does brand voice training work, and how long does it take?<svg class="faq-arrow" viewBox="0 0 20 20" fill="none"><path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><div class="faq-answer">You provide sample content and brand guidelines. Our system fine-tunes the generation layer in 15–30 minutes to match your tone perfectly.</div></div>
-      <div class="faq-item"><button class="faq-question">Is there a minimum contract length?<svg class="faq-arrow" viewBox="0 0 20 20" fill="none"><path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><div class="faq-answer">No minimum for SMB plans — cancel anytime. Enterprise plans typically involve 12-month agreements, but we're flexible for the right partnership.</div></div>
-      <div class="faq-item"><button class="faq-question">Is there a free trial?<svg class="faq-arrow" viewBox="0 0 20 20" fill="none"><path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><div class="faq-answer">Yes! The Starter plan is permanently free. You can also start a 14-day trial of the Growth plan with no credit card required.</div></div>
-    </div>
-  </div>
-</section>
+    <!-- FAQ -->
+    <section class="sec-pricing-faq">
+      <div class="container">
+        <div class="sec-header">
+          <div class="badge">✦ Performative</div>
+          <h2 class="sec-heading">Real questions, real answers</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">
+              Is my product data ever sent to external AI servers?<svg
+                class="faq-arrow"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M5 7.5L10 12.5L15 7.5"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              No. Performative is deployed on your own infrastructure. Your
+              product data never leaves your servers and is never used to train
+              any external models.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Is Performative GDPR compliant?<svg
+                class="faq-arrow"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M5 7.5L10 12.5L15 7.5"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              Yes. Performative is built with GDPR compliance by design. Data
+              residency, role-based access, and audit logging are included on
+              all plans.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Who owns the content Performative generates?<svg
+                class="faq-arrow"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M5 7.5L10 12.5L15 7.5"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              You do. All generated content belongs to you. Performative has no
+              rights to your content and does not store or reuse it.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              How long does onboarding actually take?<svg
+                class="faq-arrow"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M5 7.5L10 12.5L15 7.5"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              SMB plans can be live within an hour. Enterprise onboarding
+              typically takes 1–3 days depending on infrastructure complexity
+              and CMS setup.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              How does brand voice training work, and how long does it take?<svg
+                class="faq-arrow"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M5 7.5L10 12.5L15 7.5"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              You provide sample content and brand guidelines. Our system
+              fine-tunes the generation layer in 15–30 minutes to match your
+              tone perfectly.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Is there a minimum contract length?<svg
+                class="faq-arrow"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M5 7.5L10 12.5L15 7.5"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              No minimum for SMB plans — cancel anytime. Enterprise plans
+              typically involve 12-month agreements, but we're flexible for the
+              right partnership.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Is there a free trial?<svg
+                class="faq-arrow"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M5 7.5L10 12.5L15 7.5"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer">
+              Yes! The Starter plan is permanently free. You can also start a
+              14-day trial of the Growth plan with no credit card required.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- TESTIMONIALS -->
-<section style="padding:var(--section-py) var(--cpx);background:var(--c-bg)">
-  <div class="container">
-    <div class="sec-header"><div class="badge">✦ Performative</div><h2 class="sec-heading">Everything content. Nothing else.</h2></div>
-    <div class="testi-grid">
-      <div class="testi-card"><div class="testi-img-block"><svg viewBox="0 0 320 190"><defs><linearGradient id="pt1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1E1B5E"/><stop offset="100%" stop-color="#7C3AED"/></linearGradient></defs><rect width="320" height="190" fill="url(#pt1)"/><circle cx="160" cy="80" r="40" fill="rgba(255,255,255,.12)"/></svg></div><div class="testi-body"><p class="testi-quote">"We went from spending 2 weeks on a catalog refresh to publishing 4,000 updated product pages in a single afternoon."</p><div class="testi-author"><div class="testi-ava" style="background:#7C3AED">A</div><div><div class="testi-name">Adrian Martin</div><div class="testi-role">eCOM, ECONOX</div></div></div><a href="case-study-fanq.html" class="testi-link">Check Case Study →</a></div></div>
-      <div class="testi-card"><div class="testi-img-block"><svg viewBox="0 0 320 190"><defs><linearGradient id="pt2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#134E48"/><stop offset="100%" stop-color="#065F46"/></linearGradient></defs><rect width="320" height="190" fill="url(#pt2)"/><circle cx="160" cy="80" r="40" fill="rgba(255,255,255,.1)"/></svg></div><div class="testi-body"><p class="testi-quote">"We went from spending 2 weeks on a catalog refresh to publishing 4,000 updated product pages in a single afternoon."</p><div class="testi-author"><div class="testi-ava" style="background:#065F46">A</div><div><div class="testi-name">Adrian Martin</div><div class="testi-role">eCOM, fanQ</div></div></div><a href="case-study-fanq.html" class="testi-link">Check Case Study →</a></div></div>
-      <div class="testi-card" style="display:none"></div>
-    </div>
-  </div>
-</section>
+    <!-- TESTIMONIALS -->
+    <section
+      style="padding: var(--section-py) var(--cpx); background: var(--c-bg)"
+    >
+      <div class="container">
+        <div class="sec-header">
+          <div class="badge">✦ Performative</div>
+          <h2 class="sec-heading">Everything content. Nothing else.</h2>
+        </div>
+        <div class="testi-grid">
+          <div class="testi-card">
+            <div class="testi-img-block">
+              <svg viewBox="0 0 320 190">
+                <defs>
+                  <linearGradient id="pt1" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#1E1B5E" />
+                    <stop offset="100%" stop-color="#7C3AED" />
+                  </linearGradient>
+                </defs>
+                <rect width="320" height="190" fill="url(#pt1)" />
+                <circle cx="160" cy="80" r="40" fill="rgba(255,255,255,.12)" />
+              </svg>
+            </div>
+            <div class="testi-body">
+              <p class="testi-quote">
+                "We went from spending 2 weeks on a catalog refresh to
+                publishing 4,000 updated product pages in a single afternoon."
+              </p>
+              <div class="testi-author">
+                <div class="testi-ava" style="background: #7c3aed">A</div>
+                <div>
+                  <div class="testi-name">Adrian Martin</div>
+                  <div class="testi-role">eCOM, ECONOX</div>
+                </div>
+              </div>
+              <a href="case-study-fanq.html" class="testi-link"
+                >Check Case Study →</a
+              >
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-img-block">
+              <svg viewBox="0 0 320 190">
+                <defs>
+                  <linearGradient id="pt2" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#134E48" />
+                    <stop offset="100%" stop-color="#065F46" />
+                  </linearGradient>
+                </defs>
+                <rect width="320" height="190" fill="url(#pt2)" />
+                <circle cx="160" cy="80" r="40" fill="rgba(255,255,255,.1)" />
+              </svg>
+            </div>
+            <div class="testi-body">
+              <p class="testi-quote">
+                "We went from spending 2 weeks on a catalog refresh to
+                publishing 4,000 updated product pages in a single afternoon."
+              </p>
+              <div class="testi-author">
+                <div class="testi-ava" style="background: #065f46">A</div>
+                <div>
+                  <div class="testi-name">Adrian Martin</div>
+                  <div class="testi-role">eCOM, fanQ</div>
+                </div>
+              </div>
+              <a href="case-study-fanq.html" class="testi-link"
+                >Check Case Study →</a
+              >
+            </div>
+          </div>
+          <div class="testi-card" style="display: none"></div>
+        </div>
+      </div>
+    </section>
 
-<!-- FOOTER -->
-<footer class="footer">
-  <section class="content-contact">
-  <div class="container z1" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:32px">
-    <h2 style="font-size:clamp(22px,2.8vw,38px);font-weight:800;color:#fff;letter-spacing:-.025em;line-height:1.2;max-width:500px">Let's Build Your Content Infrastructure for Scale</h2>
-    <div style="display:flex;gap:12px;flex-wrap:wrap">
-      <a href="pricing.html" class="btn btn-primary">Book a Demo</a>
-      <a href="pricing.html" class="btn btn-ghost">Start Free Trial</a>
-    </div>
-  </div>
-</section>
-  <div class="footer-grid">
-    <div class="footer-brand"><a href="index.html" class="nav-logo"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="36" viewBox="0 0 32 36" fill="none"><path d="M8.92127 21.1957L24.057 12.389C24.2413 12.2817 24.4497 12.225 24.662 12.2243C24.8743 12.2235 25.0831 12.2789 25.2681 12.3849L29.984 15.0866C30.8086 15.559 30.8116 16.7668 29.9895 17.2435L16.6298 24.9902C16.447 25.0962 16.2402 25.1518 16.0299 25.1515C15.8196 25.1513 15.613 25.0953 15.4304 24.9889L8.92127 21.1957Z" fill="#EE466E"/><path d="M8.92127 21.1957L24.057 12.389C24.2413 12.2817 24.4497 12.225 24.662 12.2243C24.8743 12.2235 25.0831 12.2789 25.2681 12.3849L29.984 15.0866C30.8086 15.559 30.8116 16.7668 29.9895 17.2435L16.6298 24.9902C16.447 25.0962 16.2402 25.1518 16.0299 25.1515C15.8196 25.1513 15.613 25.0953 15.4304 24.9889L8.92127 21.1957Z" stroke="#EE466E" stroke-width="0.9" stroke-miterlimit="10"/><path d="M16.0907 17.1008L0.958829 8.28756C0.774553 8.18025 0.620749 8.02611 0.512435 7.84019C0.404122 7.65427 0.344999 7.44292 0.340839 7.22679L0.233904 1.71756C0.215184 0.754313 1.23569 0.138713 2.05622 0.618249L15.3901 8.41102C15.5725 8.51765 15.7244 8.67085 15.8309 8.85552C15.9375 9.04019 15.9949 9.24995 15.9975 9.4641L16.0907 17.1008Z" fill="#EE466E"/><path d="M16.0907 17.1008L0.958829 8.28756C0.774553 8.18025 0.620749 8.02611 0.512435 7.84019C0.404122 7.65427 0.344999 7.44292 0.340839 7.22679L0.233904 1.71756C0.215184 0.754313 1.23569 0.138713 2.05622 0.618249L15.3901 8.41102C15.5725 8.51765 15.7244 8.67085 15.8309 8.85552C15.9375 9.04019 15.9949 9.24995 15.9975 9.4641L16.0907 17.1008Z" stroke="#EE466E" stroke-width="0.9" stroke-miterlimit="10"/><path d="M8.94154 12.9266L8.86289 30.6786C8.86196 30.8948 8.80601 31.1071 8.70048 31.2946C8.59496 31.4822 8.44347 31.6387 8.26081 31.7489L3.60532 34.5572C2.79137 35.0482 1.76268 34.447 1.76838 33.4836L1.86045 17.8278C1.86174 17.6136 1.91783 17.4035 2.02319 17.2181C2.12854 17.0327 2.27953 16.8785 2.46125 16.7707L8.94154 12.9266Z" fill="#EE466E"/><path d="M8.94154 12.9266L8.86289 30.6786C8.86196 30.8948 8.80601 31.1071 8.70048 31.2946C8.59496 31.4822 8.44347 31.6387 8.26081 31.7489L3.60532 34.5572C2.79137 35.0482 1.76268 34.447 1.76838 33.4836L1.86045 17.8278C1.86174 17.6136 1.91783 17.4035 2.02319 17.2181C2.12854 17.0327 2.27953 16.8785 2.46125 16.7707L8.94154 12.9266Z" stroke="#EE466E" stroke-width="0.9"/></svg>Performative</a><p class="footer-tagline">AI-powered content generation for e-commerce teams at any scale.</p><div class="footer-socials"><a href="#" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M3.5 2a1.5 1.5 0 110 3 1.5 1.5 0 010-3zM2 6h3v8H2V6zm5 0h2.8v1.1C10.2 6.4 11 6 12 6c2.2 0 3 1.5 3 3.5V14h-3v-4c0-1-.4-1.5-1.2-1.5S9.5 9 9.5 10v4H7V6z"/></svg></a><a href="#" aria-label="Twitter"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M14 3s-1 .5-2 .6A2.8 2.8 0 008.6 2C7 2 5.8 3.2 5.8 4.8v.7C3.5 5.3 1.7 4 .7 2.2c0 0-1.3 3.2 1.8 4.8L1 7c.1 1.5 1.4 2.7 3 2.7l-1.5.5c.5 1.3 1.7 2.2 3.1 2.3C4.5 13.4 2.7 14 1 13.7 2.3 14.6 3.8 15 5.5 15c6 0 9.3-5 9.3-9.3v-.4c.6-.5 1.2-1 1.2-1.3z"/></svg></a></div></div>
-    <div><div class="footer-col-title">Product</div><div class="footer-links"><a href="enterprise.html">Enterprise</a><a href="smb.html">SMB</a><a href="integrations.html">Integrations</a><a href="pricing.html">Pricing</a></div></div>
-    <div><div class="footer-col-title">Company</div><div class="footer-links"><a href="#">About</a><a href="partner.html">Partners</a><a href="#">Blog</a></div></div>
-    <div><div class="footer-col-title">Resources</div><div class="footer-links"><a href="case-studies.html">Case Studies</a><a href="#">Docs</a><a href="#">Newsletter</a></div></div>
-    <div><div class="footer-col-title">Legal</div><div class="footer-links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Cookie Policy</a></div></div>
-  </div>
-  <div class="footer-bottom"><span>© 2026 Performative B.V.</span><div class="footer-bottom-links"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Cookies</a></div></div>
-</footer>
-<script src="js/main.js"></script>
-</body>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <section class="content-contact">
+        <div
+          class="container z1"
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 32px;
+          "
+        >
+          <h2
+            style="
+              font-size: clamp(22px, 2.8vw, 38px);
+              font-weight: 800;
+              color: #fff;
+              letter-spacing: -0.025em;
+              line-height: 1.2;
+              max-width: 500px;
+            "
+          >
+            Let's Build Your Content Infrastructure for Scale
+          </h2>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap">
+            <a href="pricing.html" class="btn btn-primary">Book a Demo</a>
+            <a href="pricing.html" class="btn btn-ghost">Start Free Trial</a>
+          </div>
+        </div>
+      </section>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="36"
+              viewBox="0 0 32 36"
+              fill="none"
+            >
+              <path
+                d="M8.92127 21.1957L24.057 12.389C24.2413 12.2817 24.4497 12.225 24.662 12.2243C24.8743 12.2235 25.0831 12.2789 25.2681 12.3849L29.984 15.0866C30.8086 15.559 30.8116 16.7668 29.9895 17.2435L16.6298 24.9902C16.447 25.0962 16.2402 25.1518 16.0299 25.1515C15.8196 25.1513 15.613 25.0953 15.4304 24.9889L8.92127 21.1957Z"
+                fill="#EE466E"
+              />
+              <path
+                d="M8.92127 21.1957L24.057 12.389C24.2413 12.2817 24.4497 12.225 24.662 12.2243C24.8743 12.2235 25.0831 12.2789 25.2681 12.3849L29.984 15.0866C30.8086 15.559 30.8116 16.7668 29.9895 17.2435L16.6298 24.9902C16.447 25.0962 16.2402 25.1518 16.0299 25.1515C15.8196 25.1513 15.613 25.0953 15.4304 24.9889L8.92127 21.1957Z"
+                stroke="#EE466E"
+                stroke-width="0.9"
+                stroke-miterlimit="10"
+              />
+              <path
+                d="M16.0907 17.1008L0.958829 8.28756C0.774553 8.18025 0.620749 8.02611 0.512435 7.84019C0.404122 7.65427 0.344999 7.44292 0.340839 7.22679L0.233904 1.71756C0.215184 0.754313 1.23569 0.138713 2.05622 0.618249L15.3901 8.41102C15.5725 8.51765 15.7244 8.67085 15.8309 8.85552C15.9375 9.04019 15.9949 9.24995 15.9975 9.4641L16.0907 17.1008Z"
+                fill="#EE466E"
+              />
+              <path
+                d="M16.0907 17.1008L0.958829 8.28756C0.774553 8.18025 0.620749 8.02611 0.512435 7.84019C0.404122 7.65427 0.344999 7.44292 0.340839 7.22679L0.233904 1.71756C0.215184 0.754313 1.23569 0.138713 2.05622 0.618249L15.3901 8.41102C15.5725 8.51765 15.7244 8.67085 15.8309 8.85552C15.9375 9.04019 15.9949 9.24995 15.9975 9.4641L16.0907 17.1008Z"
+                stroke="#EE466E"
+                stroke-width="0.9"
+                stroke-miterlimit="10"
+              />
+              <path
+                d="M8.94154 12.9266L8.86289 30.6786C8.86196 30.8948 8.80601 31.1071 8.70048 31.2946C8.59496 31.4822 8.44347 31.6387 8.26081 31.7489L3.60532 34.5572C2.79137 35.0482 1.76268 34.447 1.76838 33.4836L1.86045 17.8278C1.86174 17.6136 1.91783 17.4035 2.02319 17.2181C2.12854 17.0327 2.27953 16.8785 2.46125 16.7707L8.94154 12.9266Z"
+                fill="#EE466E"
+              />
+              <path
+                d="M8.94154 12.9266L8.86289 30.6786C8.86196 30.8948 8.80601 31.1071 8.70048 31.2946C8.59496 31.4822 8.44347 31.6387 8.26081 31.7489L3.60532 34.5572C2.79137 35.0482 1.76268 34.447 1.76838 33.4836L1.86045 17.8278C1.86174 17.6136 1.91783 17.4035 2.02319 17.2181C2.12854 17.0327 2.27953 16.8785 2.46125 16.7707L8.94154 12.9266Z"
+                stroke="#EE466E"
+                stroke-width="0.9"
+              /></svg
+            >Performative</a
+          >
+          <p class="footer-tagline">
+            AI-powered content generation for e-commerce teams at any scale.
+          </p>
+          <div class="footer-socials">
+            <a href="#" aria-label="LinkedIn"
+              ><svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+              >
+                <path
+                  d="M3.5 2a1.5 1.5 0 110 3 1.5 1.5 0 010-3zM2 6h3v8H2V6zm5 0h2.8v1.1C10.2 6.4 11 6 12 6c2.2 0 3 1.5 3 3.5V14h-3v-4c0-1-.4-1.5-1.2-1.5S9.5 9 9.5 10v4H7V6z"
+                /></svg></a
+            ><a href="#" aria-label="Twitter"
+              ><svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+              >
+                <path
+                  d="M14 3s-1 .5-2 .6A2.8 2.8 0 008.6 2C7 2 5.8 3.2 5.8 4.8v.7C3.5 5.3 1.7 4 .7 2.2c0 0-1.3 3.2 1.8 4.8L1 7c.1 1.5 1.4 2.7 3 2.7l-1.5.5c.5 1.3 1.7 2.2 3.1 2.3C4.5 13.4 2.7 14 1 13.7 2.3 14.6 3.8 15 5.5 15c6 0 9.3-5 9.3-9.3v-.4c.6-.5 1.2-1 1.2-1.3z"
+                /></svg
+            ></a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Product</div>
+          <div class="footer-links">
+            <a href="enterprise.html">Enterprise</a><a href="smb.html">SMB</a
+            ><a href="integrations.html">Integrations</a
+            ><a href="pricing.html">Pricing</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Company</div>
+          <div class="footer-links">
+            <a href="#">About</a><a href="partner.html">Partners</a
+            ><a href="#">Blog</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Resources</div>
+          <div class="footer-links">
+            <a href="case-studies.html">Case Studies</a><a href="#">Docs</a
+            ><a href="#">Newsletter</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Legal</div>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a><a href="#">Terms of Service</a
+            ><a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Performative B.V.</span>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy</a><a href="#">Terms</a><a href="#">Cookies</a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
 </html>

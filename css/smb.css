@@ -1,30 +1,5 @@
 /* ═══════════════════ SMB.CSS ═══════════════════ */
 
-/* ── HERO ── */
-.smb-hero {
-  position:relative; min-height:72vh;
-  display:flex; align-items:center; overflow:hidden;
-  background:
-              radial-gradient(ellipse at left bottom, #6a5cff, transparent 55%),
-              radial-gradient(ellipse at right bottom, #4f46e5, transparent 40%),
-              radial-gradient(ellipse at right bottom, #a1cdff7c, transparent 35%),
-            
-              #0f1226;
-}
-.smb-hero-inner {
-  position:relative; z-index:2;
-  display:grid; grid-template-columns:1fr 1fr;
-  gap:56px; align-items:center;
-  max-width:var(--cmax); margin:0 auto;
-  padding:120px var(--cpx) 80px; width:100%;
-}
-.smb-hero-title {
-  font-size:clamp(34px,4vw,56px); font-weight:900;
-  color:#fff; letter-spacing:-.032em; line-height:1.11; margin-bottom:18px;
-}
-.smb-hero-sub { font-size:15.5px; color:rgba(255,255,255,.56); line-height:1.7; margin-bottom:32px; max-width:440px; }
-.smb-hero-btns { display:flex; gap:12px; flex-wrap:wrap; }
-
 /* ── PLATFORM SECTION ── */
 .sec-platforms-smb { padding:var(--section-py) var(--cpx); background:var(--c-bg); }
 .platform-row-smb {
@@ -89,7 +64,7 @@
 .faq-footer { display:flex; gap:12px; justify-content:center; margin-top:36px; flex-wrap:wrap; }
 .faq-footer-card {
   background:var(--c-text); border-radius:var(--r-lg); padding:24px 28px;
-  flex:1; max-width:340px; min-width:260px;
+  flex:1;max-width: 750px;
 }
 .faq-fc-title { font-size:14px; font-weight:700; color:#fff; margin-bottom:8px; }
 .faq-fc-sub   { font-size:13px; color:rgba(255,255,255,.55); margin-bottom:16px; }

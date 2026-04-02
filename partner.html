@@ -1,495 +1,1474 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Partner Program — Performative AI</title>
-  <link rel="stylesheet" href="css/global.css"/>
-  <link rel="stylesheet" href="css/partner.css"/>
-</head>
-<body>
-
-<!-- NAVBAR -->
-<nav class="navbar" id="navbar">
-  <div class="container">
-    <a href="index.html" class="nav-logo"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="36" viewBox="0 0 32 36" fill="none"><path d="M8.92127 21.1957L24.057 12.389C24.2413 12.2817 24.4497 12.225 24.662 12.2243C24.8743 12.2235 25.0831 12.2789 25.2681 12.3849L29.984 15.0866C30.8086 15.559 30.8116 16.7668 29.9895 17.2435L16.6298 24.9902C16.447 25.0962 16.2402 25.1518 16.0299 25.1515C15.8196 25.1513 15.613 25.0953 15.4304 24.9889L8.92127 21.1957Z" fill="#EE466E"/><path d="M8.92127 21.1957L24.057 12.389C24.2413 12.2817 24.4497 12.225 24.662 12.2243C24.8743 12.2235 25.0831 12.2789 25.2681 12.3849L29.984 15.0866C30.8086 15.559 30.8116 16.7668 29.9895 17.2435L16.6298 24.9902C16.447 25.0962 16.2402 25.1518 16.0299 25.1515C15.8196 25.1513 15.613 25.0953 15.4304 24.9889L8.92127 21.1957Z" stroke="#EE466E" stroke-width="0.9" stroke-miterlimit="10"/><path d="M16.0907 17.1008L0.958829 8.28756C0.774553 8.18025 0.620749 8.02611 0.512435 7.84019C0.404122 7.65427 0.344999 7.44292 0.340839 7.22679L0.233904 1.71756C0.215184 0.754313 1.23569 0.138713 2.05622 0.618249L15.3901 8.41102C15.5725 8.51765 15.7244 8.67085 15.8309 8.85552C15.9375 9.04019 15.9949 9.24995 15.9975 9.4641L16.0907 17.1008Z" fill="#EE466E"/><path d="M16.0907 17.1008L0.958829 8.28756C0.774553 8.18025 0.620749 8.02611 0.512435 7.84019C0.404122 7.65427 0.344999 7.44292 0.340839 7.22679L0.233904 1.71756C0.215184 0.754313 1.23569 0.138713 2.05622 0.618249L15.3901 8.41102C15.5725 8.51765 15.7244 8.67085 15.8309 8.85552C15.9375 9.04019 15.9949 9.24995 15.9975 9.4641L16.0907 17.1008Z" stroke="#EE466E" stroke-width="0.9" stroke-miterlimit="10"/><path d="M8.94154 12.9266L8.86289 30.6786C8.86196 30.8948 8.80601 31.1071 8.70048 31.2946C8.59496 31.4822 8.44347 31.6387 8.26081 31.7489L3.60532 34.5572C2.79137 35.0482 1.76268 34.447 1.76838 33.4836L1.86045 17.8278C1.86174 17.6136 1.91783 17.4035 2.02319 17.2181C2.12854 17.0327 2.27953 16.8785 2.46125 16.7707L8.94154 12.9266Z" fill="#EE466E"/><path d="M8.94154 12.9266L8.86289 30.6786C8.86196 30.8948 8.80601 31.1071 8.70048 31.2946C8.59496 31.4822 8.44347 31.6387 8.26081 31.7489L3.60532 34.5572C2.79137 35.0482 1.76268 34.447 1.76838 33.4836L1.86045 17.8278C1.86174 17.6136 1.91783 17.4035 2.02319 17.2181C2.12854 17.0327 2.27953 16.8785 2.46125 16.7707L8.94154 12.9266Z" stroke="#EE466E" stroke-width="0.9"/></svg>Performative</a>
-    <div class="nav-links"><a href="index.html">Home</a><a href="enterprise.html">Enterprise</a><a href="smb.html">SMB</a><a href="integrations.html">Integrations</a><a href="pricing.html">Pricing</a><a href="case-studies.html">Case Studies</a><a href="partner.html">Partners</a></div>
-    <a href="pricing.html" class="nav-cta">Book a Demo</a>
-    <div class="nav-burger" id="nav-burger"><span></span><span></span><span></span></div>
-  </div>
-</nav>
-<div class="nav-mobile" id="nav-mobile">
-  <a href="index.html">Home</a><a href="enterprise.html">Enterprise</a><a href="smb.html">SMB</a><a href="integrations.html">Integrations</a><a href="pricing.html">Pricing</a><a href="case-studies.html">Case Studies</a><a href="partner.html">Partners</a>
-  <a href="pricing.html" class="nav-cta">Book a Demo</a>
-</div>
-
-<!-- ══ HERO ══ -->
-<section class="partner-hero">
-  <svg class="svg-bg" viewBox="0 0 1440 680" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <radialGradient id="partnerHeroGrad" cx="50%" cy="45%" r="65%">
-        <stop offset="0%" stop-color="#F97316" stop-opacity=".4"/>
-        <stop offset="40%" stop-color="#EF4444" stop-opacity=".2"/>
-        <stop offset="100%" stop-color="#0D0C1E" stop-opacity="0"/>
-      </radialGradient>
-    </defs>
-    <rect width="1440" height="680" fill="#0D0C1E"/>
-    <rect width="1440" height="680" fill="url(#partnerHeroGrad)"/>
-  </svg>
-
-  <div class="partner-hero-inner">
-    <span class="badge badge-orange" style="margin-bottom:18px;display:inline-block;">Agency &amp; Partner Program</span>
-    <h1 class="partner-hero-title">Grow your agency.<br/>We'll fuel the content.</h1>
-    <p class="partner-hero-sub">Join 280+ agencies and system integrators already earning recurring revenue by delivering AI content automation to their clients through Performative AI.</p>
-    <div class="partner-hero-btns">
-      <a href="#apply" class="btn btn-primary">Apply to become a partner</a>
-      <a href="#benefits" class="btn btn-ghost">Explore the program</a>
-    </div>
-
-    <!-- Stats bar -->
-    <div class="partner-stats">
-      <div class="pstat-item">
-        <p class="pstat-num">280+</p>
-        <p class="pstat-label">Active agency partners worldwide</p>
-      </div>
-      <div class="pstat-item">
-        <p class="pstat-num">€2.4M</p>
-        <p class="pstat-label">Partner revenue paid out last year</p>
-      </div>
-      <div class="pstat-item">
-        <p class="pstat-num">30%</p>
-        <p class="pstat-label">Recurring commission on all referrals</p>
-      </div>
-      <div class="pstat-item">
-        <p class="pstat-num">48 hrs</p>
-        <p class="pstat-label">Average time to partner approval</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ══ BENEFITS ══ -->
-<section class="sec-benefits" id="benefits">
-  <div class="section-head">
-    <p class="section-eyebrow">Why partner with us</p>
-    <h2 class="section-title">Built for agencies that want to scale</h2>
-    <p class="section-sub">We designed every part of the partner program to help you win more clients, deliver more value, and earn more revenue.</p>
-  </div>
-
-  <div class="benefits-grid">
-    <div class="benefit-card">
-      <span class="bc-icon-wrap">💰</span>
-      <p class="bc-title">Recurring 30% commission</p>
-      <p class="bc-body">Earn 30% of every subscription payment your referred clients make — for as long as they remain customers. No time caps, no cliffs.</p>
-    </div>
-    <div class="benefit-card">
-      <span class="bc-icon-wrap">🏷️</span>
-      <p class="bc-title">White-label option</p>
-      <p class="bc-body">Gold and Platinum partners can offer Performative AI under their own brand — logo, domain, and colour scheme. Your clients see your agency, not ours.</p>
-    </div>
-    <div class="benefit-card">
-      <span class="bc-icon-wrap">📊</span>
-      <p class="bc-title">Partner dashboard</p>
-      <p class="bc-body">Manage all your client accounts from one unified dashboard. Monitor usage, content quality scores, and billing — all in real time.</p>
-    </div>
-    <div class="benefit-card">
-      <span class="bc-icon-wrap">🎓</span>
-      <p class="bc-title">Certified training</p>
-      <p class="bc-body">Get your team certified through our Partner Academy. Certification unlocks higher commission tiers and priority deal registration.</p>
-    </div>
-    <div class="benefit-card">
-      <span class="bc-icon-wrap">🤝</span>
-      <p class="bc-title">Dedicated partner success manager</p>
-      <p class="bc-body">Gold and Platinum partners get a named partner success manager — available for joint sales calls, technical pre-sales, and quarterly business reviews.</p>
-    </div>
-    <div class="benefit-card">
-      <span class="bc-icon-wrap">🚀</span>
-      <p class="bc-title">Co-marketing &amp; lead sharing</p>
-      <p class="bc-body">Feature your agency in our partner directory, co-create case studies, and receive warm introductions to enterprise leads in your vertical or region.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ══ TIERS (warm orange gradient) ══ -->
-<section class="sec-tiers">
-  <svg class="svg-bg" viewBox="0 0 1440 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <radialGradient id="tiersGrad" cx="50%" cy="0%" r="80%">
-        <stop offset="0%" stop-color="#F97316" stop-opacity=".38"/>
-        <stop offset="55%" stop-color="#EF4444" stop-opacity=".18"/>
-        <stop offset="100%" stop-color="#0D0C1E" stop-opacity="0"/>
-      </radialGradient>
-    </defs>
-    <rect width="1440" height="600" fill="#0D0C1E"/>
-    <rect width="1440" height="600" fill="url(#tiersGrad)"/>
-  </svg>
-
-  <div style="position:relative;z-index:2;max-width:var(--cmax);margin:0 auto;width:100%;">
-    <div class="section-head">
-      <p class="section-eyebrow" style="color:rgba(255,255,255,.5);">Partnership tiers</p>
-      <h2 class="section-title" style="color:#fff;">Find your level</h2>
-      <p class="section-sub" style="color:rgba(255,255,255,.5);">Three tiers designed to reward agency growth. Move up as your client base expands.</p>
-    </div>
-
-    <div class="tiers-grid">
-      <!-- Silver -->
-      <div class="tier-card">
-        <div class="tier-badge-wrap">
-          <span class="badge" style="background:rgba(255,255,255,.12);color:rgba(255,255,255,.7);border-color:rgba(255,255,255,.2);">Silver</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Partner Program — Performative AI</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/partner.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <a href="index.html" class="nav-logo"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="36"
+            viewBox="0 0 32 36"
+            fill="none"
+          >
+            <path
+              d="M8.92127 21.1957L24.057 12.389C24.2413 12.2817 24.4497 12.225 24.662 12.2243C24.8743 12.2235 25.0831 12.2789 25.2681 12.3849L29.984 15.0866C30.8086 15.559 30.8116 16.7668 29.9895 17.2435L16.6298 24.9902C16.447 25.0962 16.2402 25.1518 16.0299 25.1515C15.8196 25.1513 15.613 25.0953 15.4304 24.9889L8.92127 21.1957Z"
+              fill="#EE466E"
+            />
+            <path
+              d="M8.92127 21.1957L24.057 12.389C24.2413 12.2817 24.4497 12.225 24.662 12.2243C24.8743 12.2235 25.0831 12.2789 25.2681 12.3849L29.984 15.0866C30.8086 15.559 30.8116 16.7668 29.9895 17.2435L16.6298 24.9902C16.447 25.0962 16.2402 25.1518 16.0299 25.1515C15.8196 25.1513 15.613 25.0953 15.4304 24.9889L8.92127 21.1957Z"
+              stroke="#EE466E"
+              stroke-width="0.9"
+              stroke-miterlimit="10"
+            />
+            <path
+              d="M16.0907 17.1008L0.958829 8.28756C0.774553 8.18025 0.620749 8.02611 0.512435 7.84019C0.404122 7.65427 0.344999 7.44292 0.340839 7.22679L0.233904 1.71756C0.215184 0.754313 1.23569 0.138713 2.05622 0.618249L15.3901 8.41102C15.5725 8.51765 15.7244 8.67085 15.8309 8.85552C15.9375 9.04019 15.9949 9.24995 15.9975 9.4641L16.0907 17.1008Z"
+              fill="#EE466E"
+            />
+            <path
+              d="M16.0907 17.1008L0.958829 8.28756C0.774553 8.18025 0.620749 8.02611 0.512435 7.84019C0.404122 7.65427 0.344999 7.44292 0.340839 7.22679L0.233904 1.71756C0.215184 0.754313 1.23569 0.138713 2.05622 0.618249L15.3901 8.41102C15.5725 8.51765 15.7244 8.67085 15.8309 8.85552C15.9375 9.04019 15.9949 9.24995 15.9975 9.4641L16.0907 17.1008Z"
+              stroke="#EE466E"
+              stroke-width="0.9"
+              stroke-miterlimit="10"
+            />
+            <path
+              d="M8.94154 12.9266L8.86289 30.6786C8.86196 30.8948 8.80601 31.1071 8.70048 31.2946C8.59496 31.4822 8.44347 31.6387 8.26081 31.7489L3.60532 34.5572C2.79137 35.0482 1.76268 34.447 1.76838 33.4836L1.86045 17.8278C1.86174 17.6136 1.91783 17.4035 2.02319 17.2181C2.12854 17.0327 2.27953 16.8785 2.46125 16.7707L8.94154 12.9266Z"
+              fill="#EE466E"
+            />
+            <path
+              d="M8.94154 12.9266L8.86289 30.6786C8.86196 30.8948 8.80601 31.1071 8.70048 31.2946C8.59496 31.4822 8.44347 31.6387 8.26081 31.7489L3.60532 34.5572C2.79137 35.0482 1.76268 34.447 1.76838 33.4836L1.86045 17.8278C1.86174 17.6136 1.91783 17.4035 2.02319 17.2181C2.12854 17.0327 2.27953 16.8785 2.46125 16.7707L8.94154 12.9266Z"
+              stroke="#EE466E"
+              stroke-width="0.9"
+            /></svg
+          >Performative</a
+        >
+        <div class="nav-links">
+          <a href="index.html">Home</a><a href="enterprise.html">Enterprise</a
+          ><a href="smb.html">SMB</a><a href="integrations.html">Integrations</a
+          ><a href="pricing.html">Pricing</a
+          ><a href="case-studies.html">Case Studies</a
+          ><a href="partner.html">Partners</a>
         </div>
-        <span class="tier-icon">🥈</span>
-        <p class="tier-name">Silver Partner</p>
-        <p class="tier-req">Requirement: 3+ active client referrals</p>
-        <p class="tier-rev">20% recurring commission</p>
-        <hr class="tier-divider"/>
-        <ul class="tier-list">
-          <li><span style="color:#86EFAC;flex-shrink:0;">✓</span> Partner directory listing</li>
-          <li><span style="color:#86EFAC;flex-shrink:0;">✓</span> Partner Academy access</li>
-          <li><span style="color:#86EFAC;flex-shrink:0;">✓</span> Co-branded sales collateral</li>
-          <li><span style="color:#86EFAC;flex-shrink:0;">✓</span> Quarterly partner newsletter</li>
-          <li><span style="color:#86EFAC;flex-shrink:0;">✓</span> Partner Slack community</li>
-        </ul>
-      </div>
-
-      <!-- Gold (popular) -->
-      <div class="tier-card popular">
-        <div class="tier-badge-wrap">
-          <span class="badge" style="background:rgba(249,115,22,.3);color:#FED7AA;border-color:rgba(249,115,22,.4);">Most popular</span>
-        </div>
-        <span class="tier-icon">🥇</span>
-        <p class="tier-name">Gold Partner</p>
-        <p class="tier-req">Requirement: 10+ active client referrals</p>
-        <p class="tier-rev">25% recurring commission</p>
-        <hr class="tier-divider"/>
-        <ul class="tier-list">
-          <li><span style="color:#86EFAC;flex-shrink:0;">✓</span> Everything in Silver</li>
-          <li><span style="color:#86EFAC;flex-shrink:0;">✓</span> Dedicated partner success manager</li>
-          <li><span style="color:#86EFAC;flex-shrink:0;">✓</span> White-label option available</li>
-          <li><span style="color:#86EFAC;flex-shrink:0;">✓</span> Joint sales calls &amp; pre-sales support</li>
-          <li><span style="color:#86EFAC;flex-shrink:0;">✓</span> Priority deal registration</li>
-          <li><span style="color:#86EFAC;flex-shrink:0;">✓</span> Co-marketing campaigns</li>
-        </ul>
-      </div>
-
-      <!-- Platinum -->
-      <div class="tier-card">
-        <div class="tier-badge-wrap">
-          <span class="badge" style="background:rgba(255,255,255,.12);color:rgba(255,255,255,.7);border-color:rgba(255,255,255,.2);">Platinum</span>
-        </div>
-        <span class="tier-icon">💎</span>
-        <p class="tier-name">Platinum Partner</p>
-        <p class="tier-req">Requirement: 25+ active client referrals</p>
-        <p class="tier-rev">30% recurring commission</p>
-        <hr class="tier-divider"/>
-        <ul class="tier-list">
-          <li><span style="color:#86EFAC;flex-shrink:0;">✓</span> Everything in Gold</li>
-          <li><span style="color:#86EFAC;flex-shrink:0;">✓</span> Custom SLA &amp; dedicated infra</li>
-          <li><span style="color:#86EFAC;flex-shrink:0;">✓</span> Full white-label deployment</li>
-          <li><span style="color:#86EFAC;flex-shrink:0;">✓</span> Lead sharing &amp; warm intros</li>
-          <li><span style="color:#86EFAC;flex-shrink:0;">✓</span> Annual partner summit invite</li>
-          <li><span style="color:#86EFAC;flex-shrink:0;">✓</span> Custom commission structures</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ══ FEATURED AGENCIES ══ -->
-<section class="sec-agencies">
-  <div class="section-head">
-    <p class="section-eyebrow">Partner spotlight</p>
-    <h2 class="section-title">Agencies already winning</h2>
-    <p class="section-sub">A few of the standout agencies in our partner network.</p>
-  </div>
-
-  <div class="agencies-grid">
-    <div class="agency-card">
-      <span class="agency-logo">🌿</span>
-      <p class="agency-name">GreenLeaf Digital</p>
-      <p class="agency-desc">Shopify-focused growth agency. 80+ active clients. Gold Partner since 2023.</p>
-    </div>
-    <div class="agency-card">
-      <span class="agency-logo">⚡</span>
-      <p class="agency-name">Volt Commerce</p>
-      <p class="agency-desc">Enterprise e-commerce consultancy specialising in Magento and Shopify Plus migrations.</p>
-    </div>
-    <div class="agency-card">
-      <span class="agency-logo">🎯</span>
-      <p class="agency-name">TrueSearch Agency</p>
-      <p class="agency-desc">SEO-first content agency. Platinum Partner. Manages 200+ store content pipelines.</p>
-    </div>
-    <div class="agency-card">
-      <span class="agency-logo">🔷</span>
-      <p class="agency-name">BluePrint Digital</p>
-      <p class="agency-desc">WooCommerce and WordPress specialists. Gold Partner offering AI content as a managed service.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ══ CERTIFICATION STEPS ══ -->
-<section class="sec-cert">
-  <div class="section-head">
-    <p class="section-eyebrow">Partner Academy</p>
-    <h2 class="section-title">Get certified in 6 steps</h2>
-    <p class="section-sub">Our certification program equips your team to sell, deliver, and support Performative AI implementations with confidence.</p>
-  </div>
-
-  <div class="cert-grid">
-    <div class="cert-step">
-      <div class="cert-step-num s1">1</div>
-      <div class="cert-step-content">
-        <p class="cert-step-title">Platform foundations</p>
-        <p class="cert-step-body">Learn how Performative AI ingests, analyses, and generates content. 45-min self-paced video course.</p>
-      </div>
-    </div>
-    <div class="cert-step">
-      <div class="cert-step-num s2">2</div>
-      <div class="cert-step-content">
-        <p class="cert-step-title">Integration workshop</p>
-        <p class="cert-step-body">Hands-on lab connecting Shopify, WooCommerce, and Magento demo stores. Live instructor session.</p>
-      </div>
-    </div>
-    <div class="cert-step">
-      <div class="cert-step-num s3">3</div>
-      <div class="cert-step-content">
-        <p class="cert-step-title">Brand voice configuration</p>
-        <p class="cert-step-body">Master tone profiles, keyword lists, and custom instruction sets. Includes 3 real-world exercises.</p>
-      </div>
-    </div>
-    <div class="cert-step">
-      <div class="cert-step-num s4">4</div>
-      <div class="cert-step-content">
-        <p class="cert-step-title">Sales &amp; positioning training</p>
-        <p class="cert-step-body">How to pitch AI content automation to sceptical stakeholders. Objection handling playbook included.</p>
-      </div>
-    </div>
-    <div class="cert-step">
-      <div class="cert-step-num s5">5</div>
-      <div class="cert-step-content">
-        <p class="cert-step-title">Client onboarding mastery</p>
-        <p class="cert-step-body">Proven 5-step onboarding framework used by top partners. Template decks and setup checklists included.</p>
-      </div>
-    </div>
-    <div class="cert-step">
-      <div class="cert-step-num s6">6</div>
-      <div class="cert-step-content">
-        <p class="cert-step-title">Certification exam</p>
-        <p class="cert-step-body">60-question assessment covering all modules. Pass score: 80%. Digital badge awarded on completion.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ══ APPLICATION FORM ══ -->
-<section class="sec-apply" id="apply">
-  <div class="section-head">
-    <p class="section-eyebrow">Apply now</p>
-    <h2 class="section-title">Ready to become a partner?</h2>
-    <p class="section-sub">Fill in the form below and our partner team will be in touch within 48 hours.</p>
-  </div>
-
-  <div class="apply-form-wrap">
-    <form id="partnerForm" onsubmit="return false;">
-      <div class="form-row">
-        <div class="form-group">
-          <label for="firstName">First name</label>
-          <input type="text" id="firstName" class="form-control" placeholder="Jane"/>
-        </div>
-        <div class="form-group">
-          <label for="lastName">Last name</label>
-          <input type="text" id="lastName" class="form-control" placeholder="Smith"/>
+        <a href="pricing.html" class="nav-cta">Book a Demo</a>
+        <div class="nav-burger" id="nav-burger">
+          <span></span><span></span><span></span>
         </div>
       </div>
+    </nav>
+    <div class="nav-mobile" id="nav-mobile">
+      <a href="index.html">Home</a><a href="enterprise.html">Enterprise</a
+      ><a href="smb.html">SMB</a><a href="integrations.html">Integrations</a
+      ><a href="pricing.html">Pricing</a
+      ><a href="case-studies.html">Case Studies</a
+      ><a href="partner.html">Partners</a>
+      <a href="pricing.html" class="nav-cta">Book a Demo</a>
+    </div>
 
-      <div class="form-row">
-        <div class="form-group">
-          <label for="email">Work email</label>
-          <input type="email" id="email" class="form-control" placeholder="jane@agency.com"/>
+    <!-- ══ HERO ══ -->
+    <section class="partner-hero">
+      <div class="partner-hero-inner">
+        <span
+          class="badge badge-orange"
+          style="margin-bottom: 18px; display: inline-block"
+          >Agency &amp; Partner Program</span
+        >
+        <h1 class="partner-hero-title">
+          Grow your agency.<br />We'll fuel the content.
+        </h1>
+        <p class="partner-hero-sub">
+          Join 280+ agencies and system integrators already earning recurring
+          revenue by delivering AI content automation to their clients through
+          Performative AI.
+        </p>
+        <div class="partner-hero-btns">
+          <a href="#apply" class="btn btn-primary">Apply to become a partner</a>
+          <a href="#benefits" class="btn btn-ghost">Explore the program</a>
         </div>
-        <div class="form-group">
-          <label for="company">Agency / company name</label>
-          <input type="text" id="company" class="form-control" placeholder="My Agency Ltd."/>
+
+        <!-- Stats bar -->
+        <div class="partner-stats">
+          <div class="pstat-item">
+            <p class="pstat-num">280+</p>
+            <p class="pstat-label">Active agency partners worldwide</p>
+          </div>
+          <div class="pstat-item">
+            <p class="pstat-num">€2.4M</p>
+            <p class="pstat-label">Partner revenue paid out last year</p>
+          </div>
+          <div class="pstat-item">
+            <p class="pstat-num">30%</p>
+            <p class="pstat-label">Recurring commission on all referrals</p>
+          </div>
+          <div class="pstat-item">
+            <p class="pstat-num">48 hrs</p>
+            <p class="pstat-label">Average time to partner approval</p>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="form-row">
-        <div class="form-group">
-          <label for="website">Agency website</label>
-          <input type="url" id="website" class="form-control" placeholder="https://myagency.com"/>
+    <!-- ══ BENEFITS ══ -->
+    <section class="sec-benefits" id="benefits">
+      <div class="section-head">
+        <p class="section-eyebrow">Why partner with us</p>
+        <h2 class="section-title">Built for agencies that want to scale</h2>
+        <p class="section-sub">
+          We designed every part of the partner program to help you win more
+          clients, deliver more value, and earn more revenue.
+        </p>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <span class="bc-icon-wrap"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="52"
+              height="52"
+              viewBox="0 0 52 52"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_164_59)">
+                <path
+                  d="M31.8712 9.6398C31.8712 9.6398 36.8539 3.1729 35.4211 1.31766C34.9328 0.685435 34.5164 1.54404 33.5066 1.54404C32.32 1.54404 32.32 0.7677 31.1334 0.7677C29.9469 0.7677 29.9469 1.54404 28.7604 1.54404C27.5741 1.54404 27.5741 0.7677 26.3877 0.7677C25.2014 0.7677 25.2014 1.54404 24.0149 1.54404C23.0039 1.54404 22.5892 0.674263 22.0976 1.30679C20.6642 3.15178 25.574 9.63969 25.574 9.63969C3.88992 23.8948 10.8816 43.2812 23.6842 43.2812H33.8378C46.679 43.2812 53.6274 23.9421 31.8712 9.6398Z"
+                  fill="#EABC6B"
+                />
+                <path
+                  d="M31.8712 9.63979C31.8712 9.63979 36.8539 3.1729 35.4211 1.31766C34.9328 0.685435 34.5164 1.54404 33.5066 1.54404C32.32 1.54404 32.32 0.7677 31.1334 0.7677C29.9469 0.7677 29.9469 1.54404 28.7605 1.54404C28.7021 1.54404 28.6487 1.54079 28.5957 1.53714C28.119 3.58057 25.9708 6.76415 24.7414 8.46868C25.2256 9.17911 25.5741 9.63969 25.5741 9.63969C25.2848 9.82982 25.0017 10.0211 24.7227 10.213C45.4404 24.4532 38.5081 43.2811 25.8376 43.2811H33.8378C46.679 43.2812 53.6274 23.9421 31.8712 9.63979Z"
+                  fill="#E8AE4D"
+                />
+                <path
+                  d="M32.7978 11.9399C29.9026 12.671 27.0422 12.6711 24.1464 11.9399C23.1385 11.6854 22.5672 10.552 22.9299 9.52189C22.934 9.51042 22.938 9.49884 22.9421 9.48736C23.2462 8.62367 24.1086 8.13902 24.9539 8.35118C27.3247 8.94644 29.6189 8.94654 31.9904 8.35118C32.8357 8.13892 33.6981 8.62367 34.0022 9.48736C34.0063 9.49884 34.0104 9.51042 34.0144 9.52189C34.377 10.5521 33.8057 11.6854 32.7978 11.9399Z"
+                  fill="#FFE07D"
+                />
+                <path
+                  d="M5.57422 46.6073L16.6005 50.7114C17.537 51.06 18.5281 51.2384 19.5273 51.2384H30.8907C32.481 51.2384 34.0384 50.7865 35.3817 49.9354L49.6098 40.9196C50.5485 40.0861 50.7225 38.6852 50.0162 37.6474C49.2436 36.5118 47.9653 36.3143 46.5587 36.9795L32.7063 43.0788L32.7227 40.8313C32.5393 38.9867 31.1189 37.5062 29.2834 37.2464L20.8477 36.2751C18.9018 35.9998 17.9293 35.3477 16.2329 34.3553C13.9169 33.0005 11.2819 32.2864 8.59875 32.2864H5.57422V46.6073Z"
+                  fill="#FFDDCE"
+                />
+                <path
+                  d="M5.57422 46.6073L16.6005 50.7114C17.537 51.06 18.5281 51.2384 19.5273 51.2384H30.8907C32.481 51.2384 34.0384 50.7865 35.3817 49.9354L49.6098 40.9196C50.5485 40.0861 50.7225 38.6852 50.0162 37.6474C49.2436 36.5118 47.9653 36.3143 46.5587 36.9795L32.7063 43.0788L32.7227 40.8313C32.5393 38.9867 31.1189 37.5062 29.2834 37.2464L20.8477 36.2751C18.9018 35.9998 17.9293 35.3477 16.2329 34.3553C13.9169 33.0005 11.2819 32.2864 8.59875 32.2864H5.57422V46.6073Z"
+                  fill="#FFDDCE"
+                />
+                <path
+                  d="M50.0162 37.6474C49.2436 36.5119 47.9653 36.3144 46.5588 36.9796L42.7485 38.6573C42.9331 38.9494 43.0798 39.1825 43.0798 39.1825C43.786 40.2203 43.612 41.6211 42.6734 42.4547L34.3829 47.708C33.291 48.2079 32.1005 48.4701 30.8907 48.4701H19.5273C18.5281 48.4701 17.5369 48.2917 16.6005 47.9431L5.57422 43.839V46.6074L16.6005 50.7115C17.537 51.0601 18.5281 51.2385 19.5273 51.2385H28.8113H30.8907C32.481 51.2385 34.0384 50.7866 35.3817 49.9355L49.6098 40.9198C50.5484 40.0862 50.7225 38.6853 50.0162 37.6474Z"
+                  fill="#FFCBBE"
+                />
+                <path
+                  d="M31.6889 38.5162L31.6885 38.5705L31.7242 38.5547C31.7127 38.5416 31.7007 38.529 31.6889 38.5162Z"
+                  fill="#F5DBCC"
+                />
+                <path
+                  d="M7.94697 48.8035C7.94697 49.6036 7.29839 50.2521 6.49838 50.2521H3.0023C2.20229 50.2521 1.55371 49.6036 1.55371 48.8035V31.0663C1.55371 30.2663 2.20229 29.6177 3.0023 29.6177H6.49838C7.29839 29.6177 7.94697 30.2663 7.94697 31.0663V48.8035Z"
+                  fill="#407093"
+                />
+                <path
+                  d="M50.646 37.219C49.676 35.7935 48.0305 35.4454 46.243 36.2865L45.2957 36.7037C46.7894 33.5197 46.9748 29.9704 46.2312 26.6178C45.3771 22.7673 43.3143 19.0371 40.1 15.5308C39.8159 15.2208 39.3341 15.1998 39.024 15.4841C38.7139 15.7683 38.693 16.25 38.9773 16.5602C42.0085 19.8666 43.9487 23.3615 44.7442 26.9476C45.582 30.725 45.0946 34.6205 42.9566 37.7335L33.4765 41.9076L33.4844 40.8369C33.4846 40.8099 33.4833 40.7829 33.4806 40.756C33.2617 38.5554 31.5796 36.8022 29.3901 36.4924C29.3836 36.4914 29.3771 36.4906 29.3705 36.4899L20.9447 35.5197C17.7048 35.0585 16.8704 33.117 12.4824 32.0098C12.1793 29.4373 12.5834 26.6982 13.691 23.9523C15.3592 19.8169 18.6227 15.799 23.1469 12.3019C24.8332 13.4975 32.3562 13.6463 34.0397 12.104C34.9022 12.759 35.7253 13.434 36.4921 14.1172C36.6373 14.2466 36.8182 14.3101 36.9985 14.3101C37.2081 14.3101 37.417 14.2241 37.5674 14.0552C37.8472 13.7412 37.8193 13.2598 37.5053 12.98C36.6648 12.2312 35.7607 11.4923 34.8124 10.7782C35.0346 9.83591 34.7236 8.73304 33.903 8.07654C36.2876 4.4597 36.9811 2.09238 36.0231 0.852096C35.3651 8.83043e-05 34.5465 0.39994 34.1969 0.570768C33.6044 0.860018 33.2813 0.875252 32.7361 0.518565C31.696 -0.162005 30.6028 -0.183943 29.5292 0.518565C28.9771 0.879823 28.5423 0.879823 27.9904 0.518565C26.9502 -0.162005 25.8574 -0.183943 24.7836 0.518565C24.2321 0.879518 23.9078 0.857174 23.3246 0.567315C22.9755 0.393745 22.1578 -0.0127086 21.4956 0.839401C20.5591 2.04474 21.1856 4.33742 23.4094 7.83127C23.2732 7.9049 23.1434 7.99133 23.0222 8.09005C22.1378 7.15608 20.6888 6.18199 18.5934 6.41599C16.8553 6.61049 15.5737 6.03615 14.8045 5.52021C14.4551 5.28621 13.982 5.37945 13.7478 5.72862C13.5136 6.07799 13.6069 6.55107 13.9562 6.78528C14.9368 7.44269 16.5665 8.17455 18.7624 7.92968C20.3813 7.74809 21.4798 8.57542 22.1636 9.41737C22.1542 9.44987 22.1456 9.48257 22.1376 9.51528C21.5543 9.52442 20.6826 9.57885 19.7226 9.77853C17.4139 10.2588 15.7001 11.356 14.7665 12.9517C14.5541 13.3147 14.6762 13.7813 15.0392 13.9938C15.4023 14.2061 15.8687 14.084 16.0811 13.721C17.4699 11.3476 20.8597 11.0573 22.2061 11.0391C22.2119 11.0559 22.2187 11.0724 22.2248 11.0891C17.4201 14.7954 14.075 18.9287 12.2786 23.3822C11.1431 26.1972 10.6896 29.0174 10.9198 31.6975C10.1895 31.5895 9.4507 31.5315 8.70838 31.5264V31.0658C8.70838 29.8472 7.71693 28.8558 6.49828 28.8558H3.00209C1.78345 28.8558 0.791992 29.8473 0.791992 31.0658V48.8031C0.791992 50.0219 1.78345 51.0132 3.00209 51.0132H6.49818C7.71683 51.0132 8.70828 50.0218 8.70828 48.8031V48.5862L16.3347 51.4247C17.3596 51.8061 18.4337 51.9996 19.5272 51.9996H30.8906C32.628 51.9996 34.3219 51.508 35.7893 50.5782C50.9484 40.9684 50.0279 41.5663 50.1154 41.4887C51.3365 40.4048 51.5646 38.5692 50.646 37.219ZM32.6105 11.2015C29.8255 11.9047 27.1176 11.9047 24.3319 11.2015C23.1367 10.8994 23.483 8.76757 24.7675 9.08973C27.2597 9.71535 29.6826 9.71535 32.1749 9.08973C33.4371 8.77285 33.825 10.8946 32.6105 11.2015ZM22.629 1.92267C22.635 1.92561 22.641 1.92866 22.6467 1.9315C23.6775 2.44378 24.5807 2.47161 25.6175 1.79328C26.9151 0.943909 27.056 2.30576 28.7597 2.30576C29.5799 2.30576 30.0325 2.0096 30.363 1.79328C30.9152 1.43192 31.3501 1.43212 31.9022 1.79328C32.9436 2.47476 33.825 2.44114 34.8857 1.92957C35.0424 2.49446 34.6878 4.17847 32.4294 7.5408C31.308 7.52171 29.6805 8.62315 25.0735 7.59788C22.82 4.19208 22.4715 2.49172 22.629 1.92267ZM49.1455 40.3123L34.9741 49.2921C33.751 50.0672 32.3389 50.477 30.8907 50.477H19.5273C18.6158 50.477 17.7204 50.3157 16.8661 49.9977L8.70828 46.9613V38.7596C8.70828 38.3389 8.36734 37.998 7.94677 37.998C7.5262 37.998 7.18525 38.3389 7.18525 38.7596V48.8035C7.18525 49.1823 6.87701 49.4905 6.49828 49.4905H3.00209C2.62327 49.4905 2.31513 49.1822 2.31513 48.8035V31.0662C2.31513 30.6874 2.62327 30.3794 3.00209 30.3794H6.49818C6.87701 30.3794 7.18515 30.6875 7.18515 31.0662V35.1992C7.18515 35.6199 7.52609 35.9608 7.94666 35.9608C8.36723 35.9608 8.70818 35.6199 8.70818 35.1992V33.0499C15.0082 33.0982 16.4247 36.4188 20.7409 37.0293C20.7474 37.0303 20.7539 37.0311 20.7604 37.0318L29.1857 38.0018C30.661 38.2148 31.7964 39.3896 31.9607 40.8686L31.9501 42.3173H24.0928C23.6722 42.3173 23.3311 42.6583 23.3311 43.0789C23.3311 43.4996 23.6721 43.8406 24.0928 43.8406H32.7062C32.8024 43.8406 32.9135 43.8192 33.0102 43.7771C33.0257 43.7702 46.8494 37.6838 46.8655 37.6767C47.8619 37.2339 48.7704 37.1706 49.3865 38.076C49.8655 38.7795 49.7594 39.7306 49.1455 40.3123Z"
+                  fill="black"
+                />
+                <path
+                  d="M28.6721 34.5536C29.0927 34.5536 29.4337 34.2126 29.4337 33.792V32.5295C31.5717 32.1826 32.8192 30.4521 33.0906 28.8376C33.4296 26.8209 32.3732 25.067 30.3995 24.3694C30.0507 24.2461 29.7298 24.1282 29.4336 24.0143V19.1584C30.3346 19.3078 30.8755 19.7741 30.9149 19.8089C31.2243 20.0903 31.703 20.0694 31.9869 19.7617C32.2721 19.4525 32.2526 18.9707 31.9434 18.6855C31.8897 18.636 30.957 17.7962 29.4336 17.6206V16.5375C29.4336 16.1168 29.0927 15.7759 28.672 15.7759C28.2514 15.7759 27.9105 16.1168 27.9105 16.5375V17.6821C27.7269 17.7172 27.5388 17.7619 27.3455 17.8201C26.0536 18.2092 25.088 19.317 24.8252 20.7109C24.5869 21.9759 24.9879 23.1924 25.8718 23.8856C26.3793 24.2837 27.0182 24.6481 27.9105 25.0377V31.0604C27.0297 31.0232 26.4876 30.8578 25.5418 30.2391C25.1899 30.009 24.7179 30.1074 24.4876 30.4595C24.2574 30.8114 24.356 31.2835 24.708 31.5137C25.9512 32.327 26.7823 32.5392 27.9105 32.583V33.792C27.9105 34.2126 28.2514 34.5536 28.6721 34.5536ZM26.8119 22.6872C26.3771 22.3462 26.1893 21.697 26.3221 20.993C26.4451 20.3402 26.894 19.547 27.7849 19.2787C27.8272 19.2659 27.8688 19.2549 27.9105 19.2437V23.3575C27.4545 23.1298 27.0969 22.9107 26.8119 22.6872ZM29.8919 25.8055C31.787 26.4753 31.6696 28.1025 31.5885 28.5852C31.4205 29.5847 30.6868 30.6517 29.4336 30.9729V25.6404C29.5819 25.6947 29.7333 25.7494 29.8919 25.8055Z"
+                  fill="black"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_164_59">
+                  <rect width="52" height="52" fill="white" />
+                </clipPath>
+              </defs></svg
+          ></span>
+          <p class="bc-title">Recurring 30% commission</p>
+          <p class="bc-body">
+            Earn 30% of every subscription payment your referred clients make —
+            for as long as they remain customers. No time caps, no cliffs.
+          </p>
         </div>
-        <div class="form-group">
-          <label for="clients">Estimated active clients</label>
-          <select id="clients" class="form-control">
-            <option value="">Select range</option>
-            <option>1–5 clients</option>
-            <option>6–20 clients</option>
-            <option>21–50 clients</option>
-            <option>51–100 clients</option>
-            <option>100+ clients</option>
-          </select>
+        <div class="benefit-card">
+          <span class="bc-icon-wrap"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="43"
+              height="52"
+              viewBox="0 0 43 52"
+              fill="none"
+            >
+              <path
+                d="M30.7593 34.6445V50.3479C30.7593 51.643 29.3023 52.2906 28.331 51.4811L22.8267 46.9482C22.8267 46.9482 22.6648 46.9482 22.6648 46.7863C22.1791 46.4625 21.6935 46.3006 21.2078 46.3006C20.5602 46.3006 20.0746 46.4625 19.5889 46.9482L14.0846 51.643C13.1133 52.4525 11.6562 51.8049 11.6562 50.5098V34.8064H30.7593V34.6445Z"
+                fill="#F45170"
+              />
+              <path
+                d="M30.7586 34.6445V50.3479C30.7586 51.643 29.3016 52.2906 28.3302 51.4811L22.8259 46.9482C22.8259 46.9482 22.664 46.9482 22.664 46.7863C22.1784 46.4625 21.6927 46.3006 21.207 46.3006V34.6445H30.7586Z"
+                fill="#E93565"
+              />
+              <path
+                d="M30.7593 38.368V40.7964C29.3023 41.1202 27.5215 40.6345 26.2264 40.9583C24.6075 41.444 22.9886 43.2248 21.2078 43.2248C19.427 43.2248 17.8081 41.444 16.1892 40.9583C14.7322 40.6345 12.9514 41.1202 11.6562 40.7964V38.368H30.7593Z"
+                fill="#CC104A"
+              />
+              <path
+                d="M39.825 26.0644C39.3394 27.8452 40.1488 29.9497 39.3394 31.5686C38.368 33.1875 36.1016 33.5113 34.8064 34.8064C33.5113 36.1016 33.1875 38.368 31.5686 39.3394C30.1116 40.1488 27.8452 39.3394 26.0644 39.825C24.4455 40.3107 22.8266 42.0915 21.0458 42.0915C19.265 42.0915 17.6461 40.3107 16.0272 39.825C14.2464 39.3394 12.1418 40.1488 10.5229 39.3394C9.06586 38.5299 8.58019 36.1016 7.28507 34.8064C5.98995 33.5113 3.72348 33.1875 2.75214 31.5686C1.94268 30.1116 2.75214 27.8452 2.26647 26.0644C1.78079 24.4455 0 22.8266 0 21.0458C0 19.265 1.78079 17.6461 2.26647 16.0272C2.75214 14.2464 1.94268 12.1418 2.75214 10.5229C3.56159 9.06586 5.98995 8.58019 7.28507 7.28507C8.58019 5.98995 8.90397 3.72348 10.5229 2.75214C11.9799 1.94269 14.2464 2.75214 16.0272 2.26647C17.6461 1.78079 19.265 0 21.0458 0C22.8266 0 24.4455 1.78079 26.0644 2.26647C27.8452 2.75214 29.9497 1.94269 31.5686 2.75214C33.0257 3.56159 33.5113 5.98995 34.8064 7.28507C36.1016 8.58019 38.368 8.90397 39.3394 10.5229C40.1488 11.9799 39.3394 14.2464 39.825 16.0272C40.3107 17.6461 42.0915 19.265 42.0915 21.0458C42.0915 22.8266 40.3107 24.4455 39.825 26.0644Z"
+                fill="#F9BE48"
+              />
+              <g opacity="0.4">
+                <path
+                  d="M36.9107 21.0458C36.9107 29.626 29.9494 36.7492 21.2073 36.7492C12.6271 36.7492 5.50391 29.7879 5.50391 21.0458C5.50391 12.4656 12.4652 5.34241 21.2073 5.34241C29.7875 5.34241 36.9107 12.4656 36.9107 21.0458Z"
+                  fill="white"
+                />
+              </g>
+              <path
+                d="M35.292 21.0458C35.292 28.8165 28.9783 35.1302 21.2075 35.1302C13.4368 35.1302 7.12305 28.8165 7.12305 21.0458C7.12305 13.275 13.4368 6.9613 21.2075 6.9613C28.9783 6.9613 35.292 13.275 35.292 21.0458Z"
+                fill="#F3A250"
+              />
+              <path
+                d="M35.2921 22.017C34.8064 14.5701 28.6546 8.742 21.2076 8.742C13.7607 8.742 7.60883 14.5701 7.12316 22.017C6.63748 13.5987 13.4369 6.79932 21.2076 6.96121C29.1403 7.1231 35.7778 13.4368 35.2921 22.017Z"
+                fill="#EF7B56"
+              />
+              <path
+                d="M25.741 23.1503L26.5505 28.1689C26.7124 28.9784 25.9029 29.464 25.2553 29.1403L20.8843 26.8738C20.5605 26.7119 20.2367 26.7119 20.0748 26.8738L15.7038 29.1403C15.0562 29.464 14.2468 28.9784 14.4087 28.1689L15.2181 23.1503C15.2181 22.8265 15.2181 22.5027 14.8944 22.3409L11.3328 18.7793C10.8471 18.2936 11.009 17.3222 11.8184 17.1604L16.837 16.3509C17.1608 16.3509 17.3227 16.189 17.4846 15.8652L19.5892 11.6561C19.913 11.0085 20.8843 11.0085 21.2081 11.6561L23.4745 16.189C23.6364 16.5128 23.7983 16.6747 24.1221 16.6747L29.1407 17.4841C29.9502 17.646 30.2739 18.4555 29.6264 19.103L26.0648 22.3409C25.9029 22.6646 25.741 22.8265 25.741 23.1503Z"
+                fill="#EF7B56"
+              />
+              <path
+                d="M26.5494 23.9598L27.3588 28.9784C27.5207 29.7879 26.7113 30.2735 26.0637 29.9498L21.6927 27.6833C21.3689 27.5214 21.0451 27.5214 20.8832 27.6833L16.3503 29.9498C15.7027 30.2735 14.8933 29.7879 15.0552 28.9784L15.8646 23.9598C15.8646 23.636 15.8646 23.3122 15.5408 23.1504L11.9792 19.5888C11.4936 19.1031 11.6555 18.1317 12.4649 17.9699L17.4835 17.1604C17.8073 17.1604 17.9692 16.9985 18.1311 16.6747L20.3975 12.1418C20.7213 11.4942 21.6927 11.4942 22.0165 12.1418L24.2829 16.6747C24.4448 16.9985 24.6067 17.1604 24.9305 17.1604L29.9491 17.9699C30.7585 18.1317 31.0823 18.9412 30.4348 19.5888L26.8732 23.1504C26.5494 23.3122 26.5494 23.636 26.5494 23.9598Z"
+                fill="#F9CF6B"
+              />
+              <g opacity="0.5">
+                <path
+                  d="M12.9506 19.7506C12.465 19.265 12.7887 18.4555 13.4363 18.2936L17.8074 17.646C18.1311 17.646 18.293 17.4842 18.4549 17.1604L20.3976 13.1131C20.7214 12.4656 21.5308 12.4656 21.8546 13.1131L23.7973 17.1604C23.9592 17.4842 24.1211 17.646 24.4449 17.646L28.8159 18.2936C29.4635 18.4555 29.7872 19.265 29.3016 19.7506C29.3016 19.7506 26.5494 22.8265 20.8833 22.8265C16.6741 22.8265 12.9506 19.7506 12.9506 19.7506Z"
+                  fill="white"
+                />
+              </g>
+              <g opacity="0.7">
+                <path
+                  d="M19.9125 17.4843C19.1031 17.1605 20.3982 13.7608 21.2076 14.0846C21.6933 14.2465 20.8839 17.8081 19.9125 17.4843Z"
+                  fill="white"
+                />
+              </g>
+              <path
+                d="M14.084 10.6849C13.5983 10.6849 13.2745 11.0087 12.9507 11.3324C13.1126 11.4943 14.7315 12.7895 14.5696 12.9513C14.4078 13.1132 12.7888 11.98 12.627 11.8181C12.4651 12.1419 12.3032 12.6276 12.4651 12.9513C12.9507 16.9986 12.3032 17.1605 11.4937 13.1132C11.3318 12.6276 11.1699 12.3038 10.8462 11.98C10.6843 12.1419 9.38915 13.7608 9.22726 13.5989C9.06537 13.437 10.1986 11.8181 10.3605 11.6562C10.0367 11.4943 9.55104 11.4943 9.22726 11.4943C5.01811 11.8181 4.85622 11.3324 9.06537 10.523C9.55104 10.3611 9.87482 10.1992 10.1986 9.87543C10.1986 9.87543 10.1986 9.87543 10.0367 9.71354C7.77024 7.93274 8.09402 7.77085 10.3605 9.22787H10.5224C10.6843 8.90409 10.8462 8.41842 10.6843 8.09463C10.1986 3.88548 10.8462 3.88548 11.6556 7.93274C11.6556 8.41842 11.9794 8.7422 12.3032 9.06598C12.3032 9.06598 12.3032 9.06598 12.4651 8.90409C14.2459 6.63762 14.4078 6.9614 12.9507 9.22787V9.38976C13.1126 9.71354 13.5983 9.87543 13.9221 9.87543C18.1312 9.38976 18.1312 9.87543 14.084 10.6849Z"
+                fill="white"
+              />
+              <g opacity="0.5">
+                <path
+                  d="M14.0836 45.653C14.0836 47.9195 13.9218 48.0814 13.598 48.0814C13.4361 48.0814 13.1123 47.9195 13.1123 45.653C13.1123 43.3866 13.2742 42.739 13.598 42.739C13.9218 42.739 14.0836 43.3866 14.0836 45.653Z"
+                  fill="white"
+                />
+              </g></svg
+          ></span>
+          <p class="bc-title">White-label option</p>
+          <p class="bc-body">
+            Gold and Platinum partners can offer Performative AI under their own
+            brand — logo, domain, and colour scheme. Your clients see your
+            agency, not ours.
+          </p>
+        </div>
+        <div class="benefit-card">
+          <span class="bc-icon-wrap"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="52"
+              height="52"
+              viewBox="0 0 52 52"
+              fill="none"
+            >
+              <path
+                d="M40.7333 26C40.7333 29.9075 39.181 33.655 36.418 36.418C33.6549 39.181 29.9075 40.7333 25.9999 40.7333C23.5337 40.7396 21.1062 40.1193 18.9453 38.9306L12.8439 40.6813C12.6322 40.7431 12.4078 40.7469 12.1941 40.6922C11.9804 40.6375 11.7854 40.5264 11.6295 40.3704C11.4735 40.2145 11.3623 40.0195 11.3077 39.8058C11.253 39.5921 11.2568 39.3677 11.3186 39.156L13.0606 33.046C11.9873 31.0749 11.3785 28.8846 11.2806 26.6424C11.1828 24.4001 11.5985 22.1651 12.496 20.108C13.3936 18.0509 14.7492 16.2261 16.4595 14.7728C18.1698 13.3194 20.1896 12.2761 22.3645 11.7223C24.5395 11.1685 26.8123 11.1189 29.0093 11.5773C31.2064 12.0358 33.2697 12.9901 35.0417 14.3675C36.8138 15.7448 38.2477 17.5089 39.2341 19.5249C40.2205 21.5409 40.7333 23.7556 40.7333 26Z"
+                fill="#F2BA1D"
+              />
+              <path
+                d="M33.7997 26.8666H18.1997C17.9698 26.8666 17.7494 26.7753 17.5868 26.6128C17.4243 26.4503 17.333 26.2298 17.333 26C17.333 25.7701 17.4243 25.5497 17.5868 25.3871C17.7494 25.2246 17.9698 25.1333 18.1997 25.1333H33.7997C34.0295 25.1333 34.25 25.2246 34.4125 25.3871C34.575 25.5497 34.6663 25.7701 34.6663 26C34.6663 26.2298 34.575 26.4503 34.4125 26.6128C34.25 26.7753 34.0295 26.8666 33.7997 26.8666Z"
+                fill="#CE8D25"
+              />
+              <path
+                d="M33.7997 21.6667H18.1997C17.9698 21.6667 17.7494 21.5754 17.5868 21.4128C17.4243 21.2503 17.333 21.0299 17.333 20.8C17.333 20.5702 17.4243 20.3497 17.5868 20.1872C17.7494 20.0247 17.9698 19.9333 18.1997 19.9333H33.7997C34.0295 19.9333 34.25 20.0247 34.4125 20.1872C34.575 20.3497 34.6663 20.5702 34.6663 20.8C34.6663 21.0299 34.575 21.2503 34.4125 21.4128C34.25 21.5754 34.0295 21.6667 33.7997 21.6667Z"
+                fill="#CE8D25"
+              />
+              <path
+                d="M29.4663 32.0667H18.1997C17.9698 32.0667 17.7494 31.9754 17.5868 31.8129C17.4243 31.6503 17.333 31.4299 17.333 31.2C17.333 30.9702 17.4243 30.7497 17.5868 30.5872C17.7494 30.4247 17.9698 30.3334 18.1997 30.3334H29.4663C29.6962 30.3334 29.9166 30.4247 30.0792 30.5872C30.2417 30.7497 30.333 30.9702 30.333 31.2C30.333 31.4299 30.2417 31.6503 30.0792 31.8129C29.9166 31.9754 29.6962 32.0667 29.4663 32.0667Z"
+                fill="#CE8D25"
+              />
+              <path
+                d="M33.7997 47.6667H30.333V45.9333H33.7997C37.2463 45.9294 40.5506 44.5585 42.9878 42.1214C45.4249 39.6843 46.7958 36.3799 46.7997 32.9333V32.0667H48.533V32.9333C48.5287 36.8395 46.975 40.5845 44.2129 43.3465C41.4508 46.1086 37.7059 47.6623 33.7997 47.6667Z"
+                fill="#1D3A6D"
+              />
+              <path
+                d="M49.3996 24.2666H45.9329L45.6296 22.5333C44.8153 17.9187 42.4012 13.7386 38.8114 10.7268C35.2216 7.71502 30.6855 6.0642 25.9996 6.0642C21.3137 6.0642 16.7776 7.71502 13.1878 10.7268C9.598 13.7386 7.18397 17.9187 6.36961 22.5333L6.06628 24.2666H2.59961L2.85094 22.5333C3.68283 16.9891 6.47693 11.9276 10.7251 8.2693C14.9733 4.61099 20.3933 2.59888 25.9996 2.59888C31.6059 2.59888 37.0259 4.61099 41.2741 8.2693C45.5223 11.9276 48.3164 16.9891 49.1483 22.5333L49.3996 24.2666Z"
+                fill="#1D3A6D"
+              />
+              <path
+                d="M2.59954 22.5333H6.93288C7.16273 22.5333 7.38317 22.6246 7.5457 22.7872C7.70824 22.9497 7.79954 23.1701 7.79954 23.4V32.0667C7.79954 32.2965 7.70824 32.517 7.5457 32.6795C7.38317 32.842 7.16273 32.9333 6.93288 32.9333H2.59954C2.13984 32.9333 1.69896 32.7507 1.37389 32.4256C1.04883 32.1006 0.866211 31.6597 0.866211 31.2V24.2667C0.866211 23.8069 1.04883 23.3661 1.37389 23.041C1.69896 22.7159 2.13984 22.5333 2.59954 22.5333Z"
+                fill="#274589"
+              />
+              <path
+                d="M49.4005 32.9333H45.0671C44.8373 32.9333 44.6168 32.842 44.4543 32.6795C44.2918 32.517 44.2005 32.2965 44.2005 32.0667V23.4C44.2005 23.1702 44.2918 22.9497 44.4543 22.7872C44.6168 22.6247 44.8373 22.5333 45.0671 22.5333H49.4005C49.8602 22.5333 50.301 22.716 50.6261 23.041C50.9512 23.3661 51.1338 23.807 51.1338 24.2667V31.2C51.1338 31.6597 50.9512 32.1006 50.6261 32.4257C50.301 32.7507 49.8602 32.9333 49.4005 32.9333Z"
+                fill="#274589"
+              />
+              <path
+                d="M28.5998 44.2H23.3998C21.9639 44.2 20.7998 45.364 20.7998 46.8C20.7998 48.2359 21.9639 49.4 23.3998 49.4H28.5998C30.0357 49.4 31.1998 48.2359 31.1998 46.8C31.1998 45.364 30.0357 44.2 28.5998 44.2Z"
+                fill="#101A2D"
+              /></svg
+          ></span>
+          <p class="bc-title">Partner dashboard</p>
+          <p class="bc-body">
+            Manage all your client accounts from one unified dashboard. Monitor
+            usage, content quality scores, and billing — all in real time.
+          </p>
+        </div>
+        <div class="benefit-card">
+          <span class="bc-icon-wrap"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="52"
+              height="52"
+              viewBox="0 0 52 52"
+              fill="none"
+            >
+              <path
+                d="M52 18.7417V22.1867L28.015 34.71C26.7583 35.36 25.2417 35.36 23.985 34.71L0 22.1867V18.7417C0 16.9434 0.996667 15.2967 2.57833 14.4517L23.7033 3.16335C25.1333 2.40502 26.8667 2.40502 28.2967 3.16335L49.4217 14.4517C51.0033 15.2967 52 16.9434 52 18.7417Z"
+                fill="#2196F3"
+              />
+              <path
+                d="M45.5 5.95833C45.5 2.66717 42.8328 0 39.5417 0H12.4583C9.16717 0 6.5 2.66717 6.5 5.95833V43.485C6.5 44.382 7.228 45.11 8.125 45.11H43.875C44.772 45.11 45.5 44.382 45.5 43.485V5.95833Z"
+                fill="#ECEFF1"
+              />
+              <path
+                d="M52 22.1866V44.9583C52 47.645 49.8117 49.8333 47.125 49.8333H4.875C2.18833 49.8333 0 47.645 0 44.9583V22.1866L23.985 34.71C25.2417 35.36 26.7583 35.36 28.015 34.71L52 22.1866Z"
+                fill="#64B5F6"
+              />
+              <path
+                d="M22.208 26.5958C19.5213 26.5958 17.333 24.4096 17.333 21.7208C17.333 20.0135 18.2322 18.4275 19.6795 17.5868C20.4552 17.1361 21.4497 17.4005 21.9003 18.174C22.351 18.9496 22.0888 19.9441 21.3132 20.3948C20.856 20.6613 20.583 21.1575 20.583 21.7208C20.583 22.6178 21.3132 23.3458 22.208 23.3458C23.1028 23.3458 23.833 22.6156 23.833 21.7208C23.833 21.489 23.7875 21.2896 23.6965 21.1163C23.2783 20.3233 23.5795 19.3396 24.3725 18.9193C25.1633 18.4968 26.147 18.8023 26.5695 19.5953C26.9097 20.241 27.083 20.956 27.083 21.7208C27.083 24.4096 24.8947 26.5958 22.208 26.5958Z"
+                fill="#FF9800"
+              />
+              <path
+                d="M37.375 25.5645C37.2233 25.5645 37.0673 25.5428 36.9178 25.4995L14.1678 18.8391C13.4767 18.6355 13 18.0006 13 17.2791V14.0291C13 13.3033 13.481 12.6663 14.1787 12.467L36.9287 5.96695C37.4162 5.83045 37.9492 5.92362 38.3522 6.23345C38.7617 6.53895 39 7.01995 39 7.52912V23.9395C39 24.4508 38.7595 24.9318 38.3478 25.2395C38.064 25.454 37.7217 25.5645 37.375 25.5645Z"
+                fill="#FFC107"
+              />
+              <path
+                d="M37.375 26.4875C36.478 26.4875 35.75 25.7595 35.75 24.8625V6.4458C35.75 5.5488 36.478 4.8208 37.375 4.8208C38.272 4.8208 39 5.5488 39 6.4458V24.8625C39 25.7595 38.272 26.4875 37.375 26.4875Z"
+                fill="#FFB300"
+              />
+              <path
+                d="M14.625 19.9875C13.728 19.9875 13 19.2595 13 18.3625V12.9458C13 12.0488 13.728 11.3208 14.625 11.3208C15.522 11.3208 16.25 12.0488 16.25 12.9458V18.3625C16.25 19.2595 15.522 19.9875 14.625 19.9875Z"
+                fill="#FFB300"
+              /></svg
+          ></span>
+          <p class="bc-title">Certified training</p>
+          <p class="bc-body">
+            Get your team certified through our Partner Academy. Certification
+            unlocks higher commission tiers and priority deal registration.
+          </p>
+        </div>
+        <div class="benefit-card">
+          <span class="bc-icon-wrap"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="44"
+              height="52"
+              viewBox="0 0 44 52"
+              fill="none"
+            >
+              <path
+                d="M0 2.6C0 1.16407 1.16407 0 2.6 0H33.28C34.7159 0 35.88 1.16407 35.88 2.6V49.4C35.88 50.8357 34.7159 52 33.28 52H2.6C1.16407 52 0 50.8357 0 49.4V2.6Z"
+                fill="#FFBA33"
+              />
+              <path
+                d="M26 29.12C26 28.5456 26.4656 28.08 27.04 28.08H40.04C40.6146 28.08 41.08 28.5456 41.08 29.12V41.473C41.08 43.2925 39.2591 44.5493 37.5579 43.904L34.4621 42.7297C33.868 42.5044 33.212 42.5044 32.6179 42.7297L29.5221 43.904C27.8209 44.5493 26 43.2925 26 41.473V29.12Z"
+                fill="#005513"
+              />
+              <path
+                d="M23.4004 25.22C23.4004 19.6198 27.9402 15.08 33.5404 15.08C39.1406 15.08 43.6804 19.6198 43.6804 25.22C43.6804 30.8201 39.1406 35.36 33.5404 35.36C27.9402 35.36 23.4004 30.8201 23.4004 25.22Z"
+                fill="#099718"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.01977 10.92C7.01977 9.77123 7.95103 8.83997 9.09977 8.83997H26.2598C27.4085 8.83997 28.3398 9.77123 28.3398 10.92C28.3398 12.0687 27.4085 13 26.2598 13H9.09977C7.95103 13 7.01977 12.0687 7.01977 10.92ZM6.75977 18.72C6.75977 17.5712 7.69103 16.64 8.83977 16.64H18.7198C19.8685 16.64 20.7998 17.5712 20.7998 18.72C20.7998 19.8687 19.8685 20.8 18.7198 20.8H8.83977C7.69103 20.8 6.75977 19.8687 6.75977 18.72ZM8.83977 40.04C7.69103 40.04 6.75977 40.9712 6.75977 42.12C6.75977 43.2687 7.69103 44.2 8.83977 44.2H19.7598C20.9085 44.2 21.8398 43.2687 21.8398 42.12C21.8398 40.9712 20.9085 40.04 19.7598 40.04H8.83977ZM6.75977 26.52C6.75977 25.3712 7.69103 24.44 8.83977 24.44H17.6798C18.8285 24.44 19.7598 25.3712 19.7598 26.52C19.7598 27.6687 18.8285 28.6 17.6798 28.6H8.83977C7.69103 28.6 6.75977 27.6687 6.75977 26.52ZM8.83977 32.24C7.69103 32.24 6.75977 33.1712 6.75977 34.32C6.75977 35.4687 7.69103 36.4 8.83977 36.4H19.7598C20.9085 36.4 21.8398 35.4687 21.8398 34.32C21.8398 33.1712 20.9085 32.24 19.7598 32.24H8.83977Z"
+                fill="#FFD482"
+              /></svg
+          ></span>
+          <p class="bc-title">Dedicated partner success manager</p>
+          <p class="bc-body">
+            Gold and Platinum partners get a named partner success manager —
+            available for joint sales calls, technical pre-sales, and quarterly
+            business reviews.
+          </p>
+        </div>
+        <div class="benefit-card">
+          <span class="bc-icon-wrap"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="52"
+              height="52"
+              viewBox="0 0 52 52"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_164_448)">
+                <path
+                  d="M1.74117 25.2756L0.0522884 18.9705C-0.165462 18.1579 0.316757 17.3226 1.12936 17.1047L9.2964 14.9157C10.1091 14.6978 10.945 15.181 11.1624 15.993L12.8512 22.2982C13.0688 23.1109 12.5866 23.9461 11.7741 24.164L3.60718 26.353C3.20885 26.4597 2.05043 26.4303 1.74117 25.2756Z"
+                  fill="#0098DB"
+                />
+                <path
+                  d="M3.60715 26.353L11.7741 24.1639C12.5866 23.946 13.0688 23.1109 12.8512 22.2982L12.0067 19.1453L0.897461 22.126L1.74104 25.2756C2.0504 26.4303 3.20882 26.4597 3.60715 26.353Z"
+                  fill="#006AAF"
+                />
+                <path
+                  d="M10.3319 24.6634L7.79455 15.2065C7.5765 14.3937 8.05943 13.5578 8.87152 13.3402L24.6344 9.11642C25.4474 8.89857 26.2823 9.38079 26.5001 10.1932L29.0376 19.6501C29.2556 20.4629 28.7727 21.2987 27.9606 21.5164L12.1976 25.7402C11.3413 25.9697 10.5379 25.4313 10.3319 24.6634Z"
+                  fill="#47C0E8"
+                />
+                <path
+                  d="M12.1979 25.7402L27.9609 21.5164C28.773 21.2988 29.256 20.4629 29.0379 19.6501L27.7677 14.9165L9.06348 19.935L10.3322 24.6635C10.5381 25.4314 11.3415 25.9698 12.1979 25.7402Z"
+                  fill="#0098DB"
+                />
+                <path
+                  d="M26.5188 22.0154L23.1412 9.40579C22.9234 8.59319 23.4056 7.75794 24.2182 7.54008L39.9729 3.31712C40.7852 3.09906 41.6214 3.5823 41.8389 4.39439L45.2167 17.0039C45.4344 17.8165 44.9522 18.6517 44.1396 18.8696L28.3848 23.0927C27.9533 23.2084 26.8219 23.1468 26.5188 22.0154Z"
+                  fill="#B4E6FF"
+                />
+                <path
+                  d="M28.3845 23.0927L44.1393 18.8697C44.9519 18.6518 45.4341 17.8167 45.2164 17.004L43.5247 10.6886L24.8281 15.7051L26.5184 22.0154C26.8216 23.1469 27.953 23.2085 28.3845 23.0927Z"
+                  fill="#47C0E8"
+                />
+                <path
+                  d="M42.6981 19.3685L38.4799 3.60645C38.2625 2.79395 38.7446 1.959 39.557 1.74115L45.8556 0.0522676C46.6679 -0.165381 47.5037 0.316533 47.7216 1.12924L51.9479 16.8905C52.1659 17.7034 51.6828 18.5391 50.8707 18.7566L44.5639 20.4463C44.1667 20.5528 43.0071 20.5236 42.6981 19.3685Z"
+                  fill="#0098DB"
+                />
+                <path
+                  d="M44.5636 20.4463L50.8705 18.7566C51.6826 18.539 52.1656 17.7034 51.9476 16.8904L49.831 8.9967L40.5859 11.4773L42.6977 19.3686C43.0067 20.5236 44.1663 20.5528 44.5636 20.4463Z"
+                  fill="#006AAF"
+                />
+                <path
+                  d="M40.6879 49.8318L30.2118 27.3925C29.9614 26.8562 29.423 26.5134 28.8312 26.5135C28.2394 26.5134 27.701 26.8562 27.4505 27.3925L16.9745 49.8318C16.6185 50.5942 16.9481 51.5008 17.7104 51.8567C18.4728 52.2125 19.3793 51.8832 19.7353 51.1208L28.8313 31.6378L37.9272 51.1208C38.2833 51.8832 39.1897 52.2125 39.9522 51.8567C40.7143 51.5008 41.0439 50.5942 40.6879 49.8318Z"
+                  fill="#2A6081"
+                />
+                <path
+                  d="M40.6878 49.8318L30.2117 27.3925C29.9612 26.8562 29.4229 26.5134 28.8311 26.5135V31.6377L37.927 51.1207C38.2831 51.8832 39.1895 52.2124 39.9519 51.8566C40.7142 51.5008 41.0437 50.5942 40.6878 49.8318Z"
+                  fill="#193659"
+                />
+                <path
+                  d="M28.8309 29.5607C26.1914 29.5607 24.0439 27.4133 24.0439 24.7738C24.0439 22.1343 26.1914 19.9868 28.8309 19.9868C31.4704 19.9868 33.6179 22.1343 33.6179 24.7738C33.6179 27.4133 31.4704 29.5607 28.8309 29.5607Z"
+                  fill="#193659"
+                />
+                <path
+                  d="M28.8311 29.5607V19.9867C31.4706 19.9867 33.6181 22.1341 33.6181 24.7736C33.6181 27.4131 31.4706 29.5607 28.8311 29.5607Z"
+                  fill="#180626"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_164_448">
+                  <rect width="52" height="52" fill="white" />
+                </clipPath>
+              </defs></svg
+          ></span>
+          <p class="bc-title">Co-marketing &amp; lead sharing</p>
+          <p class="bc-body">
+            Feature your agency in our partner directory, co-create case
+            studies, and receive warm introductions to enterprise leads in your
+            vertical or region.
+          </p>
         </div>
       </div>
+    </section>
 
-      <div class="form-group">
-        <label for="platforms">Primary platforms you work with</label>
-        <select id="platforms" class="form-control">
-          <option value="">Select primary platform</option>
-          <option>Shopify / Shopify Plus</option>
-          <option>WooCommerce</option>
-          <option>Magento / Adobe Commerce</option>
-          <option>BigCommerce</option>
-          <option>Shopware</option>
-          <option>PrestaShop</option>
-          <option>Multiple / other</option>
-        </select>
+    <!-- ══ TIERS (warm orange gradient) ══ -->
+    <section class="sec-tiers">
+      <div
+        style="
+          position: relative;
+          z-index: 2;
+          max-width: var(--cmax);
+          margin: 0 auto;
+          width: 100%;
+        "
+      >
+        <div class="section-head">
+          <p class="section-eyebrow" style="color: #000">
+            Partnership tiers
+          </p>
+          <h2 class="section-title" style="color: #fff">Find your level</h2>
+          <p class="section-sub" style="color: rgba(255, 255, 255, 0.5)">
+            Three tiers designed to reward agency growth. Move up as your client
+            base expands.
+          </p>
+        </div>
+
+        <div class="tiers-grid">
+          <!-- Silver -->
+          <div class="tier-card">
+            <div class="tier-badge-wrap">
+              <span
+                class="badge"
+                style="
+                  background: rgba(255, 255, 255, 0.12);
+                  color: rgba(255, 255, 255, 0.7);
+                  border-color: rgba(255, 255, 255, 0.2);
+                "
+                >Silver</span
+              >
+            </div>
+            <span class="tier-icon"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_164_478)">
+                  <path
+                    d="M23.9992 28.875V39.375H17.2117C16.7617 39.375 16.5742 38.6625 16.9867 38.4L17.0242 38.3625C18.8242 37.1625 21.2992 34.8375 21.9367 33.3C22.5367 31.7625 22.4992 28.875 22.4992 28.875H23.9992Z"
+                    fill="#DBDBDB"
+                  />
+                  <path
+                    d="M30.7865 39.4125H23.999V28.875H25.499C25.499 28.875 25.424 31.7625 26.0615 33.3375C26.6615 34.875 29.174 37.2 30.974 38.4L31.0115 38.4375C31.3865 38.7 31.2365 39.4125 30.7865 39.4125Z"
+                    fill="#DBDBDB"
+                  />
+                  <path
+                    d="M34.3125 41.85V42.2625C34.3125 42.675 34.0125 43.0125 33.675 43.0125H24V39.2625H31.9125C32.325 39.2625 32.7 39.45 32.9625 39.7875L34.0125 41.025C34.2 41.25 34.3125 41.55 34.3125 41.85Z"
+                    fill="#DBDBDB"
+                  />
+                  <path
+                    d="M24 39.3V43.05H14.325C13.95 43.05 13.6875 42.7125 13.6875 42.3V41.8875C13.6875 41.5875 13.8 41.2875 13.9875 41.0625L15.075 39.825C15.375 39.4875 15.75 39.3 16.125 39.3H24Z"
+                    fill="#DBDBDB"
+                  />
+                  <path
+                    d="M17.7371 22.7249C17.6621 23.4374 17.0246 23.9249 16.3496 23.8499L6.89961 22.9874C3.71211 22.6874 1.27461 20.2874 1.27461 17.3999L0.599609 9.7499C0.599609 7.7624 2.43711 6.1499 4.72461 6.1499H11.4371C12.0371 6.1499 12.4871 6.6374 12.4871 7.1999V7.9499C12.4871 8.5499 11.9996 8.9999 11.4371 8.9999H6.93711C5.28711 8.9999 3.93711 10.1624 3.93711 11.6249L4.49961 15.9749C4.49961 18.1874 6.37461 20.0249 8.81211 20.2499L16.6121 20.9624C17.3246 21.0374 17.8496 21.6749 17.7746 22.3874L17.7371 22.7249Z"
+                    fill="#DBDBDB"
+                  />
+                  <path
+                    d="M30.2624 22.7249C30.3374 23.4374 30.9749 23.9249 31.6499 23.8499L41.0999 22.9874C44.2874 22.6874 46.7249 20.2874 46.7249 17.3999L47.3999 9.7499C47.3999 7.7624 45.5624 6.1499 43.2749 6.1499H36.5624C35.9624 6.1499 35.5124 6.6374 35.5124 7.1999V7.9499C35.5124 8.5499 35.9999 8.9999 36.5624 8.9999H41.0624C42.7124 8.9999 44.0624 10.1624 44.0624 11.6249L43.4999 15.9749C43.4999 18.1874 41.6249 20.0249 39.1874 20.2499L31.3874 20.9624C30.6749 21.0374 30.1499 21.6749 30.2249 22.3874L30.2624 22.7249Z"
+                    fill="#CACACA"
+                  />
+                  <path
+                    d="M38.5875 4.9125V20.475C38.5875 21.3375 38.25 22.1625 37.65 22.7625L30 30.45L26.25 34.2375C25.6125 34.875 24.7875 35.175 24 35.175C23.175 35.175 22.35 34.875 21.75 34.2375L18 30.45L10.3125 22.7625C9.7125 22.1625 9.375 21.3375 9.375 20.475V4.9125C9.375 2.7 11.025 0.825 13.2375 0.6C13.6125 0.5625 13.9875 0.525 14.4 0.4875C16.7625 0.225 19.9875 0 23.9625 0C27.9375 0 31.1625 0.225 33.5625 0.45C33.975 0.4875 34.35 0.525 34.725 0.5625C36.9 0.825 38.5875 2.6625 38.5875 4.9125Z"
+                    fill="#DBDBDB"
+                  />
+                  <path
+                    d="M33.5619 0.45V19.9875C33.5619 20.5125 33.3369 21 32.9619 21.375L27.9369 26.0625L25.4619 28.35C25.0494 28.725 24.5244 28.9125 23.9619 28.9125C23.4369 28.9125 22.8744 28.725 22.4619 28.35L19.9869 26.0625L14.9994 21.375C14.6244 21 14.3994 20.5125 14.3994 19.9875V0.45C16.7619 0.225 19.9869 0 23.9619 0C27.9369 0 31.1619 0.225 33.5619 0.45Z"
+                    fill="#EAEAEA"
+                  />
+                  <path
+                    d="M34.3119 41.85V42.2625C34.3119 42.675 34.0119 43.0125 33.6744 43.0125H23.9619V39.2625H31.9119C32.3244 39.2625 32.6994 39.45 32.9619 39.7875L34.0119 41.025C34.1994 41.25 34.3119 41.55 34.3119 41.85Z"
+                    fill="#CACACA"
+                  />
+                  <path
+                    d="M30.7869 39.4125H23.9619V28.875H25.4994C25.4994 28.875 25.4244 31.7625 26.0619 33.3375C26.6619 34.875 29.1744 37.2 30.9744 38.4L31.0119 38.4375C31.3869 38.7 31.2369 39.4125 30.7869 39.4125Z"
+                    fill="#CACACA"
+                  />
+                  <path
+                    d="M38.5865 4.9125V20.475C38.5865 21.3375 38.249 22.1625 37.649 22.7625L29.999 30.45L26.249 34.2375C25.6115 34.875 24.7865 35.175 23.999 35.175V0C27.974 0 31.199 0.225 33.599 0.45C34.0115 0.4875 34.3865 0.525 34.7615 0.5625C36.899 0.825 38.5865 2.6625 38.5865 4.9125Z"
+                    fill="#CACACA"
+                  />
+                  <path
+                    d="M33.5619 0.45V19.9875C33.5619 20.5125 33.3369 21 32.9619 21.375L27.9369 26.0625L25.4619 28.35C25.0494 28.725 24.5244 28.9125 23.9619 28.9125V0C27.9369 0 31.1619 0.225 33.5619 0.45Z"
+                    fill="#D8D8D8"
+                  />
+                  <path
+                    d="M39.1875 46.275V46.875C39.1875 47.475 38.775 47.9625 38.2125 47.9625H24V42.45H35.625C36.225 42.45 36.7875 42.7125 37.2 43.2L38.775 45.0375C39.0375 45.4125 39.1875 45.825 39.1875 46.275Z"
+                    fill="#FFCF2C"
+                  />
+                  <path
+                    d="M24 42.4875V48H9.7875C9.2625 48 8.8125 47.5125 8.8125 46.9125V46.3125C8.8125 45.8625 8.9625 45.45 9.225 45.1125L10.8 43.275C11.2125 42.7875 11.775 42.525 12.375 42.525H24V42.4875Z"
+                    fill="#FFCF2C"
+                  />
+                  <path
+                    d="M39.1869 46.275V46.875C39.1869 47.475 38.7744 47.9625 38.2119 47.9625H23.9619V42.45H35.6244C36.2244 42.45 36.7869 42.7125 37.1994 43.2L38.7744 45.0375C39.0369 45.4125 39.1869 45.825 39.1869 46.275Z"
+                    fill="#FF9300"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_164_478">
+                    <rect width="48" height="48" fill="white" />
+                  </clipPath>
+                </defs></svg
+            ></span>
+            <p class="tier-name">Silver Partner</p>
+            <p class="tier-req">Requirement: 3+ active client referrals</p>
+            <p class="tier-rev">20% recurring commission</p>
+            <hr class="tier-divider" />
+            <ul class="tier-list">
+              <li>
+                <span style="color: #86efac; flex-shrink: 0">✓</span> Partner
+                directory listing
+              </li>
+              <li>
+                <span style="color: #86efac; flex-shrink: 0">✓</span> Partner
+                Academy access
+              </li>
+              <li>
+                <span style="color: #86efac; flex-shrink: 0">✓</span> Co-branded
+                sales collateral
+              </li>
+              <li>
+                <span style="color: #86efac; flex-shrink: 0">✓</span> Quarterly
+                partner newsletter
+              </li>
+              <li>
+                <span style="color: #86efac; flex-shrink: 0">✓</span> Partner
+                Slack community
+              </li>
+            </ul>
+          </div>
+
+          <!-- Gold (popular) -->
+          <div class="tier-card popular">
+            <div class="tier-badge-wrap">
+              <span
+                class="badge"
+                style="
+                  background: rgba(249, 115, 22, 0.3);
+                  color: #fed7aa;
+                  border-color: rgba(249, 115, 22, 0.4);
+                "
+                >Most popular</span
+              >
+            </div>
+            <span class="tier-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+              >
+                <path
+                  d="M25.7662 2.17605L32.1151 15.0402L46.3115 17.1031C47.927 17.3377 48.572 19.323 47.4031 20.4626L37.1303 30.4758L39.5553 44.6148C39.8313 46.2238 38.1425 47.4507 36.6977 46.6911L23.9999 40.0156L11.3023 46.6911C9.85742 47.4506 8.16861 46.2238 8.44461 44.6148L10.8696 30.4758L0.596922 20.4625C-0.572043 19.323 0.0730486 17.3378 1.68854 17.103L15.885 15.0401L22.2338 2.17605C22.9563 0.71215 25.0436 0.71215 25.7662 2.17605Z"
+                  fill="url(#paint0_linear_164_656)"
+                />
+                <path
+                  d="M32.1149 15.0402L25.7661 2.17603C25.4049 1.44412 24.7025 1.07812 24 1.07812V25.4332L32.1149 15.0402Z"
+                  fill="url(#paint1_linear_164_656)"
+                />
+                <path
+                  d="M37.1304 30.4758L47.403 20.4624C47.9797 19.9002 48.1142 19.1325 47.9092 18.4705L24 25.4332L37.1304 30.4758Z"
+                  fill="url(#paint2_linear_164_656)"
+                />
+                <path
+                  d="M38.7778 46.5368L24 25.4333V40.0157L36.6976 46.6913C37.4227 47.0725 38.209 46.9532 38.7778 46.5368Z"
+                  fill="url(#paint3_linear_164_656)"
+                />
+                <path
+                  d="M24.0002 25.4333L10.8699 30.476L8.44493 44.615C8.3074 45.4166 8.65783 46.1231 9.22249 46.5368L24.0002 25.4333Z"
+                  fill="url(#paint4_linear_164_656)"
+                />
+                <path
+                  d="M0.0908203 18.4705L24 25.4331L15.885 15.04L1.6886 17.103C0.870067 17.2219 0.301382 17.7905 0.0908203 18.4705Z"
+                  fill="url(#paint5_linear_164_656)"
+                />
+                <path
+                  d="M10.87 30.4759L0.597335 20.4626C0.0206812 19.9005 -0.113849 19.1328 0.091181 18.4707L24.0003 25.4333L10.87 30.4759Z"
+                  fill="url(#paint6_linear_164_656)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_164_656"
+                    x1="24.0007"
+                    y1="6.42456"
+                    x2="24.0007"
+                    y2="59.387"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FFCF95" />
+                    <stop offset="0.427" stop-color="#FFC954" />
+                    <stop offset="1" stop-color="#FFC200" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint1_linear_164_656"
+                    x1="36.441"
+                    y1="13.2544"
+                    x2="20.4306"
+                    y2="13.2544"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FFC200" stop-opacity="0" />
+                    <stop
+                      offset="0.203"
+                      stop-color="#FFBB00"
+                      stop-opacity="0.203"
+                    />
+                    <stop
+                      offset="0.499"
+                      stop-color="#FFA700"
+                      stop-opacity="0.499"
+                    />
+                    <stop
+                      offset="0.852"
+                      stop-color="#FF8800"
+                      stop-opacity="0.852"
+                    />
+                    <stop offset="1" stop-color="#FF7800" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint2_linear_164_656"
+                    x1="39.1761"
+                    y1="37.7844"
+                    x2="34.936"
+                    y2="16.9038"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FFC200" stop-opacity="0" />
+                    <stop
+                      offset="0.203"
+                      stop-color="#FFBB00"
+                      stop-opacity="0.203"
+                    />
+                    <stop
+                      offset="0.499"
+                      stop-color="#FFA700"
+                      stop-opacity="0.499"
+                    />
+                    <stop
+                      offset="0.852"
+                      stop-color="#FF8800"
+                      stop-opacity="0.852"
+                    />
+                    <stop offset="1" stop-color="#FF7800" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint3_linear_164_656"
+                    x1="18.6166"
+                    y1="48.7579"
+                    x2="35.2231"
+                    y2="32.1514"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FFC200" stop-opacity="0" />
+                    <stop
+                      offset="0.203"
+                      stop-color="#FFBB00"
+                      stop-opacity="0.203"
+                    />
+                    <stop
+                      offset="0.499"
+                      stop-color="#FFA700"
+                      stop-opacity="0.499"
+                    />
+                    <stop
+                      offset="0.852"
+                      stop-color="#FF8800"
+                      stop-opacity="0.852"
+                    />
+                    <stop offset="1" stop-color="#FF7800" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint4_linear_164_656"
+                    x1="6.77452"
+                    y1="27.7574"
+                    x2="19.0149"
+                    y2="37.9976"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FFC200" stop-opacity="0" />
+                    <stop
+                      offset="0.203"
+                      stop-color="#FFBB00"
+                      stop-opacity="0.203"
+                    />
+                    <stop
+                      offset="0.499"
+                      stop-color="#FFA700"
+                      stop-opacity="0.499"
+                    />
+                    <stop
+                      offset="0.852"
+                      stop-color="#FF8800"
+                      stop-opacity="0.852"
+                    />
+                    <stop offset="1" stop-color="#FF7800" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint5_linear_164_656"
+                    x1="15.9501"
+                    y1="10.8655"
+                    x2="10.9899"
+                    y2="24.9459"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FFC200" stop-opacity="0" />
+                    <stop
+                      offset="0.203"
+                      stop-color="#FFBB00"
+                      stop-opacity="0.203"
+                    />
+                    <stop
+                      offset="0.499"
+                      stop-color="#FFA700"
+                      stop-opacity="0.499"
+                    />
+                    <stop
+                      offset="0.852"
+                      stop-color="#FF8800"
+                      stop-opacity="0.852"
+                    />
+                    <stop offset="1" stop-color="#FF7800" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint6_linear_164_656"
+                    x1="34.6216"
+                    y1="12.336"
+                    x2="-1.81939"
+                    y2="27.8565"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FFC200" stop-opacity="0" />
+                    <stop
+                      offset="0.203"
+                      stop-color="#FFBB00"
+                      stop-opacity="0.203"
+                    />
+                    <stop
+                      offset="0.499"
+                      stop-color="#FFA700"
+                      stop-opacity="0.499"
+                    />
+                    <stop
+                      offset="0.852"
+                      stop-color="#FF8800"
+                      stop-opacity="0.852"
+                    />
+                    <stop offset="1" stop-color="#FF7800" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </span>
+            <p class="tier-name">Gold Partner</p>
+            <p class="tier-req">Requirement: 10+ active client referrals</p>
+            <p class="tier-rev">25% recurring commission</p>
+            <hr class="tier-divider" />
+            <ul class="tier-list">
+              <li>
+                <span style="color: #86efac; flex-shrink: 0">✓</span> Everything
+                in Silver
+              </li>
+              <li>
+                <span style="color: #86efac; flex-shrink: 0">✓</span> Dedicated
+                partner success manager
+              </li>
+              <li>
+                <span style="color: #86efac; flex-shrink: 0">✓</span>
+                White-label option available
+              </li>
+              <li>
+                <span style="color: #86efac; flex-shrink: 0">✓</span> Joint
+                sales calls &amp; pre-sales support
+              </li>
+              <li>
+                <span style="color: #86efac; flex-shrink: 0">✓</span> Priority
+                deal registration
+              </li>
+              <li>
+                <span style="color: #86efac; flex-shrink: 0">✓</span>
+                Co-marketing campaigns
+              </li>
+            </ul>
+          </div>
+
+          <!-- Platinum -->
+          <div class="tier-card">
+            <div class="tier-badge-wrap">
+              <span
+                class="badge"
+                style="
+                  background: rgba(255, 255, 255, 0.12);
+                  color: rgba(255, 255, 255, 0.7);
+                  border-color: rgba(255, 255, 255, 0.2);
+                "
+                >Platinum</span
+              >
+            </div>
+            <span class="tier-icon"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="58"
+                height="48"
+                viewBox="0 0 58 48"
+                fill="none"
+              >
+                <path
+                  d="M15.0374 17.0907H1.69592C1.01206 17.0907 0.395185 16.68 0.131337 16.0491C-0.132398 15.4182 0.00827575 14.6906 0.488519 14.2038L13.9995 0.505036C14.3182 0.181844 14.7531 0 15.207 0H21.8777C22.4653 0 23.0111 0.304121 23.3201 0.803996C23.6292 1.30376 23.6574 1.92782 23.3949 2.45361L16.5546 16.1524C16.2676 16.7274 15.6801 17.0907 15.0374 17.0907Z"
+                  fill="#A0EBFF"
+                />
+                <path
+                  d="M55.7401 17.0907H42.3986C41.7558 17.0907 41.1684 16.7274 40.8812 16.1524L34.0409 2.45361C33.7784 1.92782 33.8068 1.30376 34.1158 0.803996C34.4247 0.304233 34.9707 0 35.5582 0H42.2289C42.6827 0 43.1177 0.181957 43.4364 0.505036L56.9475 14.2038C57.4276 14.6907 57.5684 15.4184 57.3046 16.0491C57.0408 16.6801 56.4239 17.0907 55.7401 17.0907Z"
+                  fill="#73C8F0"
+                />
+                <path
+                  d="M13.1406 15.3506L21.8773 0H35.5581L44.2679 15.3506H13.1406Z"
+                  fill="#D2F0FF"
+                />
+                <path
+                  d="M40.5633 15.3507L27.1669 45.6176C26.8275 46.384 27.0991 47.2835 27.8061 47.734C28.0871 47.913 28.4032 48 28.7169 48C29.1924 48 29.6621 47.8004 29.9945 47.4202L57.0166 16.511C57.3022 16.1843 57.4449 15.7685 57.4341 15.3506H40.5633V15.3507Z"
+                  fill="#0073AA"
+                />
+                <path
+                  d="M16.8724 15.3506H0.00154382C-0.00922548 15.7683 0.133468 16.1843 0.419079 16.511L27.4412 47.4202C27.7736 47.8004 28.2434 48 28.7188 48C29.0324 48 29.3487 47.9131 29.6296 47.734C30.3363 47.2835 30.608 46.384 30.2688 45.6176L16.8724 15.3506Z"
+                  fill="#41B4E6"
+                />
+                <path
+                  d="M13.1406 15.3506L27.167 46.9904C27.4386 47.6041 28.0466 47.9999 28.7177 47.9999C29.3889 47.9999 29.9969 47.6041 30.2685 46.9904L44.2681 15.3506H13.1406Z"
+                  fill="#A0EBFF"
+                />
+                <path
+                  d="M28.7051 15.3506H44.2687L35.5587 0H28.7051V15.3506Z"
+                  fill="#41B4E6"
+                />
+                <path
+                  d="M28.7178 47.9999C29.3889 47.9999 29.997 47.6041 30.2686 46.9904L44.268 15.3506H28.7178V47.9999Z"
+                  fill="#73C8F0"
+                /></svg
+            ></span>
+            <p class="tier-name">Platinum Partner</p>
+            <p class="tier-req">Requirement: 25+ active client referrals</p>
+            <p class="tier-rev">30% recurring commission</p>
+            <hr class="tier-divider" />
+            <ul class="tier-list">
+              <li>
+                <span style="color: #86efac; flex-shrink: 0">✓</span> Everything
+                in Gold
+              </li>
+              <li>
+                <span style="color: #86efac; flex-shrink: 0">✓</span> Custom SLA
+                &amp; dedicated infra
+              </li>
+              <li>
+                <span style="color: #86efac; flex-shrink: 0">✓</span> Full
+                white-label deployment
+              </li>
+              <li>
+                <span style="color: #86efac; flex-shrink: 0">✓</span> Lead
+                sharing &amp; warm intros
+              </li>
+              <li>
+                <span style="color: #86efac; flex-shrink: 0">✓</span> Annual
+                partner summit invite
+              </li>
+              <li>
+                <span style="color: #86efac; flex-shrink: 0">✓</span> Custom
+                commission structures
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ FEATURED AGENCIES ══ -->
+    <section class="sec-agencies">
+      <div class="section-head">
+        <p class="section-eyebrow">Partner spotlight</p>
+        <h2 class="section-title">Agencies already winning</h2>
+        <p class="section-sub">
+          A few of the standout agencies in our partner network.
+        </p>
       </div>
 
-      <div class="form-group">
-        <label for="tier">Partnership tier you are applying for</label>
-        <select id="tier" class="form-control">
-          <option value="">Select tier</option>
-          <option>Silver (3+ clients)</option>
-          <option>Gold (10+ clients)</option>
-          <option>Platinum (25+ clients)</option>
-          <option>Not sure yet</option>
-        </select>
+      <div class="agencies-grid">
+        <div class="agency-card">
+          <span class="agency-logo"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="100"
+              height="21"
+              viewBox="0 0 100 21"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_181_97)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.18726 14.5082C7.12314 14.5082 7.89639 14.2184 8.50701 13.6389C9.11805 13.0594 9.42357 12.2138 9.42357 11.102V10.8695C9.42357 9.75769 9.11422 8.91205 8.49554 8.33254C7.87643 7.75385 7.10701 7.4643 6.18726 7.46389C5.26667 7.46389 4.49724 7.75344 3.87898 8.33254C3.25987 8.91205 2.95053 9.75769 2.95096 10.8695V11.1014C2.95096 12.214 3.2603 13.0596 3.87898 13.6383C4.49724 14.2186 5.26667 14.5086 6.18726 14.5082ZM0 20.6291V5.23973H2.95096V6.63006H3.37898C3.64862 6.18237 4.069 5.78463 4.64013 5.43684C5.21168 5.08905 6.02866 4.91516 7.09108 4.91516C8.0431 4.91516 8.92357 5.14315 9.73248 5.59913C10.5414 6.05511 11.1919 6.72313 11.6841 7.60317C12.1762 8.48322 12.4221 9.54918 12.4217 10.8011V11.1723C12.4217 12.4233 12.1758 13.4891 11.6841 14.3695C11.1924 15.2496 10.5418 15.9178 9.73248 16.3742C8.93027 16.828 8.01821 17.0637 7.09108 17.0569C6.37771 17.0569 5.77898 16.9761 5.2949 16.8144C4.81083 16.6515 4.42229 16.443 4.1293 16.1889C3.86039 15.9621 3.62407 15.7008 3.42675 15.4123H2.99809V20.6298L0 20.6291ZM18.1809 14.6935C19.0217 14.6935 19.7076 14.4655 20.2389 14.0095C20.7705 13.5544 21.0363 12.9481 21.0363 12.1908V11.9588H18.014C17.4586 11.9588 17.0223 12.0747 16.7051 12.3064C16.3879 12.5386 16.2293 12.8631 16.2293 13.2801C16.2293 13.6968 16.396 14.0367 16.7293 14.2999C17.0622 14.5623 17.5461 14.6935 18.1809 14.6935ZM17.6567 17.0563C16.8159 17.0563 16.0624 16.9133 15.3962 16.6273C14.7299 16.3425 14.2025 15.9257 13.814 15.3768C13.4255 14.8288 13.2312 14.1606 13.2312 13.3722C13.2312 12.5846 13.4255 11.9242 13.814 11.3911C14.2025 10.8581 14.7418 10.4566 15.4318 10.1867C16.1219 9.91645 16.9113 9.78131 17.8 9.78131H21.0357V9.13216C21.0357 8.59203 20.8614 8.14786 20.5127 7.79966C20.1637 7.45228 19.6085 7.27859 18.8471 7.27859C18.1011 7.27859 17.5459 7.44482 17.1815 7.77727C16.8163 8.10973 16.5781 8.53835 16.4669 9.06314L13.707 8.15968C13.8972 7.5727 14.2025 7.03589 14.6229 6.54923C15.0433 6.06257 15.6066 5.66856 16.3127 5.3672C17.0189 5.06584 17.8794 4.91516 18.8943 4.91516C20.4488 4.91516 21.6783 5.29383 22.5828 6.05117C23.4873 6.80769 23.9395 7.90433 23.9395 9.34108V13.6284C23.9395 14.0914 24.1618 14.3229 24.6064 14.3229H25.558V16.733H23.5586C22.9722 16.733 22.4881 16.5939 22.1064 16.3157C21.7263 16.038 21.5363 15.6674 21.5363 15.204V15.1804H21.0841C21.0204 15.3661 20.8775 15.6094 20.6554 15.9103C20.4329 16.2113 20.0841 16.4776 19.6089 16.7093C19.1325 16.9415 18.4817 17.0575 17.6567 17.0575M31.9822 14.2296C32.9023 14.2296 33.6718 13.9436 34.2904 13.3716C34.9095 12.8007 35.2191 11.9978 35.2191 10.9627V10.7308C35.2191 9.68038 34.9136 8.87329 34.3025 8.30953C33.6915 7.74577 32.918 7.46389 31.9822 7.46389C31.062 7.46389 30.2926 7.74577 29.6739 8.30953C29.0552 8.87329 28.7459 9.68038 28.7459 10.7308V10.9627C28.7459 11.9978 29.0552 12.801 29.6739 13.3722C30.2926 13.9442 31.062 14.2303 31.9822 14.2303M25.7478 11.0324V10.6624C25.7478 9.45653 25.9936 8.42518 26.4853 7.56835C26.9771 6.71152 27.6316 6.05511 28.449 5.59913C29.2648 5.14315 30.1571 4.91516 31.1261 4.91516C32.2042 4.91516 33.0212 5.10045 33.5771 5.47104C34.1316 5.84204 34.5361 6.22839 34.7904 6.63006H35.2185V5.23849H38.1694V18.0369C38.1694 18.8253 37.9316 19.455 37.456 19.9259C36.98 20.3972 36.3452 20.6331 35.5516 20.6335H27.6516V18.0841H34.5051C34.9493 18.0841 35.1715 17.8522 35.172 17.3883V15.1337H34.7433C34.5841 15.3808 34.362 15.6316 34.0771 15.8861C33.7913 16.1414 33.4106 16.3541 32.935 16.524C32.4594 16.694 31.8565 16.779 31.1261 16.779C30.158 16.779 29.2658 16.551 28.4497 16.095C27.6318 15.639 26.9773 14.9824 26.486 14.1252C25.9938 13.2683 25.7473 12.2374 25.7478 11.0324ZM42.8083 9.66504H48.3293C48.2656 9.00055 47.9917 8.46746 47.5076 8.06579C47.0236 7.66411 46.393 7.46347 45.6159 7.46389C44.807 7.46389 44.1645 7.66452 43.6885 8.06579C43.213 8.46746 42.9195 9.00055 42.8083 9.66504ZM45.6873 17.0563C44.5136 17.0563 43.4785 16.8132 42.5822 16.3269C41.6954 15.8504 40.9682 15.1343 40.4879 14.2644C39.9881 13.3765 39.7382 12.3298 39.7382 11.1244V10.8471C39.7382 9.64203 39.9843 8.59535 40.4764 7.70701C40.9485 6.83915 41.6673 6.12293 42.5465 5.64452C43.4344 5.15786 44.4656 4.91454 45.6401 4.91454C46.7981 4.91454 47.8053 5.16553 48.6618 5.66753C49.5191 6.16994 50.1856 6.86531 50.6611 7.75365C51.1367 8.64198 51.3745 9.67312 51.3745 10.8471V11.8432H42.7847C42.817 12.6308 43.1185 13.2719 43.6892 13.7664C44.2607 14.2605 44.9588 14.5076 45.7834 14.5076C46.6238 14.5076 47.2425 14.3299 47.6395 13.9747C48.0186 13.6434 48.3261 13.2415 48.5439 12.7927L50.9949 14.0437C50.7724 14.4458 50.4512 14.8823 50.0312 15.3532C49.6108 15.8249 49.0516 16.2266 48.3535 16.5582C47.6554 16.8903 46.7669 17.0563 45.6879 17.0563M52.8516 16.7323V0.862305H55.8497V9.47912H56.2777L60.1809 5.23849H64.0834L58.6338 10.8004L64.2739 16.7323H60.4185L56.2783 12.1671H55.8497V16.7323H52.8516ZM65.0828 16.7323H68.0809V5.23911H65.0828V16.7323ZM70.2229 16.7317V5.23849H73.1739V6.7451H73.6019C73.7921 6.34383 74.149 5.96143 74.6726 5.59789C75.1966 5.23517 75.9898 5.05382 77.0522 5.05382C77.9724 5.05382 78.7777 5.25839 79.4681 5.66753C80.1551 6.07335 80.7115 6.65936 81.0739 7.35881C81.4548 8.07719 81.6452 8.91536 81.6452 9.87334V16.7317H78.6465V10.1053C78.6465 9.24015 78.4287 8.5912 77.993 8.15843C77.5565 7.72608 76.9338 7.5099 76.1248 7.5099C75.2042 7.5099 74.4902 7.80733 73.9828 8.40218C73.4754 8.99703 73.2216 9.82733 73.2216 10.8931V16.7317H70.2229ZM89.3541 14.2296C90.2743 14.2296 91.0437 13.9436 91.6624 13.3716C92.2811 12.8007 92.5904 11.9978 92.5904 10.9627V10.7308C92.5904 9.68038 92.2851 8.87329 91.6745 8.30953C91.0639 7.74577 90.2904 7.46389 89.3541 7.46389C88.4344 7.46389 87.6652 7.74577 87.0465 8.30953C86.4278 8.87329 86.1183 9.68038 86.1178 10.7308V10.9627C86.1178 11.9978 86.4274 12.801 87.0465 13.3722C87.6652 13.9442 88.4344 14.2303 89.3541 14.2303M83.1197 11.0324V10.6624C83.1197 9.45653 83.3656 8.42518 83.8573 7.56835C84.349 6.71152 85.0034 6.05511 85.8204 5.59913C86.635 5.14398 87.5588 4.90796 88.4974 4.91516C89.5764 4.91516 90.3934 5.10045 90.9484 5.47104C91.5038 5.84204 91.9085 6.22839 92.1624 6.63006H92.5904V5.23849H95.5414V18.0369C95.5414 18.8253 95.3034 19.455 94.8274 19.9259C94.3518 20.3972 93.7172 20.6331 92.9236 20.6335H85.0236V18.0841H91.8771C92.3208 18.0841 92.5429 17.8522 92.5433 17.3883V15.1337H92.1146C91.9563 15.3808 91.7342 15.6316 91.4484 15.8861C91.1626 16.1414 90.782 16.3541 90.3064 16.524C89.8308 16.694 89.2278 16.779 88.4974 16.779C87.5293 16.779 86.6369 16.551 85.8204 16.095C85.0038 15.639 84.3495 14.9824 83.8573 14.1252C83.3656 13.2683 83.1197 12.2374 83.1197 11.0324ZM65.0828 3.41166H68.0809V0.862305H65.0828V3.41166Z"
+                  fill="#1A1A2E"
+                />
+                <path
+                  d="M98.3143 3.40963C98.0591 3.40963 97.8264 3.35118 97.6162 3.23428C97.4111 3.12189 97.2399 2.95867 97.12 2.76109C96.999 2.56212 96.9385 2.34408 96.9385 2.10697C96.9385 1.87069 96.999 1.65264 97.12 1.45284C97.2398 1.25504 97.411 1.0916 97.6162 0.979034C97.8264 0.862966 98.0591 0.804932 98.3143 0.804932C98.5678 0.804932 98.7996 0.862966 99.0098 0.979034C99.22 1.09593 99.3856 1.25387 99.5066 1.45284C99.6285 1.65181 99.6894 1.86986 99.6894 2.10697C99.6894 2.34325 99.6285 2.56129 99.5066 2.76109C99.3856 2.96007 99.22 3.1178 99.0098 3.23428C98.7996 3.35076 98.5678 3.40921 98.3143 3.40963ZM98.3143 3.17832C98.5168 3.17832 98.7022 3.13272 98.8703 3.04152C99.0357 2.95135 99.173 2.81922 99.2678 2.65912C99.3646 2.49497 99.413 2.31092 99.413 2.10697C99.413 1.90178 99.364 1.71772 99.2659 1.55481C99.1713 1.39501 99.0339 1.26344 98.8684 1.17428C98.699 1.08243 98.508 1.03529 98.3143 1.03748C98.1126 1.03748 97.9276 1.08308 97.7595 1.17428C97.5918 1.26506 97.4586 1.39191 97.3601 1.55481C97.262 1.72288 97.2119 1.91355 97.2149 2.10697C97.2149 2.31216 97.2633 2.49621 97.3601 2.65912C97.4586 2.82162 97.5918 2.94908 97.7595 3.04152C97.9276 3.13272 98.1126 3.17832 98.3143 3.17832ZM98.4219 1.30548C98.5217 1.30548 98.6132 1.32786 98.6964 1.37263C98.7597 1.40543 98.8154 1.45066 98.8599 1.50548C98.9044 1.56029 98.9368 1.62351 98.955 1.69114C98.9732 1.75878 98.977 1.82937 98.9659 1.89847C98.9548 1.96757 98.9292 2.03369 98.8907 2.09267C98.8412 2.17001 98.77 2.23193 98.6856 2.27112L99.006 2.90535H98.6888L98.4073 2.3333C98.3824 2.33442 98.3576 2.33484 98.3328 2.33454H98.0506V2.90473H97.7544V1.30548H98.4219ZM98.3977 2.10324C98.4464 2.10336 98.4942 2.09051 98.5359 2.06607C98.5777 2.04164 98.6118 2.00655 98.6347 1.96458C98.6599 1.92142 98.6728 1.87248 98.6722 1.82281C98.6729 1.77292 98.66 1.72376 98.6347 1.68042C98.6128 1.63719 98.5785 1.60112 98.5359 1.57658C98.4947 1.5506 98.4467 1.53679 98.3977 1.53678H98.0506V2.10324H98.3977Z"
+                  fill="#1A1A2E"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_181_97">
+                  <rect width="100" height="21" fill="white" />
+                </clipPath>
+              </defs></svg
+          ></span>
+          <p class="agency-desc">
+           Full-service e-commerce agency, NL
+          </p>
+        </div>
+        <div class="agency-card">
+          <span class="agency-logo"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="138"
+              height="26"
+              viewBox="0 0 138 26"
+              fill="none"
+            >
+              <path
+                d="M14.5904 19.2569C14.5917 19.7391 14.498 20.2169 14.3146 20.6628C14.1312 21.1088 13.8617 21.5142 13.5215 21.856C13.1813 22.1978 12.7771 22.4691 12.332 22.6546C11.8869 22.8401 11.4096 22.936 10.9274 22.9369H4.4374C3.95528 22.9359 3.47809 22.8398 3.0331 22.6543C2.58811 22.4688 2.18403 22.1974 1.84395 21.8556C1.50388 21.5139 1.23447 21.1085 1.05113 20.6626C0.867782 20.2167 0.774089 19.739 0.775404 19.2569C0.775404 17.2249 2.4144 15.5759 4.4374 15.5759H10.9274C12.9514 15.5759 14.5894 17.2249 14.5894 19.2559"
+                fill="#70AFFF"
+              />
+              <path
+                d="M22.8333 22.43C23.6711 21.9312 24.2775 21.1212 24.5199 20.1769C24.7624 19.2325 24.6212 18.2306 24.1273 17.39L20.8673 11.95C20.6247 11.534 20.3021 11.1702 19.9182 10.8794C19.5343 10.5887 19.0966 10.3768 18.6305 10.2559C18.1643 10.1351 17.6788 10.1077 17.202 10.1753C16.7252 10.243 16.2665 10.4043 15.8523 10.65C15.0145 11.1487 14.4082 11.9587 14.1657 12.9031C13.9233 13.8474 14.0644 14.8493 14.5583 15.69L17.8163 21.13C18.0594 21.5458 18.3822 21.9095 18.7663 22.2001C19.1504 22.4907 19.5882 22.7025 20.0545 22.8233C20.5207 22.9442 21.0063 22.9716 21.4832 22.9041C21.9601 22.8366 22.4189 22.6754 22.8333 22.43Z"
+                fill="#4191F7"
+              />
+              <path
+                d="M14.4744 1.91001C14.0602 1.66451 13.6015 1.50338 13.1248 1.43591C12.648 1.36845 12.1626 1.39597 11.6966 1.5169C11.2305 1.63783 10.793 1.84977 10.4092 2.14052C10.0254 2.43128 9.70295 2.79509 9.46038 3.21101L1.13938 17.391C0.64547 18.2316 0.504329 19.2336 0.746789 20.1779C0.989248 21.1223 1.5956 21.9323 2.43338 22.431C3.04532 22.7971 3.7522 22.9732 4.46438 22.937H10.7794C10.874 22.937 10.9684 22.9333 11.0624 22.926H10.8414C6.05338 22.926 8.72538 18.972 8.72538 18.972L8.71338 18.974L15.7704 6.95201C16.2638 6.11083 16.4045 5.10868 16.1619 4.16414C15.9193 3.2196 15.3131 2.40931 14.4754 1.91001"
+                fill="#4191F7"
+              />
+              <path
+                d="M37.7332 8.92201H40.4822L43.1162 16.642L45.3392 8.92201H48.0422L44.4682 20.078H41.8112L39.0392 12.06L36.3352 20.078H33.6102L29.9902 8.92201H32.8312L35.0992 16.642L37.7332 8.92201ZM50.9682 13.274H56.4432C56.4132 12.572 56.1612 11.984 55.6872 11.51C55.2292 11.0367 54.5649 10.8 53.6942 10.8C52.9002 10.8 52.2589 11.052 51.7702 11.556C51.2816 12.0453 51.0142 12.618 50.9682 13.274ZM56.7412 16.184L58.9862 16.894C58.6662 17.9167 58.0629 18.7643 57.1762 19.437C56.3062 20.093 55.2296 20.4213 53.9462 20.422C52.3582 20.422 51.0066 19.8797 49.8912 18.795C48.7912 17.711 48.2412 16.2603 48.2412 14.443C48.2412 12.7323 48.7762 11.327 49.8462 10.227C50.9302 9.12701 52.2052 8.57701 53.6712 8.57701C55.3812 8.57701 56.7179 9.10435 57.6812 10.159C58.6426 11.197 59.1232 12.602 59.1232 14.374C59.1232 14.8473 59.1006 15.13 59.0552 15.222H50.8992C50.9292 16.062 51.2349 16.7567 51.8162 17.306C52.4109 17.856 53.1209 18.131 53.9462 18.131C55.3816 18.131 56.3132 17.482 56.7412 16.184ZM63.5642 20.078H60.9762V3.49201H63.5872V10.296C63.8626 9.82268 64.3132 9.42568 64.9392 9.10501C65.5659 8.78501 66.2836 8.62468 67.0922 8.62401C68.7122 8.62401 69.9722 9.17401 70.8722 10.274C71.7882 11.3573 72.2466 12.747 72.2472 14.443C72.2472 16.1683 71.7659 17.5883 70.8032 18.703C69.8566 19.803 68.5892 20.353 67.0012 20.353C65.4132 20.353 64.2676 19.765 63.5642 18.589V20.078ZM68.7192 17.054C69.2839 16.4127 69.5662 15.55 69.5662 14.466C69.5662 13.382 69.2916 12.5343 68.7422 11.923C68.1922 11.2963 67.4666 10.983 66.5652 10.983C65.6952 10.983 64.9776 11.2963 64.4122 11.923C63.8469 12.533 63.5642 13.3807 63.5642 14.466C63.5642 15.5353 63.8469 16.3903 64.4122 17.031C64.9776 17.6723 65.6952 17.993 66.5652 17.993C67.4512 17.993 68.1692 17.68 68.7192 17.054ZM76.7032 20.078H74.1142V3.49201H76.7262V10.296C77.0009 9.82268 77.4512 9.42568 78.0772 9.10501C78.7039 8.78501 79.4219 8.62468 80.2312 8.62401C81.8499 8.62401 83.1099 9.17401 84.0112 10.274C84.9272 11.3573 85.3852 12.747 85.3852 14.443C85.3852 16.1683 84.9042 17.5883 83.9422 18.703C82.9956 19.803 81.7279 20.353 80.1392 20.353C78.5506 20.353 77.4052 19.765 76.7032 18.589V20.078ZM81.8572 17.054C82.4226 16.4127 82.7052 15.55 82.7052 14.466C82.7052 13.382 82.4302 12.5343 81.8802 11.923C81.3302 11.2963 80.6049 10.983 79.7042 10.983C78.8342 10.983 78.1162 11.2963 77.5502 11.923C76.9856 12.533 76.7032 13.3807 76.7032 14.466C76.7032 15.5353 76.9856 16.3903 77.5502 17.031C78.1156 17.6723 78.8336 17.993 79.7042 17.993C80.5896 17.993 81.3072 17.68 81.8572 17.054ZM89.1082 13.274H94.5832C94.5532 12.572 94.3012 11.984 93.8272 11.51C93.3692 11.0367 92.7049 10.8 91.8342 10.8C91.0409 10.8 90.3996 11.052 89.9102 11.556C89.4216 12.0453 89.1542 12.618 89.1082 13.274ZM94.8812 16.184L97.1262 16.894C96.8062 17.9167 96.2029 18.7643 95.3162 19.437C94.4462 20.093 93.3696 20.4213 92.0862 20.422C90.4982 20.422 89.1466 19.8797 88.0312 18.795C86.9312 17.711 86.3816 16.2603 86.3822 14.443C86.3822 12.7323 86.9169 11.327 87.9862 10.227C89.0709 9.12701 90.3459 8.57701 91.8112 8.57701C93.5212 8.57701 94.8579 9.10435 95.8212 10.159C96.7832 11.197 97.2642 12.602 97.2642 14.374C97.2642 14.8473 97.2409 15.13 97.1942 15.222H89.0402C89.0709 16.062 89.3766 16.7567 89.9572 17.306C90.5526 17.856 91.2626 18.131 92.0872 18.131C93.5232 18.131 94.4549 17.482 94.8822 16.184M100.903 14.466C100.903 15.5347 101.178 16.3973 101.727 17.054C102.277 17.6953 103.003 18.016 103.904 18.016C104.774 18.016 105.484 17.6877 106.034 17.031C106.584 16.3743 106.859 15.5117 106.859 14.443C106.859 13.389 106.592 12.549 106.057 11.923C105.523 11.297 104.813 10.9837 103.927 10.983C103.041 10.983 102.315 11.3037 101.75 11.945C101.186 12.5717 100.903 13.4127 100.903 14.466ZM109.425 3.49101V18.04C109.425 18.7887 109.463 19.4687 109.539 20.08H106.996C106.916 19.6029 106.878 19.1197 106.882 18.636C106.607 19.14 106.179 19.5523 105.599 19.873C105.019 20.193 104.355 20.3533 103.606 20.354C102.018 20.354 100.728 19.7967 99.7342 18.682C98.7409 17.5673 98.2446 16.162 98.2452 14.466C98.2452 12.832 98.7419 11.45 99.7352 10.32C100.743 9.19001 102.018 8.62501 103.56 8.62501C104.446 8.62501 105.157 8.78501 105.691 9.10501C106.241 9.42701 106.622 9.80135 106.836 10.228V3.49201L109.425 3.49101ZM118.739 8.85301V11.556C118.451 11.5119 118.16 11.4888 117.868 11.487C115.868 11.487 114.867 12.579 114.867 14.763V20.078H112.21V8.92201H114.798V10.709C115.058 10.113 115.478 9.64701 116.058 9.31101C116.639 8.95968 117.296 8.78401 118.028 8.78401C118.273 8.78401 118.51 8.80701 118.739 8.85301ZM122.904 20.078H120.27V8.92201H122.904V20.078ZM120.361 6.21801C120.199 6.06063 120.071 5.87178 119.984 5.66302C119.897 5.45427 119.854 5.23002 119.857 5.00401C119.857 4.53068 120.025 4.12601 120.361 3.79001C120.515 3.62167 120.703 3.4877 120.912 3.39689C121.121 3.30607 121.347 3.26045 121.575 3.26301C122.065 3.26301 122.477 3.43101 122.812 3.76701C123.148 4.10301 123.316 4.51535 123.316 5.00401C123.316 5.47735 123.148 5.88201 122.812 6.21801C122.651 6.38214 122.459 6.51155 122.246 6.59824C122.033 6.68492 121.805 6.72705 121.575 6.72201C121.102 6.72201 120.697 6.55401 120.361 6.21801ZM125.645 20.994V8.92201H128.303V21.2C128.303 22.2533 128.005 23.1083 127.409 23.765C126.813 24.437 126.004 24.773 124.981 24.773C124.309 24.773 123.805 24.7043 123.469 24.567V22.367C123.698 22.4137 123.965 22.437 124.271 22.437C125.187 22.437 125.645 21.9567 125.645 20.994ZM125.737 6.19401C125.575 6.03663 125.447 5.84778 125.36 5.63902C125.273 5.43027 125.23 5.20602 125.233 4.98001C125.233 4.50668 125.401 4.10201 125.737 3.76601C126.073 3.41468 126.478 3.23901 126.951 3.23901C127.44 3.23901 127.852 3.41468 128.188 3.76601C128.524 4.10201 128.692 4.50668 128.692 4.98001C128.692 5.45335 128.517 5.85801 128.165 6.19401C128.008 6.35625 127.819 6.48463 127.61 6.5713C127.401 6.65796 127.177 6.70108 126.951 6.69801C126.478 6.69801 126.073 6.53001 125.737 6.19401ZM136.036 5.76001C135.594 5.76001 135.204 5.89001 134.868 6.15001C134.548 6.39468 134.387 6.82968 134.387 7.45501V8.92201H136.975V11.235H134.387V20.078H131.706V11.235H129.759V8.92201H131.706V7.38701C131.706 6.14968 132.065 5.17201 132.783 4.45401C133.501 3.73601 134.441 3.37735 135.601 3.37801C136.228 3.37801 136.694 3.45435 136.998 3.60701V5.87501C136.684 5.79227 136.361 5.75356 136.036 5.76001Z"
+                fill="#2E344A"
+              /></svg
+          ></span>
+         
+          <p class="agency-desc">
+            Shopify & WooCommerce specialists, BE
+          </p>
+        </div>
+        <div class="agency-card">
+          <span class="agency-logo"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="106"
+              height="21"
+              viewBox="0 0 106 21"
+              fill="none"
+            >
+              <path
+                d="M5.20542 14.6076C5.91994 14.6076 6.46978 14.4988 6.85217 14.2812C7.23175 14.0637 7.42435 13.7512 7.42435 13.3467C7.42435 12.9897 7.21221 12.6828 6.79355 12.4262C6.3721 12.1695 5.58779 11.8683 4.43506 11.528C2.95579 11.0928 1.9147 10.5907 1.30623 10.0216C0.700564 9.45533 0.396335 8.69657 0.396335 7.74812C0.396335 6.79967 0.820579 6.03534 1.66908 5.46069C2.51758 4.88604 3.64797 4.59872 5.06586 4.59872C6.38885 4.59872 7.48853 4.88884 8.36773 5.47186C9.24972 6.05487 9.78004 6.84431 9.96704 7.84018L7.32944 8.74958C7.32944 8.06613 7.13407 7.53612 6.7461 7.16511C6.35813 6.79131 5.79712 6.60441 5.06586 6.60441C4.45739 6.60441 3.98012 6.70483 3.62844 6.90847C3.27956 7.10932 3.10371 7.38828 3.10371 7.74812C3.10371 8.10519 3.31025 8.41204 3.72334 8.66867C4.34297 9.05362 4.90956 9.21822 6.04554 9.54459C7.55552 9.99649 8.61894 10.5042 9.23299 11.0733C9.84702 11.6395 10.154 12.3983 10.154 13.3467C10.154 14.3426 9.71026 15.1376 8.82269 15.729C7.93791 16.3176 6.72937 16.6133 5.20542 16.6133C3.71217 16.6133 2.52037 16.3149 1.63279 15.7151C0.745223 15.1181 0.200965 14.2506 0 13.1152L2.65993 12.1807C2.62922 13.7987 3.47772 14.6076 5.20542 14.6076ZM22.2022 9.63787V16.3355H19.4474V10.034C19.4474 9.02418 19.2241 8.24589 18.7832 7.70194C18.3393 7.15797 17.7114 6.88459 16.9018 6.88459C16.1092 6.88459 15.4952 7.15797 15.057 7.70194C14.6215 8.24589 14.4038 9.02418 14.4038 10.034V16.3355H11.649V0H14.4038V7.84142C14.6383 6.81485 15.0849 6.01705 15.7464 5.45076C16.4079 4.88171 17.2285 4.59716 18.211 4.59716C19.4558 4.59716 20.4326 5.04907 21.1388 5.9501C21.8477 6.85391 22.2022 8.08131 22.2022 9.63787ZM45.2925 10.6172C45.2925 9.4819 45.0161 8.55577 44.4635 7.84164C43.911 7.12473 43.1992 6.76766 42.3284 6.76766C41.4407 6.76766 40.7207 7.12194 40.168 7.82769C39.6153 8.53624 39.339 9.46515 39.339 10.6172C39.339 11.7693 39.6153 12.6927 40.168 13.3928C40.7207 14.093 41.4407 14.4445 42.3284 14.4445C43.1992 14.4445 43.911 14.0874 44.4635 13.3705C45.0161 12.6564 45.2925 11.7386 45.2925 10.6172ZM47.4975 7.45668C47.8966 8.36607 48.0947 9.42052 48.0947 10.6172C48.0947 11.8 47.8966 12.8461 47.4975 13.7555C47.1011 14.6649 46.5457 15.3706 45.8284 15.8672C45.1138 16.3665 44.2961 16.6148 43.3778 16.6148C42.3339 16.6148 41.4686 16.2828 40.7737 15.6217C40.0814 14.9606 39.6042 14.0233 39.339 12.8098V21H36.5842V4.87636H39.339V8.39955C39.6042 7.18609 40.0814 6.24881 40.7737 5.58768C41.4686 4.92657 42.3339 4.5974 43.3778 4.5974C44.2961 4.5974 45.1138 4.84566 45.8284 5.345C46.5457 5.84153 47.1011 6.5445 47.4975 7.45668ZM60.3274 9.63787V16.3355H57.5725V10.034C57.5725 9.02418 57.3492 8.24589 56.9081 7.70192C56.4645 7.15797 55.8365 6.88459 55.027 6.88459C54.2342 6.88459 53.6203 7.15797 53.1821 7.70192C52.7466 8.24589 52.529 9.02418 52.529 10.034V16.3355H49.7742V4.87892H52.529V7.8414C52.7634 6.81485 53.21 6.01705 53.8715 5.45076C54.533 4.88171 55.3536 4.59716 56.336 4.59716C57.5809 4.59716 58.5578 5.04907 59.2639 5.9501C59.9728 6.85391 60.3274 8.08131 60.3274 9.63787ZM79.2281 16.6144C76.7383 16.6144 75.4935 15.3842 75.4935 12.9266V6.74499H72.9703V4.87599H73.5314C74.4189 4.87599 75.0496 4.69745 75.4237 4.3404C75.795 3.98334 75.982 3.38359 75.982 2.54392V1.4002H78.5051V2.54392C78.5051 3.33617 78.3209 3.90801 77.9552 4.25949C77.5895 4.6082 76.9393 4.81461 76.007 4.87599H81.5864V6.74499H78.2483V12.391C78.2483 13.0605 78.3683 13.5543 78.6083 13.8723C78.8511 14.1903 79.2281 14.3521 79.7416 14.3521C80.4421 14.3521 81.0478 14.0396 81.5613 13.4176L82.0303 16.0314C81.2516 16.4191 80.3165 16.6144 79.2281 16.6144ZM91.8173 15.5527C90.8432 16.2612 89.6571 16.6154 88.2559 16.6154C87.0893 16.6154 86.0649 16.37 85.1857 15.879C84.3064 15.3881 83.6311 14.6907 83.1566 13.7785C82.6821 12.8691 82.4448 11.8147 82.4448 10.6179C82.4448 9.4045 82.6821 8.34169 83.1566 7.4323C83.6311 6.52291 84.3064 5.82272 85.1857 5.33177C86.0649 4.8436 87.0893 4.59811 88.2559 4.59811C89.6571 4.59811 90.8432 4.95239 91.8173 5.65814C92.7915 6.36669 93.4083 7.31235 93.6735 8.49512L90.9187 9.45193C90.8879 8.64296 90.6256 7.99299 90.1371 7.50204C89.6458 7.01387 89.0208 6.76838 88.2559 6.76838C87.3711 6.76838 86.6455 7.12545 86.0844 7.83956C85.5263 8.55648 85.2443 9.48261 85.2443 10.6179C85.2443 11.7366 85.5263 12.6543 86.0844 13.3712C86.6455 14.0854 87.3711 14.4452 88.2559 14.4452C89.0208 14.4452 89.6458 14.1969 90.1371 13.6976C90.6256 13.2011 90.8879 12.5455 90.9187 11.7366L93.6735 12.6711C93.4083 13.8845 92.7915 14.8441 91.8173 15.5527ZM106 9.63787V16.3355H103.245V10.034C103.245 9.02418 103.025 8.24589 102.581 7.70194C102.137 7.15797 101.509 6.88459 100.7 6.88459C99.9071 6.88459 99.293 7.15797 98.8547 7.70194C98.4193 8.24589 98.2016 9.02418 98.2016 10.034V16.3355H95.4468V0H98.2016V7.84142C98.436 6.81485 98.8826 6.01705 99.5441 5.45076C100.206 4.88171 101.026 4.59716 102.009 4.59716C103.254 4.59716 104.23 5.04907 104.937 5.9501C105.645 6.85391 106 8.08131 106 9.63787ZM31.169 13.3702C30.6079 14.0871 29.8934 14.4441 29.0197 14.4441C28.1349 14.4441 27.4093 14.0871 26.8511 13.3702C26.29 12.6532 26.0082 11.7355 26.0082 10.6169C26.0082 9.48153 26.29 8.5554 26.8511 7.84127C27.4093 7.12436 28.1349 6.7673 29.0197 6.7673C29.8934 6.7673 30.6079 7.12436 31.169 7.84127C31.7299 8.5554 32.009 9.48153 32.009 10.6169C32.009 11.7355 31.7299 12.6532 31.169 13.3702ZM34.122 7.4312C33.6475 6.52182 32.9692 5.82164 32.0901 5.33069C31.2107 4.84252 30.1892 4.59703 29.0197 4.59703C27.8531 4.59703 26.8316 4.84252 25.9523 5.33069C25.0704 5.82164 24.3949 6.52182 23.9204 7.4312C23.9065 7.45911 23.8952 7.48979 23.8814 7.51768V13.7049C23.8952 13.7328 23.9065 13.7635 23.9204 13.7914C24.3949 14.6924 25.0704 15.3898 25.9523 15.8779C26.8316 16.3689 27.8531 16.6144 29.0197 16.6144C30.1892 16.6144 31.2107 16.3689 32.0901 15.8779C32.9692 15.3898 33.6475 14.6924 34.122 13.7914C34.5964 12.8876 34.8336 11.8303 34.8336 10.6169C34.8336 9.40342 34.5964 8.34061 34.122 7.4312ZM69.2756 13.3702C68.7145 14.0871 68 14.4441 67.1265 14.4441C66.2417 14.4441 65.516 14.0871 64.9577 13.3702C64.3966 12.6532 64.1148 11.7355 64.1148 10.6169C64.1148 9.48153 64.3966 8.5554 64.9577 7.84127C65.516 7.12436 66.2417 6.7673 67.1265 6.7673C68 6.7673 68.7145 7.12436 69.2756 7.84127C69.8366 8.5554 70.1157 9.48153 70.1157 10.6169C70.1157 11.7355 69.8366 12.6532 69.2756 13.3702ZM72.2285 7.4312C71.7541 6.52182 71.0758 5.82164 70.1966 5.33069C69.3175 4.84252 68.2958 4.59703 67.1265 4.59703C65.9597 4.59703 64.9382 4.84252 64.059 5.33069C63.177 5.82164 62.5016 6.52182 62.0271 7.4312C62.0131 7.45911 62.002 7.48979 61.988 7.51768V13.7049C62.002 13.7328 62.0131 13.7635 62.0271 13.7914C62.5016 14.6924 63.177 15.3898 64.059 15.8779C64.9382 16.3689 65.9597 16.6144 67.1265 16.6144C68.2958 16.6144 69.3175 16.3689 70.1966 15.8779C71.0758 15.3898 71.7541 14.6924 72.2285 13.7914C72.703 12.8876 72.9404 11.8303 72.9404 10.6169C72.9404 9.40342 72.703 8.34061 72.2285 7.4312Z"
+                fill="black"
+              /></svg
+          ></span>
+         
+          <p class="agency-desc">
+            Headless commerce & CRO agency, NL
+          </p>
+        </div>
+        <div class="agency-card">
+          <span class="agency-logo"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="138"
+              height="21"
+              viewBox="0 0 138 21"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_181_132)">
+                <path
+                  d="M0.0439453 10.6746C0.0439453 10.5783 0.121775 10.5 0.217917 10.5H10.4433C10.4793 10.5 10.5084 10.5292 10.5084 10.5651C10.5084 16.3282 5.85237 21 0.108858 21C0.0916533 20.9999 0.0751927 20.9929 0.0630424 20.9807C0.0508921 20.9685 0.0440309 20.952 0.0439453 20.9347V10.6746ZM20.9655 0H29.4937C29.5897 0 29.6677 0.0782578 29.6677 0.174562V20.8182C29.6677 20.9147 29.5897 20.9928 29.4937 20.9928H20.9657L20.9655 20.9926V0.000164063"
+                  fill="#75C145"
+                />
+                <path
+                  d="M12.4022 0.0511875C12.3695 0.018375 12.3253 0 12.2791 0H0.464528C0.309359 0 0.231693 0.18818 0.341407 0.298102L20.9659 20.9926V8.64396L12.4022 0.0511875Z"
+                  fill="#75C145"
+                />
+                <path
+                  d="M39.0859 20.7071V0.292852H42.9681L52.4548 15.7574H51.5207V0.292852H55.2861V20.7071H51.3746L41.9172 5.21341H42.8513V20.7071H39.0859ZM64.8735 21C63.6281 21 62.5578 20.795 61.6627 20.3849C60.7675 19.9749 60.028 19.4282 59.4442 18.7448C58.8799 18.0418 58.4615 17.2511 58.1891 16.3725C57.9167 15.4742 57.7805 14.5369 57.7805 13.5608C57.7798 12.6277 57.9175 11.6998 58.1891 10.8075C58.4615 9.90938 58.8702 9.09907 59.4151 8.37654C59.96 7.65401 60.6605 7.07798 61.5167 6.64847C62.3924 6.19937 63.4335 5.97483 64.64 5.97483C65.7686 5.97483 66.7513 6.17006 67.5882 6.56053C68.4249 6.93164 69.1157 7.45888 69.6606 8.14226C70.2054 8.80616 70.6141 9.58721 70.8866 10.4854C71.1785 11.3835 71.3245 12.3402 71.3245 13.3557C71.3245 13.4924 71.3147 13.6876 71.2952 13.9414C71.2952 14.1758 71.2757 14.4296 71.2368 14.703H61.3999C61.4971 15.7379 61.8766 16.5189 62.5384 17.0461C63.2195 17.5733 64.066 17.8369 65.0778 17.8369C65.8173 17.8369 66.5374 17.7099 67.2379 17.4561C67.9384 17.1828 68.5611 16.802 69.106 16.3137L70.9157 18.774C70.2346 19.3012 69.5925 19.7308 68.9893 20.0627C68.3955 20.3911 67.7559 20.628 67.0919 20.7657C66.4499 20.9219 65.7104 21 64.8735 21ZM67.734 12.8871C67.7729 12.7307 67.8021 12.5745 67.8217 12.4184C67.8606 12.2622 67.88 12.1157 67.88 11.979C67.88 11.569 67.8022 11.1882 67.6465 10.8368C67.4909 10.4658 67.2768 10.1437 67.0043 9.87033C66.7318 9.597 66.401 9.39192 66.012 9.25509C65.6421 9.09902 65.214 9.02098 64.7276 9.02098C64.0075 9.02098 63.4042 9.16743 62.9178 9.46034C62.4313 9.75324 62.0616 10.134 61.8087 10.6025C61.5751 11.0516 61.4291 11.5203 61.3708 12.0084H68.96L67.734 12.8871ZM76.6713 20.7071L72.2346 6.26784H76.0876L78.5103 15.1423L81.1081 6.26784H84.2314L86.8294 15.0837L89.2812 6.26784H93.1635L88.6974 20.7071H85.4574L82.6845 11.4225L79.9697 20.7071H76.6713ZM95.8746 20.7071V9.10875H93.4228V6.26784H95.8746V5.24262C95.8746 4.12973 96.1568 3.18276 96.7212 2.40171C97.2854 1.62077 98.0346 1.02523 98.9688 0.61507C99.9222 0.204914 100.934 -0.000109331 102.004 4.37383e-08C103.25 4.37383e-08 104.31 0.126875 105.186 0.380625C106.081 0.634594 106.908 1.00565 107.667 1.49379L105.974 4.07121C105.448 3.69956 104.867 3.41292 104.252 3.2217C103.629 3.02646 102.948 2.92884 102.209 2.92884C101.255 2.92884 100.555 3.16318 100.107 3.63185C99.6791 4.10041 99.465 4.74474 99.465 5.56484V6.26784H105.303V9.10875H99.465V20.7071H95.8746ZM103.989 20.7071V6.26784H107.58V20.7071H103.989ZM115.072 20.7071L109.176 6.26784H113.146L116.532 15.9623L119.976 6.26784H123.887L118.05 20.7071H115.072ZM131.465 21C130.219 21 129.149 20.795 128.254 20.3849C127.358 19.9749 126.619 19.4282 126.035 18.7448C125.471 18.0418 125.052 17.2511 124.78 16.3725C124.508 15.4742 124.371 14.5369 124.371 13.5608C124.371 12.6277 124.508 11.6998 124.78 10.8075C125.053 9.90938 125.461 9.09907 126.006 8.37654C126.551 7.65401 127.251 7.07798 128.108 6.64847C128.983 6.19937 130.024 5.97483 131.231 5.97483C132.36 5.97483 133.342 6.17006 134.179 6.56053C135.016 6.93164 135.707 7.45888 136.252 8.14226C136.797 8.80616 137.205 9.58721 137.477 10.4854C137.769 11.3835 137.915 12.3402 137.915 13.3557C137.915 13.4924 137.906 13.6876 137.886 13.9414C137.886 14.1758 137.867 14.4296 137.828 14.703H127.991C128.088 15.7379 128.468 16.5189 129.129 17.0461C129.81 17.5733 130.657 17.8369 131.669 17.8369C132.408 17.8369 133.128 17.7099 133.829 17.4561C134.529 17.1828 135.152 16.802 135.697 16.3137L137.507 18.774C136.826 19.3012 136.183 19.7308 135.58 20.0627C134.986 20.3913 134.347 20.6283 133.683 20.7657C133.041 20.9219 132.301 21 131.465 21ZM134.325 12.8871C134.364 12.7307 134.393 12.5745 134.413 12.4184C134.451 12.2622 134.471 12.1157 134.471 11.979C134.471 11.569 134.393 11.1882 134.237 10.8368C134.082 10.4658 133.868 10.1437 133.595 9.87033C133.323 9.597 132.992 9.39192 132.603 9.25509C132.233 9.09902 131.805 9.02098 131.318 9.02098C130.599 9.02098 129.995 9.16743 129.509 9.46034C129.022 9.75324 128.652 10.134 128.4 10.6025C128.166 11.0516 128.02 11.5203 127.962 12.0084H135.551L134.325 12.8871Z"
+                  fill="black"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_181_132">
+                  <rect width="138" height="21" fill="white" />
+                </clipPath>
+              </defs></svg
+          ></span>
+        
+          <p class="agency-desc">
+            Digital marketing & SEO agency, BE
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ CERTIFICATION STEPS ══ -->
+    <section class="sec-cert">
+      <div class="section-head">
+        <p class="section-eyebrow">Partner Academy</p>
+        <h2 class="section-title">Get certified in 6 steps</h2>
+        <p class="section-sub">
+          Our certification program equips your team to sell, deliver, and
+          support Performative AI implementations with confidence.
+        </p>
       </div>
 
-      <div class="form-group">
-        <label for="message">Tell us about your agency and why you want to partner</label>
-        <textarea id="message" class="form-control" placeholder="A brief overview of your agency, the types of clients you work with, and how you plan to use Performative AI…"></textarea>
+      <div class="cert-grid">
+        <div class="cert-step">
+          <div class="cert-step-num s1">1</div>
+          <div class="cert-step-content">
+            <p class="cert-step-title">Platform foundations</p>
+            <p class="cert-step-body">
+              Learn how Performative AI ingests, analyses, and generates
+              content. 45-min self-paced video course.
+            </p>
+          </div>
+        </div>
+        <div class="cert-step">
+          <div class="cert-step-num s2">2</div>
+          <div class="cert-step-content">
+            <p class="cert-step-title">Integration workshop</p>
+            <p class="cert-step-body">
+              Hands-on lab connecting Shopify, WooCommerce, and Magento demo
+              stores. Live instructor session.
+            </p>
+          </div>
+        </div>
+        <div class="cert-step">
+          <div class="cert-step-num s3">3</div>
+          <div class="cert-step-content">
+            <p class="cert-step-title">Brand voice configuration</p>
+            <p class="cert-step-body">
+              Master tone profiles, keyword lists, and custom instruction sets.
+              Includes 3 real-world exercises.
+            </p>
+          </div>
+        </div>
+        <div class="cert-step">
+          <div class="cert-step-num s4">4</div>
+          <div class="cert-step-content">
+            <p class="cert-step-title">Sales &amp; positioning training</p>
+            <p class="cert-step-body">
+              How to pitch AI content automation to sceptical stakeholders.
+              Objection handling playbook included.
+            </p>
+          </div>
+        </div>
+        <div class="cert-step">
+          <div class="cert-step-num s5">5</div>
+          <div class="cert-step-content">
+            <p class="cert-step-title">Client onboarding mastery</p>
+            <p class="cert-step-body">
+              Proven 5-step onboarding framework used by top partners. Template
+              decks and setup checklists included.
+            </p>
+          </div>
+        </div>
+        <div class="cert-step">
+          <div class="cert-step-num s6">6</div>
+          <div class="cert-step-content">
+            <p class="cert-step-title">Certification exam</p>
+            <p class="cert-step-body">
+              60-question assessment covering all modules. Pass score: 80%.
+              Digital badge awarded on completion.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ APPLICATION FORM ══ -->
+    <section class="sec-apply" id="apply">
+      <div class="section-head">
+        <p class="section-eyebrow">Apply now</p>
+        <h2 class="section-title">Ready to become a partner?</h2>
+        <p class="section-sub">
+          Fill in the form below and our partner team will be in touch within 48
+          hours.
+        </p>
       </div>
 
-      <button type="submit" class="form-submit" id="partnerSubmit">Submit application →</button>
-      <p class="form-note">By submitting you agree to our <a href="#" style="color:var(--c-indigo);">Privacy Policy</a>. We will not share your details with third parties. Typically we respond within 48 business hours.</p>
+      <div class="apply-form-wrap">
+        <form id="partnerForm" onsubmit="return false;">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First name</label>
+              <input
+                type="text"
+                id="firstName"
+                class="form-control"
+                placeholder="Jane"
+              />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last name</label>
+              <input
+                type="text"
+                id="lastName"
+                class="form-control"
+                placeholder="Smith"
+              />
+            </div>
+          </div>
 
-      <!-- Success message (hidden by default) -->
-      <div id="partnerSuccess" style="display:none;margin-top:20px;padding:20px 24px;background:#F0FDF4;border:1.5px solid #86EFAC;border-radius:10px;text-align:center;">
-        <p style="font-size:15px;font-weight:700;color:#166534;margin-bottom:6px;">Application received! 🎉</p>
-        <p style="font-size:13.5px;color:#15803D;">Our partner team will review your application and reach out within 48 hours. Check your inbox for a confirmation email.</p>
-      </div>
-    </form>
-  </div>
-</section>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Work email</label>
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                placeholder="jane@agency.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="company">Agency / company name</label>
+              <input
+                type="text"
+                id="company"
+                class="form-control"
+                placeholder="My Agency Ltd."
+              />
+            </div>
+          </div>
 
-<!-- ══ CTA BAND ══ -->
-<section class="cta-band">
-  <svg class="svg-bg" viewBox="0 0 1440 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-    <rect width="1440" height="220" fill="#07051A"/>
-    <radialGradient id="ctaPartner" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".35"/>
-      <stop offset="100%" stop-color="#07051A" stop-opacity="0"/>
-    </radialGradient>
-    <rect width="1440" height="220" fill="url(#ctaPartner)"/>
-  </svg>
-  <div class="cta-band-inner">
-    <h2 class="cta-band-title">Questions about the partner program?</h2>
-    <p class="cta-band-sub">Chat with our partner team — we typically respond in under 2 hours on business days.</p>
-    <div class="cta-band-btns">
-      <a href="#apply" class="btn btn-primary">Apply now</a>
-      <a href="mailto:partners@performativeai.com" class="btn btn-ghost">Email the partner team</a>
-    </div>
-  </div>
-</section>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="website">Agency website</label>
+              <input
+                type="url"
+                id="website"
+                class="form-control"
+                placeholder="https://myagency.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="clients">Estimated active clients</label>
+              <select id="clients" class="form-control">
+                <option value="">Select range</option>
+                <option>1–5 clients</option>
+                <option>6–20 clients</option>
+                <option>21–50 clients</option>
+                <option>51–100 clients</option>
+                <option>100+ clients</option>
+              </select>
+            </div>
+          </div>
 
-<!-- FOOTER -->
-<footer class="footer">
-  <section class="content-contact">
-  <div class="container z1" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:32px">
-    <h2 style="font-size:clamp(22px,2.8vw,38px);font-weight:800;color:#fff;letter-spacing:-.025em;line-height:1.2;max-width:500px">Let's Build Your Content Infrastructure for Scale</h2>
-    <div style="display:flex;gap:12px;flex-wrap:wrap">
-      <a href="pricing.html" class="btn btn-primary">Book a Demo</a>
-      <a href="pricing.html" class="btn btn-ghost">Start Free Trial</a>
-    </div>
-  </div>
-</section>
-  <div class="footer-grid">
-    <div class="footer-brand">
-      <a href="index.html" class="nav-logo">
-        <svg width="28" height="32" viewBox="0 0 32 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M16 0L32 9V27L16 36L0 27V9L16 0Z" fill="#EE466E"/>
-          <path d="M16 6L26 12V24L16 30L6 24V12L16 6Z" fill="#1a0a2e"/>
-          <path d="M16 10L22 13.5V20.5L16 24L10 20.5V13.5L16 10Z" fill="#EE466E" opacity="0.6"/>
-          <path d="M13 14L19 14L19 17L13 17Z" fill="#fff"/>
-          <path d="M13 19L17 19L17 22L13 22Z" fill="#fff" opacity="0.6"/>
-          <path d="M16 12L20 14.5V19.5L16 22L12 19.5V14.5L16 12Z" fill="none" stroke="#fff" stroke-width="0.8" opacity="0.4"/>
-        </svg>
-        Performative
-      </a>
-      <p class="footer-tagline">AI-powered content generation for e-commerce teams at any scale.</p>
-      <div class="footer-socials">
-        <a href="#" aria-label="LinkedIn">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-        </a>
-        <a href="#" aria-label="Twitter / X">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.253 5.622 5.91-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-        </a>
-      </div>
-    </div>
-    <div>
-      <div class="footer-col-title">Product</div>
-      <div class="footer-links">
-        <a href="enterprise.html">Enterprise</a>
-        <a href="smb.html">SMB</a>
-        <a href="integrations.html">Integrations</a>
-        <a href="pricing.html">Pricing</a>
-        <a href="case-studies.html">Case Studies</a>
-      </div>
-    </div>
-    <div>
-      <div class="footer-col-title">Company</div>
-      <div class="footer-links">
-        <a href="#">About</a>
-        <a href="partner.html">Partners</a>
-        <a href="#">Blog</a>
-        <a href="#">Careers</a>
-      </div>
-    </div>
-    <div>
-      <div class="footer-col-title">Resources</div>
-      <div class="footer-links">
-        <a href="case-studies.html">Case Studies</a>
-        <a href="integration-shopify.html">Shopify Integration</a>
-        <a href="#">Docs</a>
-        <a href="#">Newsletter</a>
-      </div>
-    </div>
-    <div>
-      <div class="footer-col-title">Legal</div>
-      <div class="footer-links">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Service</a>
-        <a href="#">Cookie Policy</a>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <span>© 2026 Performative B.V. — All rights reserved.</span>
-    <div class="footer-bottom-links">
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms</a>
-      <a href="#">Cookies</a>
-    </div>
-  </div>
-</footer>
+          <div class="form-group">
+            <label for="platforms">Primary platforms you work with</label>
+            <select id="platforms" class="form-control">
+              <option value="">Select primary platform</option>
+              <option>Shopify / Shopify Plus</option>
+              <option>WooCommerce</option>
+              <option>Magento / Adobe Commerce</option>
+              <option>BigCommerce</option>
+              <option>Shopware</option>
+              <option>PrestaShop</option>
+              <option>Multiple / other</option>
+            </select>
+          </div>
 
-<script src="js/main.js"></script>
-<script>
-  // Partner form submit handler
-  const pForm = document.getElementById('partnerForm');
-  const pBtn  = document.getElementById('partnerSubmit');
-  const pSucc = document.getElementById('partnerSuccess');
-  if (pForm) {
-    pForm.addEventListener('submit', function(e) {
-      e.preventDefault();
-      pBtn.textContent = 'Submitting…';
-      pBtn.disabled = true;
-      setTimeout(function() {
-        pBtn.style.display = 'none';
-        pSucc.style.display = 'block';
-      }, 900);
-    });
-  }
-</script>
-</body>
+          <div class="form-group">
+            <label for="tier">Partnership tier you are applying for</label>
+            <select id="tier" class="form-control">
+              <option value="">Select tier</option>
+              <option>Silver (3+ clients)</option>
+              <option>Gold (10+ clients)</option>
+              <option>Platinum (25+ clients)</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message"
+              >Tell us about your agency and why you want to partner</label
+            >
+            <textarea
+              id="message"
+              class="form-control"
+              placeholder="A brief overview of your agency, the types of clients you work with, and how you plan to use Performative AI…"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="form-submit" id="partnerSubmit">
+            Submit application →
+          </button>
+          <p class="form-note">
+            By submitting you agree to our
+            <a href="#" style="color: var(--c-indigo)">Privacy Policy</a>. We
+            will not share your details with third parties. Typically we respond
+            within 48 business hours.
+          </p>
+
+          <!-- Success message (hidden by default) -->
+          <div
+            id="partnerSuccess"
+            style="
+              display: none;
+              margin-top: 20px;
+              padding: 20px 24px;
+              background: #f0fdf4;
+              border: 1.5px solid #86efac;
+              border-radius: 10px;
+              text-align: center;
+            "
+          >
+            <p
+              style="
+                font-size: 15px;
+                font-weight: 700;
+                color: #166534;
+                margin-bottom: 6px;
+              "
+            >
+              Application received! 🎉
+            </p>
+            <p style="font-size: 13.5px; color: #15803d">
+              Our partner team will review your application and reach out within
+              48 hours. Check your inbox for a confirmation email.
+            </p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <section class="content-contact">
+        <div
+          class="container z1"
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 32px;
+          "
+        >
+          <h2
+            style="
+              font-size: clamp(22px, 2.8vw, 38px);
+              font-weight: 800;
+              color: #fff;
+              letter-spacing: -0.025em;
+              line-height: 1.2;
+              max-width: 500px;
+            "
+          >
+            Let's Build Your Content Infrastructure for Scale
+          </h2>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap">
+            <a href="pricing.html" class="btn btn-primary">Book a Demo</a>
+            <a href="pricing.html" class="btn btn-ghost">Start Free Trial</a>
+          </div>
+        </div>
+      </section>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <svg
+              width="28"
+              height="32"
+              viewBox="0 0 32 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M16 0L32 9V27L16 36L0 27V9L16 0Z" fill="#EE466E" />
+              <path d="M16 6L26 12V24L16 30L6 24V12L16 6Z" fill="#1a0a2e" />
+              <path
+                d="M16 10L22 13.5V20.5L16 24L10 20.5V13.5L16 10Z"
+                fill="#EE466E"
+                opacity="0.6"
+              />
+              <path d="M13 14L19 14L19 17L13 17Z" fill="#fff" />
+              <path d="M13 19L17 19L17 22L13 22Z" fill="#fff" opacity="0.6" />
+              <path
+                d="M16 12L20 14.5V19.5L16 22L12 19.5V14.5L16 12Z"
+                fill="none"
+                stroke="#fff"
+                stroke-width="0.8"
+                opacity="0.4"
+              />
+            </svg>
+            Performative
+          </a>
+          <p class="footer-tagline">
+            AI-powered content generation for e-commerce teams at any scale.
+          </p>
+          <div class="footer-socials">
+            <a href="#" aria-label="LinkedIn">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                />
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter / X">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.253 5.622 5.91-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Product</div>
+          <div class="footer-links">
+            <a href="enterprise.html">Enterprise</a>
+            <a href="smb.html">SMB</a>
+            <a href="integrations.html">Integrations</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="case-studies.html">Case Studies</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Company</div>
+          <div class="footer-links">
+            <a href="#">About</a>
+            <a href="partner.html">Partners</a>
+            <a href="#">Blog</a>
+            <a href="#">Careers</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Resources</div>
+          <div class="footer-links">
+            <a href="case-studies.html">Case Studies</a>
+            <a href="integration-shopify.html">Shopify Integration</a>
+            <a href="#">Docs</a>
+            <a href="#">Newsletter</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Legal</div>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Performative B.V. — All rights reserved.</span>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+      // Partner form submit handler
+      const pForm = document.getElementById("partnerForm");
+      const pBtn = document.getElementById("partnerSubmit");
+      const pSucc = document.getElementById("partnerSuccess");
+      if (pForm) {
+        pForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+          pBtn.textContent = "Submitting…";
+          pBtn.disabled = true;
+          setTimeout(function () {
+            pBtn.style.display = "none";
+            pSucc.style.display = "block";
+          }, 900);
+        });
+      }
+    </script>
+  </body>
 </html>
