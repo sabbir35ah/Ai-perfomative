@@ -5,6 +5,26 @@
   position:relative; min-height:40vh;
   display:flex; align-items:center; justify-content:center;
   text-align:center; overflow:hidden;
+   background:
+              radial-gradient(ellipse at left bottom, #6a5cff, transparent 55%),
+              radial-gradient(ellipse at right bottom, #4f46e5, transparent 40%),
+              radial-gradient(ellipse at right bottom, #a1cdff7c, transparent 35%),
+            
+              #0f1226;
+}
+.section-head {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-eyebrow {
+    display: inline-block;
+    align-items: center;
+    background: #dedede;
+    padding: 4px 16px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 .cs-hero-inner {
   position:relative; z-index:2;
